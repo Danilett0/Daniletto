@@ -6,6 +6,4 @@ function Contacto(props) {
   )
 }
 
-Contacto.propTypes = {}
-
 export default Contacto

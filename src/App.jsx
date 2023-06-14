@@ -1,19 +1,28 @@
-import './App.css';
+import React, { Suspense } from 'react';
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contacto from "./Pages/Contacto";
-import Portfolio from "./Pages/Portafolio";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import "./App.css"
+
+const Home = React.lazy(() => import("./Pages/Home"));
+const About = React.lazy(() => import("./Pages/About"));
+const Contacto = React.lazy(() => import("./Pages/Contacto"));
+const Portfolio = React.lazy(() => import("./Pages/Portafolio"));
 
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home />}></Route>
-      <Route path='/Portfolio' element={<Portfolio />}></Route>
-      <Route path='/About' element={<About />}></Route>
-      <Route path='/Contacto' element={<Contacto />}></Route>
-    </Routes>
+      <Header />
+      <Suspense fallback={<div>Cargando...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Portfolio" element={<Portfolio />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Contacto" element={<Contacto />}></Route>
+        </Routes>
+      </Suspense>
+      <Footer />
     </BrowserRouter>
   );
 }

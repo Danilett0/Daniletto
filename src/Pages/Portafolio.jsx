@@ -2,10 +2,8 @@ import React from 'react'
 
 function Portafolio(props) {
   return (
-    <div>Portafolio</div>
+    <div>Portfolio</div>
   )
 }
-
-Portafolio.propTypes = {}
 
 export default Portafolio
