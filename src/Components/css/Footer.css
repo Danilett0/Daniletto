@@ -1,0 +1,27 @@
+.Footer {
+  background-color: var(--color-primario);
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .Links {
+  display: flex;
+}
+
+.Footer .Links nav {
+  display: flex;
+}
+
+.Footer .Links nav ul {
+  display: flex;
+}
+
+.Footer .Links nav ul li a {
+  margin: 0px 10px;
+}
+
+.Footer .Links nav ul li a:hover {
+  color: var(--rojo-claro);
+}

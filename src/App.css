@@ -1,0 +1,24 @@
+:root {
+  --color-primario: #092239;
+  --rojo-claro: #fc715e;
+  --azul-claro: #2b97e8;
+  --gris-claro: #f7f7f7;
+  --gris-oscuro: #c7c7c7;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}

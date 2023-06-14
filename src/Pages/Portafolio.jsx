@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portafolio(props) {
   return (
-    <div>Portfolio</div>
+    <div>Portafolio</div>
   )
 }
 

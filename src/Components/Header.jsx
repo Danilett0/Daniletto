@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../App.css";
 import "./css/Header.css";
+import LinksNavegacion from "./LinksNavegacion";
 
 function Header(props) {
   return (
@@ -11,22 +11,7 @@ function Header(props) {
       </div>
 
       <div className="Links">
-        <nav aria-label="links de navegacion">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/Portafolio">Portafolio</Link>
-            </li>
-            <li>
-              <Link to="/About">Sobre mí</Link>
-            </li>
-            <li>
-              <Link to="/Contacto">Contacto</Link>
-            </li>
-          </ul>
-        </nav>
+        <LinksNavegacion />
       </div>
     </div>
   );

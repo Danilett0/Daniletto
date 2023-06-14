@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import "../App.css";
+import "./css/Footer.css";
+import LinksNavegacion from "./LinksNavegacion";
 
 function Footer(props) {
   return (
-    <div>Footer</div>
-  )
+    <div className="Footer">
+      <div className="Links">
+        <LinksNavegacion />
+      </div>
+    </div>
+  );
 }
 
-Footer.propTypes = {}
+Footer.propTypes = {};
 
-export default Footer
+export default Footer;

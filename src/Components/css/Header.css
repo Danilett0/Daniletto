@@ -1,0 +1,36 @@
+.Header {
+  background-color: var(--color-primario);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.Header .Logo {
+width: 100%;
+max-width: 200px;
+}
+
+.Header .Logo img{
+    width: 100%;
+}
+
+.Header .Links {
+  display: flex;
+}
+
+.Header .Links nav {
+  display: flex;
+}
+
+.Header .Links nav ul {
+  display: flex;
+}
+
+.Header .Links nav ul li a{
+    margin: 0px 10px;
+}
+
+.Header .Links nav ul li a:hover{
+    color: var(--rojo-claro);
+}
