@@ -1,0 +1,17 @@
+.NotFound{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 25px;
+}
+
+.NotFound a{
+    background-color: var(--rojo-claro);
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.NotFound a:hover{
+    background-color: var(--rojo-oscuro);
+}

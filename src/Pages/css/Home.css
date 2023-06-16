@@ -1,0 +1,130 @@
+main .Encabezado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/images/backgroud-encabezado.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+  height: 75vh;
+}
+
+main .Encabezado h1,
+p {
+  color: white;
+}
+
+main .Encabezado p {
+  text-align: center;
+  font-size: 18.5px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 900px;
+  margin: 30px 0px;
+}
+
+main .Encabezado a {
+  background-color: var(--rojo-claro);
+  padding: 15px 20px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+main .Encabezado a:hover {
+  background-color: var(--rojo-oscuro);
+  transform: scale(1.1);
+}
+
+main .Beneficios {
+  padding: 25px;
+}
+
+main .Beneficios h2 {
+  color: white;
+  margin-top: 70px;
+}
+
+main .Beneficios .Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main .Beneficios .Cards .Card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 400px;
+  min-height: 300px;
+  margin: 0px 20px;
+  padding: 25px;
+}
+
+main .Beneficios .Cards .Card h3 {
+  color: var(--azul-claro);
+}
+
+main .Beneficios .Cards .Card img {
+  width: 100%;
+  max-width: 90px;
+  min-width: 50px;
+  margin: 15px 0px;
+}
+
+main .Beneficios .Cards .Card p {
+  color: var(--color-primario);
+  text-align: center;
+}
+
+.Preguntas-Frecuentes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px;
+  background-color: white;
+  padding: 25px;
+}
+
+main .Contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .Contacto h2 {
+  color: white;
+}
+
+main .Contacto .Datos-Form {
+  border-radius: 3px;
+  background-color: white;
+  margin: auto;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0px 0px 7px var(--gris-claro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+main .Contacto .Datos-Form .Formulario {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+main .Contacto .Datos-Form img {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;  
+}

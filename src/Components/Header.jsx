@@ -2,12 +2,15 @@ import React from "react";
 import "../App.css";
 import "./css/Header.css";
 import LinksNavegacion from "./LinksNavegacion";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <div className="Header">
       <div className="Logo">
-        <img src="/images/logo.png" alt="" />
+        <Link to="/">
+          <img src="/images/logo.png" alt="" />
+        </Link>
       </div>
 
       <div className="Links">
