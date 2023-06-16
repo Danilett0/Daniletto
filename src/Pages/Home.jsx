@@ -1,12 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import FormContacto from "../Components/FormContacto";
-import {VisualEffectTopBlue} from "../Components/ShapeVisualEffects";
+import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
+import Loading from "../Components/Loading";
 import "../App.css";
 import "./css/Home.css";
 
-function Home(props) {
+import FormContacto from "../Components/FormContacto";
+
+function Home() {
+  const [showFormContacto, setShowFormContacto] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setShowFormContacto(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "50px" }
+    );
+    observer.observe(document.querySelector(".Datos-Form"));
+  }, []);
+
   return (
     <main>
       <div className="Encabezado">
@@ -63,7 +80,7 @@ function Home(props) {
           CONTÁCTANOS PARA OBTENER <br /> MÁS INFORMACIÓN
         </h2>
         <div className="Datos-Form">
-          <FormContacto />
+          {showFormContacto ? <FormContacto /> : <Loading />}
           <img src="./images/contacto.png" alt="imagen contacto" />
         </div>
       </div>
