@@ -1,87 +1,91 @@
 .About {
-  padding: 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.About .Perfil {
+.About .Box-Perfil {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.About .Box-Perfil .Perfil {
   width: 100%;
   max-width: 1100px;
-  background-color: white;
   display: flex;
-  border-radius: 3px;
-  box-shadow: 0px 0px 7px var(--gris-claro);
-  padding: 25px;
   display: flex;
   align-items: center;
   margin-top: 100px;
 }
 
-.About .Perfil .Descripcion {
+.About .Box-Perfil .Perfil .Descripcion {
   width: 60%;
 }
 
-.About .Perfil .Descripcion h1 {
+.About .Box-Perfil .Perfil .Descripcion h1 {
   text-align: left;
   color: var(--azul-claro);
+  margin-bottom: 30px;
 }
 
-.About .Perfil .Descripcion p {
+.About .Box-Perfil .Perfil .Descripcion p {
   color: var(--color-primario);
 }
 
-.About .Perfil .Imagen {
+.About .Box-Perfil .Perfil .Imagen {
   width: 40%;
-  margin-top: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.About .Perfil .Imagen img {
+.About .Box-Perfil .Perfil .Imagen img {
   width: 100%;
   border-radius: 50%;
 }
-.About .Perfil .Imagen p {
+.About .Box-Perfil .Perfil .Imagen p {
   color: var(--color-primario);
   font-weight: bold;
   font-size: 14px;
 }
 
-.About .Perfil .Imagen > div {
+.About .Box-Perfil .Perfil .Imagen > div {
   margin: 10px 0px;
 }
 
-.About .Perfil .Imagen a.Whatsapp {
+.About .Box-Perfil .Perfil .Imagen a.Whatsapp {
   color: #25d366;
 }
 
-.About .Perfil .Imagen a.Email {
+.About .Box-Perfil .Perfil .Imagen a.Email {
   color: #fc940be5;
 }
 
-.About .Perfil .Imagen a.Linkedin {
+.About .Box-Perfil .Perfil .Imagen a.Linkedin {
   color: #0077b5;
 }
 
-.About .Perfil .Imagen .Icon {
+.About .Box-Perfil .Perfil .Imagen .Icon {
   text-align: center;
   font-size: 30px;
   margin: 0px 5px;
 }
 
-.About .Perfil .Imagen .Icon:hover {
+.About .Box-Perfil .Perfil .Imagen .Icon:hover {
   transform: scale(1.2);
   transition: 0.4s;
 }
 
 .About .Habilidades {
-  margin-top: 100px;
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 1100px;
+  padding: 25px;
+  margin: 100px 0px;
 }
 
 .About .Habilidades .Texto {
@@ -113,16 +117,25 @@
 
 .About .Contacto {
   width: 100%;
-  max-width: 1100px;
+  display: flex;
+  justify-content: center;
   background-color: white;
   padding: 25px;
-  border-radius: 3px;
-  margin-top: 100px;
-  box-shadow: 0px 0px 7px var(--gris-claro);
+  flex-direction: column;
+  align-items: center;
 }
 
 .About .Contacto p {
-  margin-bottom: 50px;
   color: var(--color-primario);
   text-align: center;
+  margin: 50px 0px;
+  max-width: 1100px;
+}
+
+.About .Formulario {
+  width: 100%;
+  max-width: 1100px;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px var(--gris-oscuro);
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FormContacto from "../Components/FormContacto";
+import {VisualEffectTopBlue} from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import "../App.css";
 import "./css/Home.css";
@@ -51,6 +52,7 @@ function Home(props) {
           </div>
         </div>
       </div>
+      <VisualEffectTopBlue />
 
       <div className="Preguntas-Frecuentes">
         <PreguntasFrecuentes />

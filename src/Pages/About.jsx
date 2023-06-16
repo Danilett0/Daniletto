@@ -1,5 +1,6 @@
 import React from "react";
 import FormContacto from "../Components/FormContacto";
+import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
@@ -20,53 +21,57 @@ function About(props) {
 
   return (
     <div className="About">
-      <div className="Perfil">
-        <div className="Descripcion">
-          <h1>JEFERSON DANILO CASTRO BECERRA</h1>
-          <p>
-            Soy un desarrollador web con experiencia en UX y diseño. Me apasiona
-            crear soluciones web que combinen funcionalidad, estética y
-            usabilidad. <br />
-            <br /> Mi trabajo refleja mi esencia y mi calidad. Soy una persona
-            creativa y recursiva, que siempre busca nuevas formas de resolver
-            problemas y mejorar los procesos. <br />
-            <br /> No tengo miedo de proponer ideas innovadoras y de aprender de
-            mis errores. Soy responsable y respetuoso con mis clientes,
-            compañeros y mi trabajo.
-          </p>
-        </div>
+      <div className="Box-Perfil">
+        <div className="Perfil">
+          <div className="Descripcion">
+            <h1>JEFERSON DANILO CASTRO BECERRA</h1>
+            <p>
+              Soy un desarrollador web con experiencia en UX y diseño. Me
+              apasiona crear soluciones web que combinen funcionalidad, estética
+              y usabilidad. <br />
+              <br /> Mi trabajo refleja mi esencia y mi calidad. Soy una persona
+              creativa y recursiva, que siempre busca nuevas formas de resolver
+              problemas y mejorar los procesos. <br />
+              <br /> No tengo miedo de proponer ideas innovadoras y de aprender
+              de mis errores. Soy responsable y respetuoso con mis clientes,
+              compañeros y mi trabajo.
+            </p>
+          </div>
 
-        <div className="Imagen">
-          <img
-            src="/images/perfil.jpg"
-            alt="imagen perfil jeferson danilo castro"
-          />
-          <div>
-            <Link
-              className="Whatsapp"
-              to={
-                "https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
-              }
-            >
-              <FaWhatsappSquare className="Icon" />
-            </Link>
+          <div className="Imagen">
+            <img
+              src="/images/perfil.jpg"
+              alt="imagen perfil jeferson danilo castro"
+            />
+            <div>
+              <Link
+                className="Whatsapp"
+                to={
+                  "https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
+                }
+              >
+                <FaWhatsappSquare className="Icon" />
+              </Link>
 
-            <Link
-              className="Email"
-              to="mailto:daniilo.97@hotmail.com?subject=DANILETTO"
-            >
-              <MdMarkEmailUnread className="Icon" />
-            </Link>
+              <Link
+                className="Email"
+                to="mailto:daniilo.97@hotmail.com?subject=DANILETTO"
+              >
+                <MdMarkEmailUnread className="Icon" />
+              </Link>
 
-            <Link
-              className="Linkedin"
-              to="linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
-            >
-              <BsLinkedin className="Icon" />
-            </Link>
+              <Link
+                className="Linkedin"
+                to="linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
+              >
+                <BsLinkedin className="Icon" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
+
+      <VisualEffectTopWhite />
 
       <div className="Habilidades">
         <div className="Texto">
@@ -98,7 +103,9 @@ function About(props) {
           pronto que pueda. ¡Muchas gracias por tu atención!
         </p>
 
-        <FormContacto />
+        <div className="Formulario">
+          <FormContacto />
+        </div>
       </div>
     </div>
   );
