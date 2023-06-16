@@ -1,12 +1,14 @@
 import React from "react";
-import FormContacto from "../Components/FormContacto";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
+import Loading from "../Components/Loading";
 import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "./css/About.css";
+
+const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
 function About(props) {
   const ListaHabilidades = [
@@ -145,7 +147,9 @@ function About(props) {
         </p>
 
         <div className="Formulario">
-          <FormContacto />
+          <React.Suspense fallback={<Loading />}>
+            <FormContacto />
+          </React.Suspense>
         </div>
       </div>
     </div>

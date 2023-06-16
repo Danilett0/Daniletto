@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
@@ -6,24 +6,9 @@ import Loading from "../Components/Loading";
 import "../App.css";
 import "./css/Home.css";
 
-import FormContacto from "../Components/FormContacto";
+const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
 function Home() {
-  const [showFormContacto, setShowFormContacto] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setShowFormContacto(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin: "50px" }
-    );
-    observer.observe(document.querySelector(".Datos-Form"));
-  }, []);
-
   return (
     <main>
       <div className="Encabezado">
@@ -80,7 +65,12 @@ function Home() {
           CONTÁCTANOS PARA OBTENER <br /> MÁS INFORMACIÓN
         </h2>
         <div className="Datos-Form">
-          {showFormContacto ? <FormContacto /> : <Loading />}
+          {
+            <React.Suspense fallback={<Loading />}>
+              <FormContacto />
+            </React.Suspense>
+          }
+
           <img src="./images/contacto.png" alt="imagen contacto" />
         </div>
       </div>
