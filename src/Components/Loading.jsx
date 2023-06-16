@@ -2,6 +2,7 @@ import React from "react";
 import "./css/Loading.css";
 
 function Loading() {
+  console.log("Loading...")
   return (
     <div className="loading">
       <img src="./images/logo.png" alt="imagen de carga" />

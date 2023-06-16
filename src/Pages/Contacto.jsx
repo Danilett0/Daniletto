@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
-function Contacto(props) {
+function Contacto() {
   return (
     <div className="Contacto">
       <h1>
