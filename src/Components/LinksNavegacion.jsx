@@ -1,27 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./css/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
   return (
     <nav aria-label="links de navegacion">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/" activeClassName="active">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/Portafolio">Portafolio</Link>
+          <NavLink to="/Portafolio" activeClassName="active">
+            Portafolio
+          </NavLink>
         </li>
         <li>
-          <Link to="/About">Sobre mí</Link>
+          <NavLink to="/About" activeClassName="active">
+            Sobre mí
+          </NavLink>
         </li>
         <li>
-          <Link to="/Contacto">Contacto</Link>
+          <NavLink to="/Contacto" activeClassName="active">
+            Contacto
+          </NavLink>
         </li>
       </ul>
     </nav>
   );
 }
-
-LinksNavegacion.propTypes = {};
 
 export default LinksNavegacion;

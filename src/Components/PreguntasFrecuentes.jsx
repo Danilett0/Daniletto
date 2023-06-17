@@ -44,7 +44,7 @@ function PreguntasFrecuentes() {
           <div
             className="Respuesta"
             style={{
-              height: preguntaExpandida === index ? "50px" : "0px",
+              height: preguntaExpandida === index ? "100px" : "0px",
               overflow: "hidden",
               transition: "height 0.5s ease-in-out",
             }}
