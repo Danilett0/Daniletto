@@ -13,7 +13,13 @@ function Portafolio(props) {
           <p>
             En Daniletto, nos enfocamos en tres cosas: calidad, personalización
             y atención al cliente. Nos aseguramos de que cada sitio web sea
-            único y refleje la marca y los valores de nuestros clientes.
+            único y refleje la marca y los valores de nuestros clientes. Además,
+            ofrecemos un servicio integral que incluye diseño, desarrollo,
+            mantenimiento y soporte técnico. </p>
+            <p> Nuestro objetivo es crear sitios
+            web funcionales, atractivos y optimizados para los motores de
+            búsqueda. Queremos que nuestros clientes se sientan satisfechos y
+            orgullosos de su presencia en línea.
           </p>
         </div>
         <img src="/images/landing.png" alt="imagen landing page" />
@@ -22,7 +28,7 @@ function Portafolio(props) {
       <VisualEffectTopWhite />
 
       <div className="Proyectos">
-        <h2>ALGUNOS EJEMPLOS DE LO QUE PODEMOS HACER POR TI</h2>
+        <h2>TE PRESENTO ALGUNOS <br/> DE MIS PROYECTOS FAVORITOS</h2>
 
         <div className="Box-Proyectos">
           <div className="Proyecto">
@@ -59,7 +65,6 @@ function Portafolio(props) {
             <Link to="">VER SITIO WEB</Link>
           </div>
         </div>
-        
       </div>
     </div>
   );

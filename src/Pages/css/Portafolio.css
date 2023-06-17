@@ -12,6 +12,7 @@
 }
 .Portafolio .Encabezado .Texto h1 {
     text-align: left;
+    color: var(--azul-claro);
 }
 .Portafolio .Encabezado .Texto p {
     color: var(--color-primario);
