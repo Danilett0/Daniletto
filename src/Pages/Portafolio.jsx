@@ -84,9 +84,51 @@ function Portafolio() {
             </Link>
           </div>
         </div>
+
         <div className="MasProyectos">
           {!showProyectos && <p onClick={Mostrar}> ver mas proyectos</p>}
-          {showProyectos && <div>mas proyectos aqui</div>}
+          {showProyectos && (
+            <div className="Box-Proyectos">
+              <div className="Proyecto">
+                <h4>App del clima</h4>
+                <img src="/images/sol.png" alt="icono clima" />
+                <p>
+                  Conoce el clima con esta app. Temperatura, humedad, viento,
+                  presión y pronóstico. Hecha con React y lo último en
+                  tecnología.
+                </p>
+                <Link to="https://danilett0.github.io/WhaterApp/">
+                  VER SITIO WEB
+                </Link>
+              </div>
+
+              <div className="Proyecto">
+                <h4>Calculadora</h4>
+                <img src="/images/calculadora.png" alt="icono clima" />
+                <p>
+                  Domina las matemáticas con la app calculadora. Realiza
+                  operaciones básicas con una interfaz sencilla y bonita. Creada
+                  con React y las últimas tecnologías.
+                </p>
+                <Link to="https://danilett0.github.io/calculadoraReact/">
+                  VER SITIO WEB
+                </Link>
+              </div>
+
+              <div className="Proyecto">
+                <h4>Imagen Random</h4>
+                <img src="/images/imagenes.png" alt="icono clima" />
+                <p>
+                  Te gustan las sorpresas? Con esta app podrás generar imágenes
+                  increíbles con frases al azar. ¡Nunca sabrás lo que te va a
+                  tocar!
+                </p>
+                <Link to="https://danilett0.github.io/RandomGif/">
+                  VER SITIO WEB
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

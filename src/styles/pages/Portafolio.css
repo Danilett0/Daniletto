@@ -69,6 +69,43 @@
   align-items: center;
   flex-direction: column;
 }
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos .Proyecto {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px var(--gris-claro);
+  padding: 25px;
+  width: 100%;
+  max-width: 400px;
+  border-bottom: 10px solid transparent;
+}
+
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos .Proyecto:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  border-bottom: 10px solid var(--azul-claro);
+}
+
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos .Proyecto h4{
+  color: var(--azul-claro);
+}
+
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos .Proyecto img{
+  width: 100%;
+  max-width: 100px;
+}
+
+.Portafolio .Proyectos .MasProyectos .Box-Proyectos .Proyecto p{
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0px;
+}
 
 .Portafolio .Proyectos .MasProyectos p {
   font-weight: bold;
@@ -77,6 +114,8 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+
 
 .Portafolio .OtrosProyectos {
   background-color: white;
