@@ -1,14 +1,13 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { preguntasFrecuentes } from "./data";
 import "../styles/components/PreguntasFrecuentes.css";
 
 function PreguntasFrecuentes() {
   const [preguntaExpandida, setPreguntaExpandida] = useState("0px");
-  const respuestaRef = useRef(null);
 
   function handleClick(id) {
-    setPreguntaExpandida(id === preguntaExpandida ? null : id);
+    setPreguntaExpandida(id === preguntaExpandida ? true : id);
   }
 
   return (
@@ -23,12 +22,12 @@ function PreguntasFrecuentes() {
             className="Respuesta"
             style={{
               height:
-                preguntaExpandida === preguntaFrecuente.id ? "100px" : "0px",
+                preguntaExpandida === preguntaFrecuente.id ? "95px" : "0px",
               overflow: "hidden",
               transition: "height 0.5s ease-in-out",
             }}
           >
-            <div ref={respuestaRef}>
+            <div>
               <p>{preguntaFrecuente.respuesta}</p>
             </div>
           </div>
