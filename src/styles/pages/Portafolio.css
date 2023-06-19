@@ -1,79 +1,77 @@
 .Portafolio .Encabezado {
-    width: 100%;
-    background-color: white;
-    padding: 25px;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .Portafolio .Encabezado .Texto {
-    width: 50%;
-    padding: 25px;
+  width: 50%;
+  padding: 25px;
 }
 .Portafolio .Encabezado .Texto h1 {
-    text-align: left;
-    color: var(--azul-claro);
+  text-align: left;
+  color: var(--azul-claro);
 }
 .Portafolio .Encabezado .Texto p {
-    color: gray;
-    font-size: 19px;
-    margin-top: 30px;
+  color: gray;
+  font-size: 19px;
+  margin-top: 30px;
 }
 .Portafolio .Encabezado img {
-    width: 50%;
-    animation: pulse 2s linear infinite;
+  width: 50%;
+  animation: pulse 2s linear infinite;
 }
 
 .Portafolio .Proyectos {
-    padding: 25px;
+  padding: 25px;
 }
 .Portafolio .Proyectos h2 {
-    color: white;
-    margin-top: 30px;
+  color: white;
+  margin-top: 30px;
 }
 .Portafolio .Proyectos .Box-Proyectos {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .Portafolio .Proyectos .Box-Proyectos .Proyecto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px;
 }
 .Portafolio .Proyectos .Box-Proyectos .Proyecto img {
-    width: 100%;
-    max-width: 350px;
-    min-width: 200px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  border-radius: 3px;
 }
-
 
 .Portafolio .Proyectos .Box-Proyectos .Proyecto h4 {
-    margin: 15px 0px;
-    color: white;
+  margin: 15px 0px;
+  color: white;
 }
 .Portafolio .Proyectos .Box-Proyectos .Proyecto a {
-    background-color: var(--rojo-claro);
-    padding: 10px 15px;
-    border-radius: 3px;
-    
+  background-color: var(--rojo-claro);
+  padding: 10px 15px;
+  border-radius: 3px;
 }
 
 .Portafolio .Proyectos .Box-Proyectos .Proyecto a:hover {
-    background-color: var(--rojo-oscuro);
-    transform: scale(1.1);
-    transition: .5s;
+  background-color: var(--rojo-oscuro);
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
-
 @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.02);
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
   }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
