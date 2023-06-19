@@ -17,14 +17,16 @@ function Portafolio() {
         <div className="Texto">
           <h1>PORTAFOLIO DE DISEÑO WEB</h1>
           <p>
-            En Daniletto, me enfoco en tres cosas: calidad, personalización y
-            atención al cliente. Me aseguro de que cada sitio web sea único y
-            refleje la marca y los valores de mis clientes. Además, ofrezco un
-            servicio integral que incluye diseño, desarrollo, mantenimiento y
-            soporte técnico. <br />
-            <br /> Mi objetivo es crear sitios web funcionales, atractivos y
-            optimizados para los motores de búsqueda. Quiero que mis clientes se
-            sientan satisfechos y orgullosos de su presencia en línea.
+            Bienvenido a mi portafolio de diseño web, donde podrás ver algunos
+            de los proyectos que he realizado y que reflejan mi estilo, mi
+            creatividad y mis habilidades técnicas. <br />
+            <br /> Me apasiona el diseño web y me gusta crear experiencias
+            digitales innovadoras, atractivas e intuitivas para diferentes tipos
+            de clientes y usuarios. En este portafolio encontrarás una muestra
+            de mi trabajo, desde sitios web corporativos hasta aplicaciones web
+            interactivas, pasando por diseños gráficos y motion graphics. <br />
+            <br /> Espero que te guste lo que ves y que te sirva para hacerte
+            una idea de lo que puedo hacer por ti y por tu proyecto.
           </p>
         </div>
         <img src="/images/landing.png" alt="imagen landing page" />
@@ -36,6 +38,48 @@ function Portafolio() {
         <h2>
           Te presento algunos <br /> de mis proyectos favoritos
         </h2>
+
+        <div className="ProyectosIniciales">
+          <div className="Box-Proyectos">
+            <div className="Proyecto">
+              <h4>App del clima</h4>
+              <img src="/images/sol.png" alt="icono clima" />
+              <p>
+                Conoce el clima con esta app. Temperatura, humedad, viento,
+                presión y pronóstico. Hecha con React y lo último en tecnología.
+              </p>
+              <Link to="https://danilett0.github.io/WhaterApp/">
+                VER SITIO WEB
+              </Link>
+            </div>
+
+            <div className="Proyecto">
+              <h4>Calculadora</h4>
+              <img src="/images/calculadora.png" alt="icono clima" />
+              <p>
+                Domina las matemáticas con la app calculadora. Realiza
+                operaciones básicas con una interfaz sencilla y bonita. Creada
+                con React y las últimas tecnologías.
+              </p>
+              <Link to="https://danilett0.github.io/calculadoraReact/">
+                VER SITIO WEB
+              </Link>
+            </div>
+
+            <div className="Proyecto">
+              <h4>Imagen Random</h4>
+              <img src="/images/imagenes.png" alt="icono clima" />
+              <p>
+                Te gustan las sorpresas? Con esta app podrás generar imágenes
+                increíbles con frases al azar. ¡Nunca sabrás lo que te va a
+                tocar!
+              </p>
+              <Link to="https://danilett0.github.io/RandomGif/">
+                VER SITIO WEB
+              </Link>
+            </div>
+          </div>
+        </div>
 
         <div className="Box-Proyectos">
           <div className="Proyecto">
@@ -61,69 +105,35 @@ function Portafolio() {
           </div>
         </div>
 
-        <div className="Box-Proyectos">
-          <div className="Proyecto">
-            <img src="/images/ClaudiaBotero.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
-            <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
-              VER SITIO WEB
-            </Link>
-          </div>
-          <div className="Proyecto">
-            <img src="/images/LifeMiles.jpg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
-            <Link to="https://danilett0.github.io/Landing-Page-Lifemiles/">
-              VER SITIO WEB
-            </Link>
-          </div>
-          <div className="Proyecto">
-            <img src="/images/Shortly.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
-            <Link to="https://danilett0.github.io/Landing-Page-Shortli/">
-              VER SITIO WEB
-            </Link>
-          </div>
-        </div>
-
-        <div className="MasProyectos">
-          {!showProyectos && <p onClick={Mostrar}> ver mas proyectos</p>}
+        <div>
+          {!showProyectos && (
+            <p className="VerMas" onClick={Mostrar}>
+              ver mas proyectos
+            </p>
+          )}
           {showProyectos && (
             <div className="Box-Proyectos">
               <div className="Proyecto">
-                <h4>App del clima</h4>
-                <img src="/images/sol.png" alt="icono clima" />
-                <p>
-                  Conoce el clima con esta app. Temperatura, humedad, viento,
-                  presión y pronóstico. Hecha con React y lo último en
-                  tecnología.
-                </p>
-                <Link to="https://danilett0.github.io/WhaterApp/">
+                <img
+                  src="/images/ClaudiaBotero.jpeg"
+                  alt="imagen de proyecto"
+                />
+                <h4>Landing Page Fyllo</h4>
+                <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
                   VER SITIO WEB
                 </Link>
               </div>
-
               <div className="Proyecto">
-                <h4>Calculadora</h4>
-                <img src="/images/calculadora.png" alt="icono clima" />
-                <p>
-                  Domina las matemáticas con la app calculadora. Realiza
-                  operaciones básicas con una interfaz sencilla y bonita. Creada
-                  con React y las últimas tecnologías.
-                </p>
-                <Link to="https://danilett0.github.io/calculadoraReact/">
+                <img src="/images/LifeMiles.jpg" alt="imagen de proyecto" />
+                <h4>Landing Page Fyllo</h4>
+                <Link to="https://danilett0.github.io/Landing-Page-Lifemiles/">
                   VER SITIO WEB
                 </Link>
               </div>
-
               <div className="Proyecto">
-                <h4>Imagen Random</h4>
-                <img src="/images/imagenes.png" alt="icono clima" />
-                <p>
-                  Te gustan las sorpresas? Con esta app podrás generar imágenes
-                  increíbles con frases al azar. ¡Nunca sabrás lo que te va a
-                  tocar!
-                </p>
-                <Link to="https://danilett0.github.io/RandomGif/">
+                <img src="/images/Shortly.jpeg" alt="imagen de proyecto" />
+                <h4>Landing Page Fyllo</h4>
+                <Link to="https://danilett0.github.io/Landing-Page-Shortli/">
                   VER SITIO WEB
                 </Link>
               </div>
