@@ -5,7 +5,6 @@
   background-color: var(--color-primario);
   border-radius: 3px;
   padding: 25px;
-  box-shadow: 0px 0px 7px var(--gris-oscuro);
   margin: auto;
   animation: fadeInOut 2s linear infinite;
 }

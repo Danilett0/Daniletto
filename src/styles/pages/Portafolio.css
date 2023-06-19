@@ -15,10 +15,9 @@
     color: var(--azul-claro);
 }
 .Portafolio .Encabezado .Texto p {
-    color: var(--color-primario);
+    color: gray;
     font-size: 19px;
     margin-top: 30px;
-    font-weight: bold;
 }
 .Portafolio .Encabezado img {
     width: 50%;

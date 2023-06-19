@@ -1,7 +1,7 @@
 import React from 'react'
-import "../App.css";
-import "./css/NotFound.css";
 import { Link } from 'react-router-dom';
+import "../App.css";
+import "../styles/pages/NotFound.css";
 
 function NotFound(props) {
   return (

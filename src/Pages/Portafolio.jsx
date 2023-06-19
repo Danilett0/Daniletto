@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import "../App.css";
-import "./css/Portafolio.css";
+import "../styles/pages/Portafolio.css";
 
 function Portafolio(props) {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import "../App.css";
-import "./css/Contacto.css";
 import Loading from "../Components/Loading";
 import { Link } from "react-router-dom";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
+import "../App.css";
+import "../styles/pages/Contacto.css"
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 

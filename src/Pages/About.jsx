@@ -6,7 +6,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "../App.css";
-import "./css/About.css";
+import "../styles/pages/About.css"
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import "./css/Footer.css";
+import "../styles/components/Footer.css";
 import LinksNavegacion from "./LinksNavegacion";
 
 function Footer(props) {
@@ -12,7 +12,5 @@ function Footer(props) {
     </div>
   );
 }
-
-Footer.propTypes = {};
 
 export default Footer;
