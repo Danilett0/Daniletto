@@ -5,22 +5,13 @@ import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { ListaHabilidades } from "../Components/data";
 import "../App.css";
-import "../styles/pages/About.css"
+import "../styles/pages/About.css";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
 function About(props) {
-  const ListaHabilidades = [
-    "Diseño y desarrollo de tu sitio web.",
-    "Moficaciones, ajustes o nuevas funcionalidades para tu web.",
-    "Creacion de contenido (imagen, video, texto) para tu sitio web.",
-    "Diseño de plantillas de correo electrónico HTML.",
-    "Administración de alojamiento web.",
-    "Optimización para motores de búsqueda (SEO)",
-    "Creacion de tienda online",
-  ];
-
   return (
     <div className="About">
       <div className="Box-Perfil">
@@ -79,11 +70,11 @@ function About(props) {
         <div className="Texto">
           <h2>¿QUE PUEDO HACER POR TI?</h2>
           <ul>
-            {ListaHabilidades.map((habilidad, index) => (
-              <li key={index}>
+            {ListaHabilidades.map((listado) => (
+              <li key={listado.id}>
                 <p>
                   <FaCheckCircle className="Icon" />
-                  {habilidad}
+                  {listado.habilidad}
                 </p>
               </li>
             ))}
