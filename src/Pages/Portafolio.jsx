@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import "../App.css";
 import "../styles/pages/Portafolio.css";
 
 function Portafolio() {
+  const [showProyectos, setShowProyectos] = useState(false);
+
+  const Mostrar = () => {
+    setShowProyectos(true);
+  };
+
   return (
     <div className="Portafolio">
       <div className="Encabezado">
@@ -40,22 +46,29 @@ function Portafolio() {
             </Link>
           </div>
           <div className="Proyecto">
-            <img src="/images/BookMark.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
-            <Link to="https://danilett0.github.io/Landing-Page-Bokmark/">
-              VER SITIO WEB
-            </Link>
-          </div>
-          <div className="Proyecto">
             <img src="/images/FincaRaiz.jpeg" alt="imagen de proyecto" />
             <h4>Landing Page Fyllo</h4>
             <Link to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
               VER SITIO WEB
             </Link>
           </div>
+          <div className="Proyecto">
+            <img src="/images/BookMark.jpeg" alt="imagen de proyecto" />
+            <h4>Landing Page Fyllo</h4>
+            <Link to="https://danilett0.github.io/Landing-Page-Bokmark/">
+              VER SITIO WEB
+            </Link>
+          </div>
         </div>
 
         <div className="Box-Proyectos">
+          <div className="Proyecto">
+            <img src="/images/ClaudiaBotero.jpeg" alt="imagen de proyecto" />
+            <h4>Landing Page Fyllo</h4>
+            <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
+              VER SITIO WEB
+            </Link>
+          </div>
           <div className="Proyecto">
             <img src="/images/LifeMiles.jpg" alt="imagen de proyecto" />
             <h4>Landing Page Fyllo</h4>
@@ -70,13 +83,28 @@ function Portafolio() {
               VER SITIO WEB
             </Link>
           </div>
-          <div className="Proyecto">
-            <img src="/images/ClaudiaBotero.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
-            <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
-              VER SITIO WEB
+        </div>
+        <div className="MasProyectos">
+          {!showProyectos && <p onClick={Mostrar}> ver mas proyectos</p>}
+          {showProyectos && <div>mas proyectos aqui</div>}
+        </div>
+      </div>
+
+      <div className="OtrosProyectos">
+        <div>
+          <p>
+            En esta sección puedes ver algunas de las landing pages que he
+            creado para diferentes propósitos. Son proyectos sencillos pero con
+            un diseño atractivo y funcional. Si quieres ver más de mi trabajo,
+            puedes visitar mi repositorio de github donde encontrarás otros
+            proyectos más complejos y variados. <br />
+            <br />
+            <br />
+            <Link to="https://github.com/Danilett0?tab=repositories">
+              Ver Repositorio{" "}
             </Link>
-          </div>
+          </p>
+          <img src="/images/Person.png" alt="Persona" />
         </div>
       </div>
     </div>

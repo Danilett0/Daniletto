@@ -29,6 +29,10 @@ function About(props) {
               de mis errores. Soy responsable y respetuoso con mis clientes,
               compañeros y mi trabajo.
             </p>
+            <div className="GitHub">
+              <p>Te invito a visitar mi perfil en GitHb para ver mas sobre mis proyectos</p>
+              <Link to="https://github.com/Danilett0">Ver Repositorio </Link>
+            </div>
           </div>
 
           <div className="Imagen">

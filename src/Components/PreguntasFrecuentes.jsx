@@ -7,8 +7,8 @@ function PreguntasFrecuentes() {
   const [preguntaExpandida, setPreguntaExpandida] = useState("0px");
   const respuestaRef = useRef(null);
 
-  function handleClick(index) {
-    setPreguntaExpandida(index === preguntaExpandida ? null : index);
+  function handleClick(id) {
+    setPreguntaExpandida(id === preguntaExpandida ? null : id);
   }
 
   return (
@@ -16,14 +16,14 @@ function PreguntasFrecuentes() {
       <h2>PREGUNTAS FRECUENTES</h2>
       {preguntasFrecuentes.map((preguntaFrecuente) => (
         <div className="Pregunta" key={preguntaFrecuente.id}>
-          <h4 onClick={() => handleClick(preguntasFrecuentes.id)}>
+          <h4 onClick={() => handleClick(preguntaFrecuente.id)}>
             <FaArrowCircleDown className="icon" /> {preguntaFrecuente.pregunta}
           </h4>
           <div
             className="Respuesta"
             style={{
               height:
-                preguntaExpandida === preguntasFrecuentes.id ? "100px" : "0px",
+                preguntaExpandida === preguntaFrecuente.id ? "100px" : "0px",
               overflow: "hidden",
               transition: "height 0.5s ease-in-out",
             }}
