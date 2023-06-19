@@ -18,3 +18,14 @@
 .Header .Links {
   display: flex;
 }
+
+
+@media screen and (max-width: 730px){
+  .Header .Links {
+    display: none;
+  }
+
+  .Header .Logo {
+    width: 130px;
+  }
+}

@@ -35,10 +35,13 @@
   font-weight: bold;
   margin: auto;
   text-decoration: underline;
+  animation: pulse 1.5s linear infinite;
+  text-align: center;
+  background-color: transparent !important;
 }
 
 .Portafolio .Proyectos .VerMas:hover {
-  color: var(--rojo-claro);
+  color: var(--azul-claro);
 }
 
 .Portafolio .Proyectos h2 {
@@ -122,10 +125,8 @@
 }
 
 .Portafolio .Proyectos .ProyectosIniciales p {
-  font-weight: bold;
   color: white;
   font-size: 15px;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -176,5 +177,35 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/* espacio para ajuste de cambio de tamaño de pantalla */
+@media screen and (max-width: 777px) {
+  .Portafolio .Encabezado {
+    flex-direction: column;
+  }
+
+  .Portafolio .Encabezado .Texto {
+    width: 100%;
+  }
+
+  .Portafolio .Encabezado img {
+    width: 100%;
+  }
+
+  .Portafolio .Proyectos .ProyectosIniciales .Box-Proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Portafolio .Proyectos .Box-Proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Portafolio .OtrosProyectos > div {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }

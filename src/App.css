@@ -51,3 +51,22 @@ p {
   margin: 10px 0px;
   color: var(--color-primario);
 }
+
+
+@media screen and (max-width: 777px){
+h1{
+  font-size: 23px;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 17px;
+}
+h4{
+  font-size: 14px;
+}
+p{
+  font-size: 15px;
+}
+}
