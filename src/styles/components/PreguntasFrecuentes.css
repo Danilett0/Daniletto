@@ -28,7 +28,6 @@
 
 .Preguntas .Pregunta h4:hover {
   color: white;
-  transition: 0.3s;
   background-color: var(--color-primario);
   transform: scale(1.05);
   transition: 1s;

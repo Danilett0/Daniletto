@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-function FormContacto(props) {
+function FormContacto() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "//js.hsforms.net/forms/embed/v2.js";

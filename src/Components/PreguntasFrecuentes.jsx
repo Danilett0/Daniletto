@@ -15,7 +15,7 @@ function PreguntasFrecuentes() {
     <div className="Preguntas">
       <h2>PREGUNTAS FRECUENTES</h2>
       {preguntasFrecuentes.map((preguntaFrecuente) => (
-        <div className="Pregunta" key={preguntasFrecuentes.id}>
+        <div className="Pregunta" key={preguntaFrecuente.id}>
           <h4 onClick={() => handleClick(preguntasFrecuentes.id)}>
             <FaArrowCircleDown className="icon" /> {preguntaFrecuente.pregunta}
           </h4>
