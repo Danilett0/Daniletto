@@ -1,24 +1,24 @@
-.NotFound{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   padding: 25px;
-   background-color: var(--gris-claro);
+.NotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  background-color: var(--gris-claro);
 }
 
-.NotFound img{
-width: 100%;
-max-width: 800px;
-min-width: 350px
+.NotFound img {
+  width: 100%;
+  max-width: 800px;
+  min-width: 350px;
 }
 
-.NotFound a{
-    background-color: var(--rojo-claro);
-    padding: 10px 15px;
-    border-radius: 3px;
+.NotFound a {
+  background-color: var(--rojo-claro);
+  padding: 10px 15px;
+  border-radius: 3px;
 }
 
-.NotFound a:hover{
-    background-color: var(--rojo-oscuro);
+.NotFound a:hover {
+  background-color: var(--rojo-oscuro);
 }

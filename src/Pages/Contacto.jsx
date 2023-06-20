@@ -5,7 +5,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import "../App.css";
-import "../styles/pages/Contacto.css"
+import "../styles/pages/Contacto.css";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
@@ -23,7 +23,11 @@ function Contacto() {
         }
 
         <div className="Imagen">
-          <img loading="lazy" src="./images/contacto.png" alt="imagen contacto" />
+          <img
+            loading="lazy"
+            src="./images/contacto.png"
+            alt="imagen contacto"
+          />
 
           <div>
             <Link

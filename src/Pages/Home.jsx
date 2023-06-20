@@ -16,8 +16,8 @@ function Home() {
         <h1>¿Por qué soy tu mejor opción?</h1>
         <p>
           Siempre me encofo en 3 cosas para cada uno de mis clientes: calidad,
-          cumplimiento y atención. Me aseguro de que cada sitio web sea
-          único y refleje la marca y los valores de nuestros clientes.
+          cumplimiento y atención. Me aseguro de que cada sitio web sea único y
+          refleje la marca y los valores de nuestros clientes.
         </p>
 
         <Link to="/Contacto">Obtén una cotización gratis</Link>
@@ -30,7 +30,11 @@ function Home() {
         <div className="Cards">
           <div className="Card">
             <h3>ALTA CALIDAD</h3>
-            <img loading="lazy" src="./images/Calidad.png"  alt="icono calidad" />
+            <img
+              loading="lazy"
+              src="./images/Calidad.png"
+              alt="icono calidad"
+            />
             <p>
               Me aseguro de que cada sitio web sea único y refleje tanto la
               marca, como los valores de nuestros clientes.
@@ -46,7 +50,11 @@ function Home() {
           </div>
           <div className="Card">
             <h3>EXPERIENCIA DE USUARIO</h3>
-            <img loading="lazy" src="./images/Satisfaccion.png" alt="icono satisfaccion" />
+            <img
+              loading="lazy"
+              src="./images/Satisfaccion.png"
+              alt="icono satisfaccion"
+            />
             <p>
               Cada sitio web sera muy fácil de usar y estará diseñado para
               brindar la mejor experiencia posible a los visitantes.
@@ -71,7 +79,11 @@ function Home() {
             </Suspense>
           }
 
-          <img loading="lazy" src="./images/contacto.png" alt="imagen contacto" />
+          <img
+            loading="lazy"
+            src="./images/contacto.png"
+            alt="imagen contacto"
+          />
         </div>
       </div>
     </main>

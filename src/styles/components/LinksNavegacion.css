@@ -18,15 +18,15 @@ nav ul li a:hover {
   color: var(--rojo-claro);
 }
 
-nav ul li .LinkContacto{
-background-color: var(--rojo-claro);
-color: white;
-padding: 5px;
-border-radius: 3px;
-margin-left: 30px;
+nav ul li .LinkContacto {
+  background-color: var(--rojo-claro);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 30px;
 }
 
-nav ul li .LinkContacto:hover{
+nav ul li .LinkContacto:hover {
   color: white;
   background-color: var(--rojo-oscuro);
   padding: 6px;

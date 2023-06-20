@@ -14,7 +14,7 @@ main .Encabezado {
   clip-path: ellipse(100% 141% at 50% -45%);
 }
 
-main .Encabezado h1{
+main .Encabezado h1 {
   color: white;
 }
 
@@ -44,7 +44,7 @@ main .Encabezado a:hover {
 }
 
 main .Beneficios {
-  padding:25px;
+  padding: 25px;
   margin-bottom: 50px;
 }
 
@@ -71,7 +71,7 @@ main .Beneficios .Cards .Card {
   min-height: 300px;
   margin: 0px 10px;
   padding: 20px;
-  border-bottom: 10px solid transparent
+  border-bottom: 10px solid transparent;
 }
 
 main .Beneficios .Cards .Card:hover {
@@ -144,7 +144,7 @@ main .Contacto .Datos-Form .Formulario {
 main .Contacto .Datos-Form img {
   width: 100%;
   max-width: 500px;
-  min-width: 300px;  
+  min-width: 300px;
 }
 
 /* espacio para animaciones */
@@ -164,18 +164,17 @@ main .Contacto .Datos-Form img {
 }
 
 /* espacio para ajuste de cambio de tamaño de pantalla */
-@media screen and (max-width: 777px){
-
-  main .Encabezado{
+@media screen and (max-width: 777px) {
+  main .Encabezado {
     clip-path: ellipse(137% 130% at 50% -50%);
   }
 
-  main .Encabezado p{
+  main .Encabezado p {
     font-size: 15px;
     font-weight: normal;
   }
 
-  main .Encabezado a{
+  main .Encabezado a {
     font-size: 12px;
   }
 
@@ -183,16 +182,15 @@ main .Contacto .Datos-Form img {
     flex-direction: column;
   }
 
-  main .Beneficios .Cards .Card{
-    margin-bottom: 20px; 
+  main .Beneficios .Cards .Card {
+    margin-bottom: 20px;
   }
 
   main .Contacto .Datos-Form {
     flex-direction: column;
   }
 
-  main .Contacto .Datos-Form img{
+  main .Contacto .Datos-Form img {
     display: none;
   }
-  
 }

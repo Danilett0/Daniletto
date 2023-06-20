@@ -30,7 +30,10 @@ function About(props) {
               compañeros y mi trabajo.
             </p>
             <div className="GitHub">
-              <p>Te invito a visitar mi perfil en GitHb para ver mas sobre mis proyectos</p>
+              <p>
+                Te invito a visitar mi perfil en GitHb para ver mas sobre mis
+                proyectos
+              </p>
               <Link to="https://github.com/Danilett0">Ver Repositorio </Link>
             </div>
           </div>
@@ -97,7 +100,11 @@ function About(props) {
         <div className="Cards">
           <div className="Card" data-content="1">
             <h4>REQUERIMIENTOS</h4>
-            <img loading="lazy" src="/images/requerimientos.png" alt="icono requerimientos" />
+            <img
+              loading="lazy"
+              src="/images/requerimientos.png"
+              alt="icono requerimientos"
+            />
             <p>
               Analizo el objetivo, el público y las necesidades de tu sitio web.
               Te propongo las funcionalidades y características que mejor se
@@ -114,7 +121,11 @@ function About(props) {
           </div>
           <div className="Card" data-content="3">
             <h4>DESARROLLO</h4>
-            <img loading="lazy" src="/images/desarrollo.png" alt="icono desarrollo" />
+            <img
+              loading="lazy"
+              src="/images/desarrollo.png"
+              alt="icono desarrollo"
+            />
             <p>
               Codifico tu sitio web usando los lenguajes de programación más
               adecuados. Construyo la estructura, las funcionalidades
@@ -123,7 +134,11 @@ function About(props) {
           </div>
           <div className="Card" data-content="4">
             <h4>IMPLEMENTACION</h4>
-            <img loading="lazy" src="/images/implementacion.png" alt="icono implementacion" />
+            <img
+              loading="lazy"
+              src="/images/implementacion.png"
+              alt="icono implementacion"
+            />
             <p>
               Subo tu sitio web al servidor para que sea visiable desde
               cualquier parte del mundo, valido la visualizacion en diferentes
