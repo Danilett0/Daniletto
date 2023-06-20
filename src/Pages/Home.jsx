@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
@@ -30,7 +30,7 @@ function Home() {
         <div className="Cards">
           <div className="Card">
             <h3>ALTA CALIDAD</h3>
-            <img src="./images/Calidad.png" alt="icono calidad" />
+            <img loading="lazy" src="./images/Calidad.png"  alt="icono calidad" />
             <p>
               Me aseguro de que cada sitio web sea único y refleje tanto la
               marca, como los valores de nuestros clientes.
@@ -38,7 +38,7 @@ function Home() {
           </div>
           <div className="Card">
             <h3>PRECIOS asequibles</h3>
-            <img src="./images/Dinero.png" alt="icono dinero" />
+            <img loading="lazy" src="./images/Dinero.png" alt="icono dinero" />
             <p>
               Ofresco precios competitivos para que puedas obtener un sitio web
               de muy alta calidad sin gastar una fortuna.
@@ -46,7 +46,7 @@ function Home() {
           </div>
           <div className="Card">
             <h3>EXPERIENCIA DE USUARIO</h3>
-            <img src="./images/Satisfaccion.png" alt="icono satisfaccion" />
+            <img loading="lazy" src="./images/Satisfaccion.png" alt="icono satisfaccion" />
             <p>
               Cada sitio web sera muy fácil de usar y estará diseñado para
               brindar la mejor experiencia posible a los visitantes.
@@ -66,12 +66,12 @@ function Home() {
         </h2>
         <div className="Datos-Form">
           {
-            <React.Suspense fallback={<Loading />}>
+            <Suspense fallback={<Loading />}>
               <FormContacto />
-            </React.Suspense>
+            </Suspense>
           }
 
-          <img src="./images/contacto.png" alt="imagen contacto" />
+          <img loading="lazy" src="./images/contacto.png" alt="imagen contacto" />
         </div>
       </div>
     </main>

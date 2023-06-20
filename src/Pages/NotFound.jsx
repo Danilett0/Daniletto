@@ -6,7 +6,7 @@ import "../styles/pages/NotFound.css";
 function NotFound() {
   return (
     <div className='NotFound'>
-        <img src="/images/Not-Found.png" alt="imagen pagina no encontrada" />
+        <img loading="lazy" src="/images/Not-Found.png" alt="imagen pagina no encontrada" />
         <Link to="/" > Home </Link>
     </div>
   )

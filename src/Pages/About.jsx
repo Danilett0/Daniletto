@@ -97,7 +97,7 @@ function About(props) {
         <div className="Cards">
           <div className="Card" data-content="1">
             <h4>REQUERIMIENTOS</h4>
-            <img src="/images/requerimientos.png" alt="icono requerimientos" />
+            <img loading="lazy" src="/images/requerimientos.png" alt="icono requerimientos" />
             <p>
               Analizo el objetivo, el público y las necesidades de tu sitio web.
               Te propongo las funcionalidades y características que mejor se
@@ -106,7 +106,7 @@ function About(props) {
           </div>
           <div className="Card" data-content="2">
             <h4>DISEÑO</h4>
-            <img src="/images/diseño.png" alt="icono diseño" />
+            <img loading="lazy" src="/images/diseño.png" alt="icono diseño" />
             <p>
               Creo la apariencia y la interfaz de tu sitio web, pensando en la
               usabilidad, la accesibilidad y la experiencia de usuario.
@@ -114,7 +114,7 @@ function About(props) {
           </div>
           <div className="Card" data-content="3">
             <h4>DESARROLLO</h4>
-            <img src="/images/desarrollo.png" alt="icono desarrollo" />
+            <img loading="lazy" src="/images/desarrollo.png" alt="icono desarrollo" />
             <p>
               Codifico tu sitio web usando los lenguajes de programación más
               adecuados. Construyo la estructura, las funcionalidades
@@ -123,7 +123,7 @@ function About(props) {
           </div>
           <div className="Card" data-content="4">
             <h4>IMPLEMENTACION</h4>
-            <img src="/images/implementacion.png" alt="icono implementacion" />
+            <img loading="lazy" src="/images/implementacion.png" alt="icono implementacion" />
             <p>
               Subo tu sitio web al servidor para que sea visiable desde
               cualquier parte del mundo, valido la visualizacion en diferentes

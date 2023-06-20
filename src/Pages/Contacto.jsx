@@ -23,7 +23,7 @@ function Contacto() {
         }
 
         <div className="Imagen">
-          <img src="./images/contacto.png" alt="imagen contacto" />
+          <img loading="lazy" src="./images/contacto.png" alt="imagen contacto" />
 
           <div>
             <Link
