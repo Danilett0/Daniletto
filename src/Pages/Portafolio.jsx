@@ -91,14 +91,14 @@ function Portafolio() {
           </div>
           <div className="Proyecto">
             <img src="/images/FincaRaiz.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
+            <h4>Pagina FincaRaiz</h4>
             <Link to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
               VER SITIO WEB
             </Link>
           </div>
           <div className="Proyecto">
             <img src="/images/BookMark.jpeg" alt="imagen de proyecto" />
-            <h4>Landing Page Fyllo</h4>
+            <h4>Landing Page BookMark</h4>
             <Link to="https://danilett0.github.io/Landing-Page-Bokmark/">
               VER SITIO WEB
             </Link>
@@ -118,21 +118,21 @@ function Portafolio() {
                   src="/images/ClaudiaBotero.jpeg"
                   alt="imagen de proyecto"
                 />
-                <h4>Landing Page Fyllo</h4>
+                <h4>Landing Page ClaudiaBotero</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
                   VER SITIO WEB
                 </Link>
               </div>
               <div className="Proyecto">
                 <img src="/images/LifeMiles.jpg" alt="imagen de proyecto" />
-                <h4>Landing Page Fyllo</h4>
+                <h4>Landing Page LifeMiles</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Lifemiles/">
                   VER SITIO WEB
                 </Link>
               </div>
               <div className="Proyecto">
                 <img src="/images/Shortly.jpeg" alt="imagen de proyecto" />
-                <h4>Landing Page Fyllo</h4>
+                <h4>Landing Page Shortly</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Shortli/">
                   VER SITIO WEB
                 </Link>
@@ -153,7 +153,7 @@ function Portafolio() {
             <br />
             <br />
             <Link to="https://github.com/Danilett0?tab=repositories">
-              Ver Repositorio{" "}
+              Ver Repositorio
             </Link>
           </p>
           <img src="/images/Person.png" alt="Persona" />
