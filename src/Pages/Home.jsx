@@ -16,7 +16,7 @@ function Home() {
         <h1>¿Por qué soy tu mejor opción?</h1>
         <p>
           Siempre me encofo en 3 cosas para cada uno de mis clientes: calidad,
-          cumplimiento y atención. <br /> Me aseguro de que cada sitio web sea
+          cumplimiento y atención. Me aseguro de que cada sitio web sea
           único y refleje la marca y los valores de nuestros clientes.
         </p>
 
