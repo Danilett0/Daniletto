@@ -18,9 +18,9 @@ function App() {
         <Routes>
           <Route path="/Daniletto" element={<Home />}></Route>
           <Route path="*" element={<NotFound />}></Route>
-          <Route path="/Portafolio" element={<Portafolio />}></Route>
+          <Route exact path="/Portafolio" element={<Portafolio />}></Route>
           <Route path="/About" element={<About />}></Route>
-          <Route path="/Contacto" element={<Contacto />}></Route>
+          <Route exact path="/Daniletto/Contacto" element={<Contacto />}></Route>
         </Routes>
       </Suspense>
     </BrowserRouter>
