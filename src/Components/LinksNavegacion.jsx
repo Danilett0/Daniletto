@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/components/LinksNavegacion.css";
 
-const Home = React.lazy(() => import("./Pages/Home"));
-const About = React.lazy(() => import("./Pages/About"));
-const Contacto = React.lazy(() => import("./Pages/Contacto"));
-const Portafolio = React.lazy(() => import("./Pages/Portafolio"));
+const Home = React.lazy(() => import("../Pages/Home"));
+const About = React.lazy(() => import("../Pages/About"));
+const Contacto = React.lazy(() => import("../Pages/Contacto"));
+const Portafolio = React.lazy(() => import("../Pages/Portafolio"));
 
 function LinksNavegacion(props) {
   return (
