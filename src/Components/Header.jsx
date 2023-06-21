@@ -9,7 +9,7 @@ function Header(props) {
     <div className="Header">
       <div className="Logo">
         <Link to="/">
-          <img src="/images/logo.png" alt="" />
+          <img src="./images/logo.png" alt="" />
         </Link>
       </div>
 
