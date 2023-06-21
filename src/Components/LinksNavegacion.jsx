@@ -7,12 +7,12 @@ function LinksNavegacion(props) {
     <nav aria-label="links de navegacion">
       <ul>
         <li>
-          <NavLink to="/" activeclassname="active">
+          <NavLink to="/Daniletto" activeclassname="active">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Portafolio" activeclassname="active">
+          <NavLink to="/Daniletto/Portafolio" activeclassname="active">
             Portafolio
           </NavLink>
         </li>
@@ -22,9 +22,8 @@ function LinksNavegacion(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className="LinkContacto"
-            to="/Contacto"
+          <NavLink className="LinkContacto"
+            to="/Daniletto/Contacto"
             activeclassname="active"
           >
             Contacto
