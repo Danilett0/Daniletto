@@ -12,7 +12,7 @@ function LinksNavegacion(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Daniletto/Portafolio" activeclassname="active">
+          <NavLink to="/Portafolio" activeclassname="active">
             Portafolio
           </NavLink>
         </li>
@@ -22,8 +22,9 @@ function LinksNavegacion(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink className="LinkContacto"
-            to="/Daniletto/Contacto"
+          <NavLink
+            className="LinkContacto"
+            to="/Contacto"
             activeclassname="active"
           >
             Contacto
