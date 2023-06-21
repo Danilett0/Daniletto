@@ -5,10 +5,10 @@ import Header from "./Components/Header";
 import Loading from "./Components/Loading";
 
 const Home = React.lazy(() => import("./Pages/Home"));
-const About = React.lazy(() => import("Daniletto/Pages/About"));
-const Contacto = React.lazy(() => import("../Pages/Contacto"));
-const Portafolio = React.lazy(() => import("/Daniletto/Pages/Portafolio"));
-const NotFound = React.lazy(() => import("/Daniletto/Pages/NotFound"));
+const About = React.lazy(() => import("./Pages/About"));
+const Contacto = React.lazy(() => import("./Pages/Contacto"));
+const Portafolio = React.lazy(() => import("./Pages/Portafolio"));
+const NotFound = React.lazy(() => import("./Pages/NotFound"));
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Suspense fallback={<Loading />}>
         <Routes>
-          <Route path="/Daniletto" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<NotFound />}></Route>
           <Route path="/Portafolio" element={<Portafolio />}></Route>
           <Route path="/About" element={<About />}></Route>
