@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdaniletto=self.webpackChunkdaniletto||[]).push([[114],{114:function(e,t,n){n.r(t);var r=n(791),o=n(184);t.default=function(){return(0,r.useEffect)((function(){var e=document.createElement("script");e.src="//js.hsforms.net/forms/embed/v2.js",e.addEventListener("load",(function(){window.hbspt.forms.create({region:"na1",portalId:"39987181",formId:"075e6686-f49c-4be5-82d6-cd0e56c513d6",target:".Formulario"})})),document.body.appendChild(e)}),[]),(0,o.jsx)("div",{className:"Formulario"})}}}]);
+//# sourceMappingURL=114.31f22c2c.chunk.js.map
