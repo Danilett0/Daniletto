@@ -30,11 +30,7 @@ function Home() {
         <div className="Cards">
           <div className="Card">
             <h3>ALTA CALIDAD</h3>
-            <img
-              loading="lazy"
-              src="/images/Calidad.png"
-              alt="icono calidad"
-            />
+            <img loading="lazy" src="/images/Calidad.png" alt="icono calidad" />
             <p>
               Me aseguro de que cada sitio web sea único y refleje tanto la
               marca, como los valores de nuestros clientes.

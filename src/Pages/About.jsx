@@ -46,9 +46,7 @@ function About(props) {
             <div>
               <Link
                 className="Whatsapp"
-                to={
-                  "https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
-                }
+                to={"https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"}
               >
                 <FaWhatsappSquare className="Icon" />
               </Link>
@@ -62,7 +60,7 @@ function About(props) {
 
               <Link
                 className="Linkedin"
-                to="linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
+                to={"linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"}
               >
                 <BsLinkedin className="Icon" />
               </Link>
