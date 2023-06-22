@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
-import Contacto from "./Contacto";
+import Contacto from "/Contacto";
 
 import Loading from "../Components/Loading";
 import "../App.css";
