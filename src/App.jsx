@@ -12,7 +12,7 @@ const NotFound = React.lazy(() => import("./Pages/NotFound"));
 
 function App() {
   return (
-    <Suspense fallback={<p>cargando...</p>}>
+    <Suspense fallback={<Loading />}>
       <Router>
         <Header />
         <Routes>
