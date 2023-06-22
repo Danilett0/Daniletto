@@ -33,3 +33,16 @@ Si deseas contactarme para colaboraciones o más información, puedes encontrarm
 ## Licencia
 
 Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles.
+
+## Aplicacion
+
+Para visualizar el proyecto se puede acceder directamente a: https://daniletto.netlify.app/About
+
+## Instalacion Local
+
+Si se desea ejecutar el proyecto de forma local solo basta con seguir los siguientes pasos:
+1. Asegurarse de tener Node instalado previamente (importante).
+2. Descargar el repositorio o clonarlo (lo que mejor le parezca).
+3. una vez descargado se debe acceder a la carpeta y usando su terminal de confianza ejecutar el comando npm install (asegurese de estar en la ruta del proyecto).
+4. Instaladas las dependencias ya solo queda desplegar la aplicacion, para ello ejecuta el comando npm start (abrira su navegador y tendra la aplicacion ejecutandose).
+
