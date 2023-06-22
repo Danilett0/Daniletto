@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
+import LinksNavegacion from "../Components/LinksNavegacion";
 
 import Loading from "../Components/Loading";
 import "../App.css";
@@ -12,6 +13,7 @@ const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 function Home() {
   return (
     <main>
+      <LinksNavegacion></LinksNavegacion>
       <div className="Encabezado">
         <h1>¿Por qué soy tu mejor opción?</h1>
         <p>

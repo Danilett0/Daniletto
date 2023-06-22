@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
@@ -13,8 +13,6 @@ const NotFound = React.lazy(() => import("./Pages/NotFound"));
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/Daniletto" element={<Home />}></Route>
           <Route path="*" element={<NotFound />}></Route>
@@ -22,7 +20,6 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contacto" element={<Contacto />}></Route>
         </Routes>
-      </Suspense>
     </BrowserRouter>
   );
 }
