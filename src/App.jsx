@@ -13,14 +13,14 @@ const NotFound = React.lazy(() => import("./Pages/NotFound"));
 function App() {
   return (
     <BrowserRouter>
-      <Header />
       <Suspense fallback={<Loading />}>
+        <Header />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
-          <Route path="/Portafolio" element={<Portafolio />}></Route>
-          <Route path="/About" element={<About />}></Route>
-          <Route path="/Contacto" element={<Contacto />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="*" element={<NotFound />}></Route>
+          <Route exact path="/Portafolio" element={<Portafolio />}></Route>
+          <Route exact path="/About" element={<About />}></Route>
+          <Route exact path="/Contacto" element={<Contacto />}></Route>
         </Routes>
       </Suspense>
     </BrowserRouter>
