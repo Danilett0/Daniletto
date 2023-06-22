@@ -1,14 +1,14 @@
-import React, { Suspense } from "react";
-import "./App.css";
+import { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Loading from "./Components/Loading";
 
-const Home = React.lazy(() => import("./Pages/Home"));
-const About = React.lazy(() => import("./Pages/About"));
-const Contacto = React.lazy(() => import("./Pages/Contacto"));
-const Portafolio = React.lazy(() => import("./Pages/Portafolio"));
-const NotFound = React.lazy(() => import("./Pages/NotFound"));
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contacto from "./Pages/Contacto";
+import Portafolio from "./Pages/Portafolio";
+import NotFound from "./Pages/NotFound";
+import "./App.css";
 
 function App() {
   return (
