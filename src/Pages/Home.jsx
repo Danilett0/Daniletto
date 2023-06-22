@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
+import Contacto from "./Contacto";
 
 import Loading from "../Components/Loading";
 import "../App.css";
@@ -14,6 +15,9 @@ function Home() {
     <main>
       <div className="Encabezado">
         <h1>¿Por qué soy tu mejor opción?</h1>
+        <Link to={<Contacto />}> contacto</Link>
+        <a href="/Contacto">asdasd</a>
+        <a href="Daniletto/Contacto">asd</a>
         <p>
           Siempre me encofo en 3 cosas para cada uno de mis clientes: calidad,
           cumplimiento y atención. Me aseguro de que cada sitio web sea único y

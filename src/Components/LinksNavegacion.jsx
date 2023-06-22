@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
@@ -7,28 +7,28 @@ function LinksNavegacion(props) {
     <nav aria-label="links de navegacion">
       <ul>
         <li>
-          <Link to="/Daniletto" >
+          <NavLink to="/Daniletto" activeclassname="active">
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Portafolio" >
+          <NavLink to="/Portafolio" activeclassname="active">
             Portafolio
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/About" >
+          <NavLink to="/About" activeclassname="active">
             Sobre mí
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             className="LinkContacto"
             to="/Contacto"
-            
+            activeclassname="active"
           >
             Contacto
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
