@@ -29,7 +29,7 @@ function Portafolio() {
             una idea de lo que puedo hacer por ti y por tu proyecto.
           </p>
         </div>
-        <img src="Daniletto/images/landing.png" alt="imagen landing page" />
+        <img src="/images/landing.png" alt="imagen landing page" />
       </div>
 
       <VisualEffectTopWhite />

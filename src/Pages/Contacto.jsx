@@ -25,7 +25,7 @@ function Contacto() {
         <div className="Imagen">
           <img
             loading="lazy"
-            src="./images/contacto.png"
+            src="/images/contacto.png"
             alt="imagen contacto"
           />
 
