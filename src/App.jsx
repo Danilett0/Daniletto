@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Loading from "./Components/Loading";
 
@@ -12,7 +12,7 @@ const NotFound = React.lazy(() => import("./Pages/NotFound"));
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Suspense fallback={<Loading />}>
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Contacto" element={<Contacto />}></Route>
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
