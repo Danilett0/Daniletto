@@ -1,6 +1,5 @@
 import React from "react";
 import Loading from "../Components/Loading";
-import { Link } from "react-router-dom";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
@@ -30,26 +29,29 @@ function Contacto() {
           />
 
           <div>
-            <Link
+            <a
               className="Whatsapp"
-              to={"https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"}
+              target="_blanck"
+              href="https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
             >
               <FaWhatsappSquare className="Icon" />
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="Email"
-              to={"mailto:daniilo.97@hotmail.com?subject=DANILETTO"}
+              target="_blanck"
+              href="mailto:daniilo.97@hotmail.com?subject=DANILETTO"
             >
               <MdMarkEmailUnread className="Icon" />
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="Linkedin"
-              to={"linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"}
+              target="_blanck"
+              href="https://www.linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
             >
               <BsLinkedin className="Icon" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
