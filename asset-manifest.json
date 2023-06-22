@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Daniletto/static/css/main.df13941e.css",
-    "main.js": "/Daniletto/static/js/main.0dbd1b8b.js",
+    "main.js": "/Daniletto/static/js/main.493a1f3c.js",
     "static/css/915.1e085148.chunk.css": "/Daniletto/static/css/915.1e085148.chunk.css",
-    "static/js/915.195287b5.chunk.js": "/Daniletto/static/js/915.195287b5.chunk.js",
+    "static/js/915.60c92ee1.chunk.js": "/Daniletto/static/js/915.60c92ee1.chunk.js",
     "static/css/608.f3abdaf1.chunk.css": "/Daniletto/static/css/608.f3abdaf1.chunk.css",
     "static/js/608.8a3f2479.chunk.js": "/Daniletto/static/js/608.8a3f2479.chunk.js",
     "static/css/885.8b8737b9.chunk.css": "/Daniletto/static/css/885.8b8737b9.chunk.css",
@@ -19,9 +19,9 @@
     "static/media/backgroud-encabezado.jpg": "/Daniletto/static/media/backgroud-encabezado.7899de0628cc52ee77a9.jpg",
     "index.html": "/Daniletto/index.html",
     "main.df13941e.css.map": "/Daniletto/static/css/main.df13941e.css.map",
-    "main.0dbd1b8b.js.map": "/Daniletto/static/js/main.0dbd1b8b.js.map",
+    "main.493a1f3c.js.map": "/Daniletto/static/js/main.493a1f3c.js.map",
     "915.1e085148.chunk.css.map": "/Daniletto/static/css/915.1e085148.chunk.css.map",
-    "915.195287b5.chunk.js.map": "/Daniletto/static/js/915.195287b5.chunk.js.map",
+    "915.60c92ee1.chunk.js.map": "/Daniletto/static/js/915.60c92ee1.chunk.js.map",
     "608.f3abdaf1.chunk.css.map": "/Daniletto/static/css/608.f3abdaf1.chunk.css.map",
     "608.8a3f2479.chunk.js.map": "/Daniletto/static/js/608.8a3f2479.chunk.js.map",
     "885.8b8737b9.chunk.css.map": "/Daniletto/static/css/885.8b8737b9.chunk.css.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.df13941e.css",
-    "static/js/main.0dbd1b8b.js"
+    "static/js/main.493a1f3c.js"
   ]
 }
