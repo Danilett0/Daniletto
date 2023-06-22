@@ -1,9 +1,8 @@
 import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
-import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
-
 import Loading from "../Components/Loading";
+import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import "../App.css";
 import "../styles/pages/Home.css";
 
