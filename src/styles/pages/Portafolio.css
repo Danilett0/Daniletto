@@ -1,7 +1,7 @@
 .Portafolio .Encabezado {
   width: 100%;
   background-color: white;
-  padding: 25px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -46,7 +46,6 @@
 
 .Portafolio .Proyectos h2 {
   color: white;
-  margin-top: 30px;
 }
 .Portafolio .Proyectos .Box-Proyectos {
   display: flex;

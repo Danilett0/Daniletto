@@ -52,12 +52,27 @@ p {
   color: var(--color-primario);
 }
 
+.EfectBorderRoundBlue,
+.EfectBorderRoundWhite {
+  height: 150px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.EfectBorderRoundBlue {
+  background-color: white !important;
+}
+
+.EfectBorderRoundWhite {
+  background-color: #092239 !important;
+}
+
 @media screen and (max-width: 777px) {
   h1 {
     font-size: 23px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h3 {
     font-size: 17px;
@@ -67,5 +82,9 @@ p {
   }
   p {
     font-size: 15px;
+  }
+  .EfectBorderRoundBlue,
+  .EfectBorderRoundWhite {
+    height: 100px;
   }
 }

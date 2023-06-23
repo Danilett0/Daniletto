@@ -245,13 +245,18 @@
 
 /* espacio para ajuste de cambio de tamaño de pantalla */
 @media screen and (max-width: 777px) {
+
+  .About .Box-Perfil{
+    padding: 10px;
+  }
+
   .About .Box-Perfil .Perfil {
     flex-direction: column-reverse;
     border: 1px solid var(--gris-claro);
     border-radius: 3px;
     margin: 0px;
     padding-top: 20px;
-    box-shadow: 0px 0px 10px var(--gris-oscuro);
+    box-shadow: 0px 0px 10px var(--gris-claro);
   }
 
   .About .Box-Perfil .Perfil .Descripcion {
@@ -272,15 +277,25 @@
   .About .Habilidades {
     flex-direction: column-reverse;
     margin: 0px;
+    padding: 10px;
   }
 
   .About .Habilidades .Texto {
     width: 90%;
   }
 
+  .About .Habilidades .Texto p{
+    display: flex;
+  }
+
   .About .Habilidades .Imagen {
     display: none;
   }
+
+  .About .Metodologia h2 {
+    margin: 30px 0px;
+  }
+
   .About .Metodologia .Cards {
     flex-direction: column;
     align-items: center;
@@ -290,4 +305,17 @@
     margin-bottom: 20px;
     max-width: 350px;
   }
+
+  .About .Metodologia .Cards .Card:hover{
+    transform: scale(1);
+  }
+
+  .About .Contacto {
+    padding: 10px;
+  }
+
+  .About .Contacto p{
+    margin: 20px 0px;
+  }
+
 }

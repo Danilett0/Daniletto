@@ -8,7 +8,7 @@ main .Encabezado {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 25px;
+  padding: 15px;
   position: relative;
   height: 85vh;
   clip-path: ellipse(100% 141% at 50% -45%);
@@ -50,7 +50,7 @@ main .Beneficios {
 
 main .Beneficios h2 {
   color: white;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 main .Beneficios .Cards {
@@ -109,14 +109,6 @@ main .Beneficios .Cards .Card p {
   overflow: hidden;
 }
 
-main .Contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-  padding: 25px;
-}
-
 main .Contacto h2 {
   color: white;
 }
@@ -166,7 +158,9 @@ main .Contacto .Datos-Form img {
 /* espacio para ajuste de cambio de tamaño de pantalla */
 @media screen and (max-width: 777px) {
   main .Encabezado {
-    clip-path: ellipse(137% 130% at 50% -50%);
+    justify-content: flex-start;
+    padding-top: 40px;
+    height: 60vh;
   }
 
   main .Encabezado p {
@@ -178,12 +172,21 @@ main .Contacto .Datos-Form img {
     font-size: 12px;
   }
 
+  main .Beneficios {
+    margin: 0px;
+    padding: 0px 25px;
+  }
+
   main .Cards {
     flex-direction: column;
   }
 
   main .Beneficios .Cards .Card {
     margin-bottom: 20px;
+  }
+
+  main .Preguntas-Frecuentes {
+    padding: 0px 15px;
   }
 
   main .Contacto .Datos-Form {

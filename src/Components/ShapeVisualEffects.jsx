@@ -2,14 +2,7 @@ import React from "react";
 
 export const VisualEffectTopBlue = () => {
   return (
-    <div
-      style={{
-        height: "150px",
-        overflow: "hidden",
-        backgroundColor: "white",
-        width: "100%",
-      }}
-    >
+    <div className="EfectBorderRoundBlue">
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"
@@ -26,14 +19,7 @@ export const VisualEffectTopBlue = () => {
 
 export const VisualEffectTopWhite = () => {
   return (
-    <div
-      style={{
-        height: "150px",
-        overflow: "hidden",
-        backgroundColor: "#092239",
-        width: "100%",
-      }}
-    >
+    <div className="EfectBorderRoundWhite">
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"
