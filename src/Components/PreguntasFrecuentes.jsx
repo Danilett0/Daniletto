@@ -4,11 +4,11 @@ import { preguntasFrecuentes } from "./data";
 import "../styles/components/PreguntasFrecuentes.css";
 
 function PreguntasFrecuentes() {
-  const [preguntaExpandida, setPreguntaExpandida] = useState("0px");
+  const [pregunta, setpregunta] = useState(preguntasFrecuentes[0].id);
 
-  function handleClick(id) {
-    setPreguntaExpandida(id === preguntaExpandida ? true : id);
-  }
+  const handleClick = (id) => {
+    setpregunta( (id === pregunta) ? "close" : id);
+  };
 
   return (
     <div className="Preguntas">
@@ -21,10 +21,8 @@ function PreguntasFrecuentes() {
           <div
             className="Respuesta"
             style={{
-              height:
-                preguntaExpandida === preguntaFrecuente.id ? "95px" : "0px",
-              overflow: "hidden",
-              transition: "height 0.5s ease-in-out",
+              height: (pregunta === preguntaFrecuente.id) ? "auto" : "0px",
+              overflow: "hidden"
             }}
           >
             <div>
