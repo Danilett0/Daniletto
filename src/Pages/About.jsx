@@ -1,9 +1,10 @@
-import React, {Suspense} from "react";
+import React, { Suspense } from "react";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import Loading from "../Components/Loading";
 import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
+import { FcDocument } from "react-icons/fc";
 import { ListaHabilidades } from "../Components/data";
 import "../App.css";
 import "../styles/pages/About.css";
@@ -33,7 +34,9 @@ function About(props) {
                 Te invito a visitar mi perfil en GitHb para ver mas sobre mis
                 proyectos
               </p>
-              <a target="_blanck" href="https://github.com/Danilett0">Ver Repositorio </a>
+              <a target="_blanck" href="https://github.com/Danilett0">
+                Ver Repositorio{" "}
+              </a>
             </div>
           </div>
 
@@ -48,6 +51,7 @@ function About(props) {
                 target="_blanck"
                 rel="noopener noreferrer"
                 href="https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
+                title="Escribir a WhatsApp"
               >
                 <FaWhatsappSquare className="Icon" />
               </a>
@@ -57,6 +61,7 @@ function About(props) {
                 target="_blanck"
                 rel="noopener noreferrer"
                 href="mailto:daniilo.97@hotmail.com?subject=DANILETTO"
+                title="Enviar Correo"
               >
                 <MdMarkEmailUnread className="Icon" />
               </a>
@@ -66,8 +71,19 @@ function About(props) {
                 target="_blanck"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
+                title="Ver Perfil de Linkedin"
               >
                 <BsLinkedin className="Icon" />
+              </a>
+
+              <a
+                className="cv"
+                rel="noopener noreferrer"
+                href="/docs/cv.pdf"
+                download
+                title="Descargar CV Jeferson"
+              >
+               <FcDocument className="Icon" />
               </a>
             </div>
           </div>
