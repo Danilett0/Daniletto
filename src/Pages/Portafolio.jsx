@@ -19,14 +19,18 @@ function Portafolio() {
           <p>
             Bienvenido a mi portafolio de diseño web, donde podrás ver algunos
             de los proyectos que he realizado y que reflejan mi estilo, mi
-            creatividad y mis habilidades técnicas. <br />
-            <br /> Me apasiona el diseño web y me gusta crear experiencias
-            digitales innovadoras, atractivas e intuitivas para diferentes tipos
-            de clientes y usuarios. En este portafolio encontrarás una muestra
-            de mi trabajo, desde sitios web corporativos hasta aplicaciones web
-            interactivas, pasando por diseños gráficos y motion graphics. <br />
-            <br /> Espero que te guste lo que ves y que te sirva para hacerte
-            una idea de lo que puedo hacer por ti y por tu proyecto.
+            creatividad y mis habilidades técnicas.
+          </p>
+          <p>
+            Me apasiona el diseño web y me gusta crear experiencias digitales
+            innovadoras, atractivas e intuitivas para diferentes tipos de
+            clientes y usuarios. En este portafolio encontrarás una muestra de
+            mi trabajo, desde sitios web corporativos hasta aplicaciones web
+            interactivas, pasando por diseños gráficos y motion graphics.
+          </p>
+          <p>
+            Espero que te guste lo que ves y que te sirva para hacerte una idea
+            de lo que puedo hacer por ti y por tu proyecto.
           </p>
         </div>
         <img src="/images/landing.png" alt="imagen landing page" />
@@ -36,7 +40,7 @@ function Portafolio() {
 
       <div className="Proyectos">
         <h2>
-          Te presento algunos <br /> de mis proyectos favoritos
+          Te presento algunos de mis proyectos favoritos
         </h2>
 
         <div className="ProyectosIniciales">
@@ -149,9 +153,7 @@ function Portafolio() {
             creado para diferentes propósitos. Son proyectos sencillos pero con
             un diseño atractivo y funcional. Si quieres ver más de mi trabajo,
             puedes visitar mi repositorio de github donde encontrarás otros
-            proyectos más complejos y variados. <br />
-            <br />
-            <br />
+            proyectos más complejos y variados.
             <Link to="https://github.com/Danilett0?tab=repositories">
               Ver Repositorio
             </Link>

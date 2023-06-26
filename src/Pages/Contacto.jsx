@@ -12,7 +12,7 @@ function Contacto() {
   return (
     <div className="Contacto">
       <h1>
-        CONTÁCTAME PARA OBTENER <br /> MÁS INFORMACIÓN
+        CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN
       </h1>
       <div className="Datos-Form">
         <Suspense fallback={<Loading />}>

@@ -21,13 +21,17 @@ function About(props) {
             <p>
               Soy un desarrollador web con experiencia en UX y diseño. Me
               apasiona crear soluciones web que combinen funcionalidad, estética
-              y usabilidad. <br />
-              <br /> Mi trabajo refleja mi esencia y mi calidad. Soy una persona
+              y usabilidad.
+            </p>
+            <p>
+              Mi trabajo refleja mi esencia y mi calidad. Soy una persona
               creativa y recursiva, que siempre busca nuevas formas de resolver
-              problemas y mejorar los procesos. <br />
-              <br /> No tengo miedo de proponer ideas innovadoras y de aprender
-              de mis errores. Soy responsable y respetuoso con mis clientes,
-              compañeros y mi trabajo.
+              problemas y mejorar los procesos.
+            </p>
+            <p>
+              No tengo miedo de proponer ideas innovadoras y de aprender de mis
+              errores. Soy responsable y respetuoso con mis clientes, compañeros
+              y mi trabajo.
             </p>
             <div className="GitHub">
               <p>
@@ -35,7 +39,7 @@ function About(props) {
                 proyectos
               </p>
               <a target="_blanck" href="https://github.com/Danilett0">
-                Ver Repositorio{" "}
+                Ver Repositorio
               </a>
             </div>
           </div>
@@ -83,7 +87,7 @@ function About(props) {
                 download
                 title="Descargar CV Jeferson"
               >
-               <FcDocument className="Icon" />
+                <FcDocument className="Icon" />
               </a>
             </div>
           </div>

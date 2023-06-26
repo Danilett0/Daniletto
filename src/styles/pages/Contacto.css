@@ -10,6 +10,8 @@
 .Contacto h1 {
   color: white;
   margin-bottom: 100px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .Contacto .Datos-Form {

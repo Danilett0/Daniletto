@@ -1,5 +1,5 @@
 main .Encabezado {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.76), #09223980),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829), #08182780),
     url("/public/images/backgroud-encabezado.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -16,16 +16,26 @@ main .Encabezado {
 
 main .Encabezado h1 {
   color: white;
+  width: 100%;
+  max-width: 700px;
 }
 
 main .Encabezado p {
   text-align: center;
   font-size: 19px;
-  font-weight: bold;
   width: 100%;
   max-width: 700px;
   margin: 30px 0px;
   color: white;
+}
+
+main .Encabezado p .creador{
+  background-color: transparent;
+  padding: 2px;
+  text-transform: none;
+  font-weight: 600;
+  font-family: Nunito, sans-serif;
+ 
 }
 
 main .Encabezado a {
@@ -50,7 +60,9 @@ main .Beneficios {
 
 main .Beneficios h2 {
   color: white;
-  margin-top: 40px;
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
 }
 
 main .Beneficios .Cards {
@@ -111,6 +123,8 @@ main .Beneficios .Cards .Card p {
 
 main .Contacto h2 {
   color: white;
+  width: 100%;
+  max-width: 500px;
 }
 
 main .Contacto .Datos-Form {
