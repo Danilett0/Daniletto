@@ -32,18 +32,20 @@ export const preguntasFrecuentes = [
 ];
 
 export const ListaHabilidades = [
-  { id: 1, habilidad: "Diseño y desarrollo web." },
+  { id: 1, habilidad: "Diseño y desarrollo de sitios web." },
   {
     id: 2,
-    habilidad: "Moficaciones, ajustes o nuevas funcionalidades para tu web.",
+    habilidad: "Modificaciones, ajustes o nuevas funcionalidades.",
   },
   {
     id: 3,
     habilidad:
-      "Creacion de contenido (imagen, video, texto) para tu sitio web.",
+      "Creación  de contenido para tu sitio web.",
   },
   { id: 5, habilidad: "Diseño de plantillas de correo electrónico HTML." },
-  { id: 6, habilidad: "Administración de alojamiento web." },
-  { id: 7, habilidad: "Optimización para motores de búsqueda (SEO)" },
-  { id: 8, habilidad: "Creacion de tienda online" },
+  { id: 6, habilidad: "Gestion para adquirir hosting y dominio." },
+  { id: 7, habilidad: "Optimización para motores de búsqueda (SEO)." },
+  { id: 8, habilidad: "Creación  de tienda online." },
+  { id: 8, habilidad: "Creación  del Diseño para tu sitio." },
+  { id: 8, habilidad: "Atencion personalizada para tu proyecto." },
 ];

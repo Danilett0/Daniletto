@@ -125,6 +125,7 @@
 
 .About .Habilidades .Texto p {
   color: white;
+  margin: 5px 0px;
 }
 .About .Habilidades .Texto ul .Icon {
   color: rgb(12, 199, 183);
