@@ -1,4 +1,4 @@
-# Daniletto
+# [Daniletto](https://daniletto.site)
 
 ¡Bienvenido/a a mi proyecto personal! Este repositorio es una muestra de mi trabajo como desarrollador web, donde podrás encontrar algunos de mis proyectos y habilidades.
 
@@ -36,7 +36,7 @@ Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo [LICENSE](.
 
 ## Aplicacion
 
-Para visualizar el proyecto se puede acceder directamente a: https://daniletto.netlify.app/About
+Para visualizar el proyecto se puede acceder directamente a: https://daniletto.site
 
 ## Instalacion Local
 
