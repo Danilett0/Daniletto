@@ -9,6 +9,10 @@
 .Header .Logo {
   width: 100%;
   max-width: 200px;
+  min-width: 100px;
+  height: 100%;
+  max-height: 70px;
+  min-height: 50px;
 }
 
 .Header .Logo img {

@@ -47,7 +47,7 @@ function About(props) {
           <div className="Imagen">
             <img
               src="/images/perfil.jpg"
-              alt="imagen perfil jeferson danilo castro"
+              alt="imagen de perfil jeferson danilo castro becerra"
             />
             <div>
               <a
@@ -114,7 +114,7 @@ function About(props) {
         <img
           className="Imagen"
           src="/images/dev.png"
-          alt="imagen desarrollador"
+          alt="Desarrollador web Daniletto"
         />
       </div>
 
@@ -126,7 +126,7 @@ function About(props) {
             <img
               loading="lazy"
               src="/images/requerimientos.png"
-              alt="icono requerimientos"
+              alt="requerimientos para empezar tu proyecto web"
             />
             <p>
               Analizo el objetivo, el público y las necesidades de tu sitio web.
@@ -136,7 +136,7 @@ function About(props) {
           </div>
           <div className="Card" data-content="2">
             <h4>DISEÑO</h4>
-            <img loading="lazy" src="/images/diseño.png" alt="icono diseño" />
+            <img loading="lazy" src="/images/diseño.png" alt="diseño web Daniletto" />
             <p>
               Creo la apariencia y la interfaz de tu sitio web, pensando en la
               usabilidad, la accesibilidad y la experiencia de usuario.
@@ -147,7 +147,7 @@ function About(props) {
             <img
               loading="lazy"
               src="/images/desarrollo.png"
-              alt="icono desarrollo"
+              alt="desarrollo de paginas web"
             />
             <p>
               Codifico tu sitio web usando los lenguajes de programación más
@@ -160,7 +160,7 @@ function About(props) {
             <img
               loading="lazy"
               src="/images/implementacion.png"
-              alt="icono implementacion"
+              alt="implementacion de sitios web"
             />
             <p>
               Subo tu sitio web al servidor para que sea visiable desde

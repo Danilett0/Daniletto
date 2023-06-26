@@ -56,6 +56,10 @@
 
 .Contacto .Datos-Form .Imagen img {
   width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  height: 100%;
+  max-height: 400px;
 }
 
 .Contacto .Datos-Form .Imagen a.Whatsapp {

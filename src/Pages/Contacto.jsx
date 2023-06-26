@@ -11,21 +11,19 @@ const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 function Contacto() {
   return (
     <div className="Contacto">
-      <h1>
-        CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN
-      </h1>
+      <h1>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h1>
       <div className="Datos-Form">
         <Suspense fallback={<Loading />}>
           <FormContacto />
         </Suspense>
 
         <div className="Imagen">
-          <img
-            loading="lazy"
-            src="/images/contacto.png"
-            alt="imagen contacto"
-          />
-
+            <img
+              loading="lazy"
+              src="/images/contacto.png"
+              alt="imagen de contacto Daniletto"
+            />
+            
           <div>
             <a
               className="Whatsapp"
