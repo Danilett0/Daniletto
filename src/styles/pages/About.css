@@ -23,6 +23,7 @@
 
 .About .Box-Perfil .Perfil .Descripcion {
   width: 60%;
+  padding: 0px 10px;
 }
 
 .About .Box-Perfil .Perfil .Descripcion .GitHub {
