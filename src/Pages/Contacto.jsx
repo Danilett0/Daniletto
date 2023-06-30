@@ -11,7 +11,7 @@ const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 function Contacto() {
   return (
     <div className="Contacto">
-      <h1>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h1>
+      <h1>CONTÁCTEME PARA OBTENER MÁS INFORMACIÓN</h1>
       <div className="Datos-Form">
         <Suspense fallback={<Loading />}>
           <FormContacto />

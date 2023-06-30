@@ -49,7 +49,7 @@ function About(props) {
           <div className="Imagen">
             <img
               src="/images/perfil.jpg"
-              alt="imagen de perfil jeferson danilo castro becerra"
+              alt="imagen de perfil Jeferson Danilo Castro Becerra"
             />
             <div>
               <a
@@ -162,15 +162,15 @@ function About(props) {
             </p>
           </div>
           <div className="Card" data-content="4">
-            <h4>IMPLEMENTACION</h4>
+            <h4>IMPLEMENTACIÓN</h4>
             <img
               loading="lazy"
               src="/images/implementacion.png"
               alt="implementacion de sitios web"
             />
             <p>
-              Subo tu sitio web al servidor para que sea visiable desde
-              cualquier parte del mundo, valido la visualizacion en diferentes
+              Subo tu sitio web al servidor para que sea visible desde
+              cualquier parte del mundo, valido la visualización en diferentes
               navegadores web.
             </p>
           </div>

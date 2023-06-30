@@ -4,11 +4,11 @@ import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
   return (
-    <nav aria-label="links de navegacion">
+    <nav aria-label="links de navegación">
       <ul>
         <li>
           <NavLink to="/" activeclassname="active">
-            Home
+            Inicio
           </NavLink>
         </li>
         <li>
@@ -18,7 +18,7 @@ function LinksNavegacion(props) {
         </li>
         <li>
           <NavLink to="/About" activeclassname="active">
-            Sobre mí
+          ¿Quien soy?
           </NavLink>
         </li>
         <li>
@@ -27,7 +27,7 @@ function LinksNavegacion(props) {
             to="/Contacto"
             activeclassname="active"
           >
-            Contacto
+            CONTÁCTAME
           </NavLink>
         </li>
       </ul>

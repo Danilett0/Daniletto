@@ -47,7 +47,7 @@ function Portafolio() {
           <div className="Box-Proyectos">
             <div className="Proyecto">
               <h4>App del clima</h4>
-              <img src="/images/sol.png" alt="aplicacion del clima con react" />
+              <img src="/images/sol.png" alt="Aplicación del clima con react" />
               <p>
                 Conoce el clima con esta app. Temperatura, humedad, viento,
                 presión y pronóstico. Hecha con React y lo último en tecnología.
@@ -59,7 +59,7 @@ function Portafolio() {
 
             <div className="Proyecto">
               <h4>Calculadora</h4>
-              <img src="/images/calculadora.png" alt="aplicacion de calculadora con react" />
+              <img src="/images/calculadora.png" alt="Aplicación de calculadora con react" />
               <p>
                 Domina las matemáticas con la app calculadora. Realiza
                 operaciones básicas con una interfaz sencilla y bonita. Creada
@@ -72,7 +72,7 @@ function Portafolio() {
 
             <div className="Proyecto">
               <h4>Imagen Random</h4>
-              <img src="/images/imagenes.png" alt="aplicacion de random gif con react" />
+              <img src="/images/imagenes.png" alt="Aplicación de random gif con react" />
               <p>
                 Te gustan las sorpresas? Con esta app podrás generar imágenes
                 increíbles con frases al azar. ¡Nunca sabrás lo que te va a
@@ -94,14 +94,14 @@ function Portafolio() {
             </Link>
           </div>
           <div className="Proyecto">
-            <img src="/images/FincaRaiz.jpeg" alt="creacion de pagina web para FincaRaiz" />
-            <h4>Pagina FincaRaiz</h4>
+            <img src="/images/FincaRaiz.jpeg" alt="Creación de pagina web para FincaRaíz" />
+            <h4>Pagina FincaRaíz</h4>
             <Link to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
               VER SITIO WEB
             </Link>
           </div>
           <div className="Proyecto">
-            <img src="/images/BookMark.jpeg" alt="creacion de pagina web BookMark" />
+            <img src="/images/BookMark.jpeg" alt="Creación de pagina web BookMark" />
             <h4>Landing Page BookMark</h4>
             <Link to="https://danilett0.github.io/Landing-Page-Bokmark/">
               VER SITIO WEB
@@ -120,7 +120,7 @@ function Portafolio() {
               <div className="Proyecto">
                 <img
                   src="/images/ClaudiaBotero.jpeg"
-                  alt="creacion de pagina web para psicologa"
+                  alt="creación de pagina web para psicóloga"
                 />
                 <h4>Landing Page ClaudiaBotero</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Psicologa/">
@@ -128,14 +128,14 @@ function Portafolio() {
                 </Link>
               </div>
               <div className="Proyecto">
-                <img src="/images/LifeMiles.jpg" alt="creacion de pagina web LifeMiles" />
+                <img src="/images/LifeMiles.jpg" alt="creación de pagina web LifeMiles" />
                 <h4>Landing Page LifeMiles</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Lifemiles/">
                   VER SITIO WEB
                 </Link>
               </div>
               <div className="Proyecto">
-                <img src="/images/Shortly.jpeg" alt="creacion de pagina web Shortly" />
+                <img src="/images/Shortly.jpeg" alt="creación de pagina web Shortly" />
                 <h4>Landing Page Shortly</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Shortli/">
                   VER SITIO WEB
@@ -158,7 +158,7 @@ function Portafolio() {
               Ver Repositorio
             </Link>
           </p>
-          <img src="/images/Person.png" alt="consulta mas informacion sobre Daniletto" />
+          <img src="/images/Person.png" alt="consulta mas información sobre Daniletto" />
         </div>
       </div>
     </div>

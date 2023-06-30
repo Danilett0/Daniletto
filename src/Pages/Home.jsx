@@ -40,9 +40,9 @@ function Home() {
           </div>
           <div className="Card">
             <h3>PRECIOS asequibles</h3>
-            <img loading="lazy" src="/images/Dinero.png" alt="Icono de paginas web economicas" />
+            <img loading="lazy" src="/images/Dinero.png" alt="Icono de paginas web económicas" />
             <p>
-              Ofresco precios competitivos para que puedas obtener un sitio web
+              Ofrezco precios competitivos para que puedas obtener un sitio web
               de muy alta calidad sin gastar una fortuna.
             </p>
           </div>
@@ -51,7 +51,7 @@ function Home() {
             <img
               loading="lazy"
               src="/images/Satisfaccion.png"
-              alt="Icono de satisfaccion del usuario en su sitio web"
+              alt="Icono de satisfacción del usuario en su sitio web"
             />
             <p>
               Cada sitio web sera muy fácil de usar y estará diseñado para
@@ -68,7 +68,7 @@ function Home() {
 
       <div className="Contacto">
         <h2>
-          CONTÁCTANOS PARA OBTENER MÁS INFORMACIÓN
+          CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN
         </h2>
         <div className="Datos-Form">
           {
@@ -80,7 +80,7 @@ function Home() {
           <img
             loading="lazy"
             src="/images/contacto.png"
-            alt="Imagen de contacdo Daniletto"
+            alt="Imagen de contacto Daniletto"
           />
         </div>
       </div>
