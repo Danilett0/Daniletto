@@ -132,7 +132,7 @@
   margin: 5px 0px;
 }
 .About .Habilidades .Texto ul .Icon {
-  color: rgb(12, 199, 183);
+  color: var(--verde-claro);
   margin-right: 10px;
 }
 
@@ -143,6 +143,38 @@
 
 .About .Habilidades .Imagen {
   width: 50%;
+}
+
+.About .Conocimientos{
+  width: 100%;
+  padding: 5px;
+}
+
+.About .Conocimientos h3{
+  color: white;
+}
+
+.About .Conocimientos ul{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.About .Conocimientos li{
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin: auto 5px;
+}
+
+.About .Conocimientos li .Icon{
+  color: var(--verde-claro);
+}
+
+.About .Conocimientos li p{
+  color: white;
+  margin-left: 3px;
+  font-size: 14px;
 }
 
 .About .Metodologia {
@@ -298,6 +330,10 @@
   }
 
   .About .Habilidades .Imagen {
+    display: none;
+  }
+
+  .About .Conocimientos{
     display: none;
   }
 

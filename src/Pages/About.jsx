@@ -5,7 +5,7 @@ import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { FcDocument } from "react-icons/fc";
-import { ListaHabilidades } from "../Components/data";
+import { ListaServicios, HabilidadesTecnica } from "../Components/data";
 import "../App.css";
 import "../styles/pages/About.css";
 
@@ -19,9 +19,8 @@ function About(props) {
           <div className="Descripcion">
             <h1>JEFERSON DANILO CASTRO BECERRA</h1>
             <p>
-              Soy un desarrollador Front end. Me
-              apasiona crear soluciones web que combinen funcionalidad, estética
-              y usabilidad.
+              Soy un desarrollador Front end. Me apasiona crear soluciones web
+              que combinen funcionalidad, estética y usabilidad.
             </p>
             <p>
               Mi trabajo refleja mi esencia y mi calidad. Soy una persona
@@ -30,10 +29,10 @@ function About(props) {
             </p>
             <p>
               Me aseguro de que cada solución sea personalizada y adaptada a tus
-              necesidades. Si estás buscando a alguien comprometido, creativo y 
-              confiable, puedo ayudarte a hacer realidad tus ideas.
-              Si tienes alguna pregunta o necesitas más
-              información, no dudes en contactarme.
+              necesidades. Si estás buscando a alguien comprometido, creativo y
+              confiable, puedo ayudarte a hacer realidad tus ideas. Si tienes
+              alguna pregunta o necesitas más información, no dudes en
+              contactarme.
             </p>
             <div className="GitHub">
               <p>
@@ -102,7 +101,7 @@ function About(props) {
         <div className="Texto">
           <h2>¿QUE PUEDO HACER POR TI?</h2>
           <ul>
-            {ListaHabilidades.map((listado) => (
+            {ListaServicios.map((listado) => (
               <li key={listado.id}>
                 <p>
                   <FaCheckCircle className="Icon" />
@@ -118,6 +117,18 @@ function About(props) {
           src="/images/dev.png"
           alt="Desarrollador web Daniletto"
         />
+      </div>
+
+      <div className="Conocimientos">
+        <h3>Conocimientos Técnicos</h3>
+        <ul>
+          {HabilidadesTecnica.map((item) => (
+            <li key={item.id}>
+              <FaCheckCircle className="Icon" />
+              <p>{item.talento}</p>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className="Metodologia">
@@ -169,9 +180,9 @@ function About(props) {
               alt="implementacion de sitios web"
             />
             <p>
-              Subo tu sitio web al servidor para que sea visible desde
-              cualquier parte del mundo, valido la visualización en diferentes
-              navegadores web.
+              Subo tu sitio web al servidor para que sea visible desde cualquier
+              parte del mundo, valido la visualización en diferentes navegadores
+              web.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ export const preguntasFrecuentes = [
   },
 ];
 
-export const ListaHabilidades = [
+export const ListaServicios = [
   { id: 1, habilidad: "Creación  del Diseño para tu sitio." },
   { id: 2, habilidad: "Construcción de tu pagina web" },
   {
@@ -48,3 +48,23 @@ export const ListaHabilidades = [
   { id: 8, habilidad: "Creación 100% personalizada para cada pagina web" },
   { id: 9, habilidad: "Soporte luego de la entrega del proyecto" },
 ];
+
+
+export const HabilidadesTecnica = [
+  { id: 1,  talento: "HTML" },
+  { id: 2,  talento: "CSS3" },
+  { id: 3,  talento: "JavaScript" },
+  { id: 4,  talento: "WordPress" },
+  { id: 5,  talento: "Sass" },
+  { id: 6,  talento: "Photoshop" },
+  { id: 7,  talento: "Git" },
+  { id: 8,  talento: "SEO" },
+  { id: 9,  talento: "Illustrator" },
+  { id: 10, talento: "Bootstrap" },
+  { id: 11, talento: "MySql" },
+  { id: 12, talento: "PHP" },
+  { id: 13, talento: "React" },
+  { id: 14, talento: "Marketing" },
+  { id: 15, talento: "UI/UX" },
+  { id: 16, talento: "Diseño Web" }
+]
