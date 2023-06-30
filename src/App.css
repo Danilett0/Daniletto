@@ -88,8 +88,4 @@ p {
   .EfectBorderRoundWhite {
     height: 100px;
   }
-
-  .box-menu {
-    display: flex;
-  }
 }

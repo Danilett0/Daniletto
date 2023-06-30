@@ -10,6 +10,10 @@ function MenuHamburguer(props) {
     menu === "close" ? setMenu("open") : setMenu("close");
   };
 
+  const cerrarMenu = () => {
+    setMenu("close");
+  };
+
   return (
     <div className="MenuHamburguer">
       <div className="hamburguer" onClick={animarMenu}>
@@ -21,12 +25,12 @@ function MenuHamburguer(props) {
       {menu === "open" && (
         <div className="box-menu">
           <div className="Logo">
-            <Link to="/">
+            <Link to="/" onClick={cerrarMenu}>
               <img src="/images/logo.png" alt="logo Daniletto" />
             </Link>
           </div>
 
-          <LinksNavegacion />
+          <LinksNavegacion cerrarMenu={cerrarMenu} />
         </div>
       )}
     </div>
