@@ -19,7 +19,7 @@ function About(props) {
           <div className="Descripcion">
             <h1>JEFERSON DANILO CASTRO BECERRA</h1>
             <p>
-              Soy un desarrollador web con experiencia en UX y diseño. Me
+              Soy un desarrollador Front end. Me
               apasiona crear soluciones web que combinen funcionalidad, estética
               y usabilidad.
             </p>
@@ -29,9 +29,11 @@ function About(props) {
               problemas y mejorar los procesos.
             </p>
             <p>
-              No tengo miedo de proponer ideas innovadoras y de aprender de mis
-              errores. Soy responsable y respetuoso con mis clientes, compañeros
-              y mi trabajo.
+              Me aseguro de que cada solución sea personalizada y adaptada a tus
+              necesidades. Si estás buscando a alguien comprometido, creativo y 
+              confiable, puedo ayudarte a hacer realidad tus ideas.
+              Si tienes alguna pregunta o necesitas más
+              información, no dudes en contactarme.
             </p>
             <div className="GitHub">
               <p>
@@ -136,7 +138,11 @@ function About(props) {
           </div>
           <div className="Card" data-content="2">
             <h4>DISEÑO</h4>
-            <img loading="lazy" src="/images/diseño.png" alt="diseño web Daniletto" />
+            <img
+              loading="lazy"
+              src="/images/diseño.png"
+              alt="diseño web Daniletto"
+            />
             <p>
               Creo la apariencia y la interfaz de tu sitio web, pensando en la
               usabilidad, la accesibilidad y la experiencia de usuario.

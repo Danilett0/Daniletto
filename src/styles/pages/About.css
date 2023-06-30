@@ -68,6 +68,9 @@
 }
 .About .Box-Perfil .Perfil .Imagen img {
   width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 50%;
 }
 .About .Box-Perfil .Perfil .Imagen p {
@@ -211,8 +214,10 @@
 
 .About .Metodologia .Cards .Card img {
   width: 100%;
+  height: 100%;
   max-width: 70px;
   min-width: 60px;
+  max-height: 70px;
   margin: 10px 0px;
 }
 .About .Metodologia .Cards .Card p {
