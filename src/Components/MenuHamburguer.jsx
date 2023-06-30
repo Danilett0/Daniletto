@@ -12,12 +12,11 @@ function MenuHamburguer(props) {
 
   return (
     <div className="MenuHamburguer">
-      <img
-        className="hamburguer"
-        src="/images/cv.png"
-        alt=""
-        onClick={animarMenu}
-      />
+      <div className="hamburguer" onClick={animarMenu}>
+        <line></line>
+        <line></line>
+        <line></line>
+      </div>
 
       {menu === "open" && (
         <div className="box-menu">

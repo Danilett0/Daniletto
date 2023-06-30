@@ -1,12 +1,16 @@
-.MenuHamburguer {
+.hamburguer {
+  z-index: 100;
+  width: 40px;
 }
 
-.hamburguer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  width: 50px;
+.hamburguer line {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 7px 0px;
 }
 
 .MenuHamburguer .box-menu {
@@ -48,13 +52,18 @@
   justify-content: center;
 }
 
-.MenuHamburguer .box-menu nav ul li{
-    margin: 10px 0px;
+.MenuHamburguer .box-menu nav ul li {
+  margin: 13px 0px;
+}
+
+.MenuHamburguer .box-menu nav ul li a{
+    margin: 0px;
 }
 
 .MenuHamburguer .MenuHamburguer {
   display: none;
 }
+
 
 @media screen and (max-width: 730px) {
   .MenuHamburguer {
