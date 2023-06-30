@@ -17,9 +17,9 @@ function MenuHamburguer() {
   return (
     <div className="MenuHamburguer">
       <div className="hamburguer" onClick={animarMenu}>
-        <line></line>
-        <line></line>
-        <line></line>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
       </div>
 
       {menu === "open" && (
