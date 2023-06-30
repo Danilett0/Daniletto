@@ -1,3 +1,6 @@
+.MenuHamburguer{
+  display: none;
+}
 .hamburguer {
   z-index: 100;
   width: 40px;
