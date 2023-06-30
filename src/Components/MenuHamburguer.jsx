@@ -3,7 +3,7 @@ import "../styles/components/MenuHamburguer.css";
 import LinksNavegacion from "./LinksNavegacion";
 import { Link } from "react-router-dom";
 
-function MenuHamburguer(props) {
+function MenuHamburguer() {
   const [menu, setMenu] = useState("close");
 
   const animarMenu = () => {

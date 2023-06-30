@@ -5,7 +5,7 @@ import LinksNavegacion from "./LinksNavegacion";
 import { Link } from "react-router-dom";
 import MenuHamburguer from "./MenuHamburguer";
 
-function Header(props) {
+function Header() {
   return (
     <div className="Header">
       <div className="Logo">
@@ -18,7 +18,7 @@ function Header(props) {
         <LinksNavegacion />
       </div>
 
-      <MenuHamburguer/>
+      <MenuHamburguer />
     </div>
   );
 }

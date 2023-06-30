@@ -4,7 +4,9 @@ import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
   const cerrarMenu = () => {
-    props.cerrarMenu();
+    if (props.cerrarMenu) {
+      props.cerrarMenu();
+    }
   };
 
   return (
@@ -16,7 +18,11 @@ function LinksNavegacion(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Portafolio" activeclassname="active" onClick={cerrarMenu}>
+          <NavLink
+            to="/Portafolio"
+            activeclassname="active"
+            onClick={cerrarMenu}
+          >
             Portafolio
           </NavLink>
         </li>
