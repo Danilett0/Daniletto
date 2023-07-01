@@ -95,10 +95,15 @@
 @media screen and (max-width: 777px) {
   .Contacto .Datos-Form {
     flex-direction: column;
+    padding: 10px;
   }
 
   .Contacto h1 {
     margin-bottom: 30px;
+  }
+
+  .Contacto .Datos-Form .Formulario {
+    width: 100%;
   }
 
   .Contacto .Datos-Form .Imagen {
