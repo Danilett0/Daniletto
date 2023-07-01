@@ -17,6 +17,12 @@
   transition: all 0.3s ease-in-out;
 }
 
+.MenuHamburguer .hamburguer.open{
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
 .MenuHamburguer .hamburguer.open .line {
   transition: all 0.3s ease-in-out;
 }
