@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../styles/components/MenuHamburguer.css";
 import LinksNavegacion from "./LinksNavegacion";
 import { Link } from "react-router-dom";
+import "../styles/components/MenuHamburguer.css";
 
 function MenuHamburguer() {
   const [menu, setMenu] = useState("close");
@@ -26,7 +26,7 @@ function MenuHamburguer() {
         <div className="box-menu">
           <div className="Logo">
             <Link to="/" onClick={cerrarMenu}>
-              <img src="/images/logo.png" alt="logo Daniletto" />
+              <img src="/images/logo-cortado.png" alt="logo Daniletto" />
             </Link>
           </div>
 
