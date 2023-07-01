@@ -190,10 +190,9 @@ function About(props) {
 
       <div className="Contacto">
         <p>
-          Me encantaría saber de ti. Si quieres contactarme, puedes usar
-          cualquiera de los medios que te di antes. También puedes llenar un
-          formulario con tu información y tu mensaje. Te contestaré lo más
-          pronto que pueda. ¡Muchas gracias por tu atención!
+          Soy Jeferson Castro, un apasionado desarrollador web. ¿Necesitas una
+          página web increíble? Llena este formulario y te ayudaré a hacerla
+          realidad.
         </p>
 
         <div className="Formulario">

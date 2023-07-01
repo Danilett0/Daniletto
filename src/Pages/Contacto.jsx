@@ -12,18 +12,23 @@ function Contacto() {
   return (
     <div className="Contacto">
       <h1>CONTÁCTEME PARA OBTENER MÁS INFORMACIÓN</h1>
+      <p>
+        Soy Jeferson Castro, un apasionado desarrollador web. ¿Necesitas una
+        página web increíble? Llena este formulario y te ayudaré a hacerla
+        realidad.
+      </p>
       <div className="Datos-Form">
         <Suspense fallback={<Loading />}>
           <FormContacto />
         </Suspense>
 
         <div className="Imagen">
-            <img
-              loading="lazy"
-              src="/images/contacto.png"
-              alt="imagen de contacto Daniletto"
-            />
-            
+          <img
+            loading="lazy"
+            src="/images/contacto.png"
+            alt="imagen de contacto Daniletto"
+          />
+
           <div>
             <a
               className="Whatsapp"
