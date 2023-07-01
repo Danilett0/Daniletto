@@ -179,6 +179,7 @@ main .Contacto .Datos-Form img {
     justify-content: flex-start;
     padding-top: 40px;
     height: 60vh;
+    clip-path: ellipse(140% 141% at 50% -41%);
   }
 
   main .Encabezado p {
