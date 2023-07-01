@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
+
   const cerrarMenu = () => {
     if (props.cerrarMenu) {
       props.cerrarMenu();
