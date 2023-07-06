@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import "../App.css";
-import "../styles/pages/Portafolio.css";
+import "../Styles/pages/Portafolio.css";
 
 function Portafolio() {
   const [showProyectos, setShowProyectos] = useState(false);
@@ -39,9 +39,7 @@ function Portafolio() {
       <VisualEffectTopWhite />
 
       <div className="Proyectos">
-        <h2>
-          Te presento algunos de mis proyectos favoritos
-        </h2>
+        <h2>Te presento algunos de mis proyectos favoritos</h2>
 
         <div className="ProyectosIniciales">
           <div className="Box-Proyectos">
@@ -59,7 +57,10 @@ function Portafolio() {
 
             <div className="Proyecto">
               <h4>Calculadora</h4>
-              <img src="/images/calculadora.png" alt="Aplicación de calculadora con react" />
+              <img
+                src="/images/calculadora.png"
+                alt="Aplicación de calculadora con react"
+              />
               <p>
                 Domina las matemáticas con la app calculadora. Realiza
                 operaciones básicas con una interfaz sencilla y bonita. Creada
@@ -72,7 +73,10 @@ function Portafolio() {
 
             <div className="Proyecto">
               <h4>Imagen Random</h4>
-              <img src="/images/imagenes.png" alt="Aplicación de random gif con react" />
+              <img
+                src="/images/imagenes.png"
+                alt="Aplicación de random gif con react"
+              />
               <p>
                 Te gustan las sorpresas? Con esta app podrás generar imágenes
                 increíbles con frases al azar. ¡Nunca sabrás lo que te va a
@@ -94,14 +98,20 @@ function Portafolio() {
             </Link>
           </div>
           <div className="Proyecto">
-            <img src="/images/FincaRaiz.jpeg" alt="Creación de pagina web para FincaRaíz" />
+            <img
+              src="/images/FincaRaiz.jpeg"
+              alt="Creación de pagina web para FincaRaíz"
+            />
             <h4>Pagina FincaRaíz</h4>
             <Link to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
               VER SITIO WEB
             </Link>
           </div>
           <div className="Proyecto">
-            <img src="/images/BookMark.jpeg" alt="Creación de pagina web BookMark" />
+            <img
+              src="/images/BookMark.jpeg"
+              alt="Creación de pagina web BookMark"
+            />
             <h4>Landing Page BookMark</h4>
             <Link to="https://danilett0.github.io/Landing-Page-Bokmark/">
               VER SITIO WEB
@@ -128,14 +138,20 @@ function Portafolio() {
                 </Link>
               </div>
               <div className="Proyecto">
-                <img src="/images/LifeMiles.jpg" alt="creación de pagina web LifeMiles" />
+                <img
+                  src="/images/LifeMiles.jpg"
+                  alt="creación de pagina web LifeMiles"
+                />
                 <h4>Landing Page LifeMiles</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Lifemiles/">
                   VER SITIO WEB
                 </Link>
               </div>
               <div className="Proyecto">
-                <img src="/images/Shortly.jpeg" alt="creación de pagina web Shortly" />
+                <img
+                  src="/images/Shortly.jpeg"
+                  alt="creación de pagina web Shortly"
+                />
                 <h4>Landing Page Shortly</h4>
                 <Link to="https://danilett0.github.io/Landing-Page-Shortli/">
                   VER SITIO WEB
@@ -154,11 +170,14 @@ function Portafolio() {
             un diseño atractivo y funcional. Si quieres ver más de mi trabajo,
             puedes visitar mi repositorio de github donde encontrarás otros
             proyectos más complejos y variados.
-            <Link to="https://github.com/Danilett0?tab=repositories">
+            <Link to="https://github.com/Danilett0" target="_blank">
               Ver Repositorio
             </Link>
           </p>
-          <img src="/images/Person.png" alt="consulta mas información sobre Daniletto" />
+          <img
+            src="/images/Person.png"
+            alt="consulta mas información sobre Daniletto"
+          />
         </div>
       </div>
     </div>

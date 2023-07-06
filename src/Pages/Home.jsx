@@ -4,7 +4,7 @@ import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import Loading from "../Components/Loading";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import "../App.css";
-import "../styles/pages/Home.css";
+import "../Styles/pages/Home.css";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 

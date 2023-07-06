@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import "../styles/components/Footer.css";
+import "../Styles/components/Footer.css";
 import LinksNavegacion from "./LinksNavegacion";
 
 function Footer(props) {

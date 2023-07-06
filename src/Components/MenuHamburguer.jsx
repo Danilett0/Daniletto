@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LinksNavegacion from "./LinksNavegacion";
 import { Link } from "react-router-dom";
-import "../styles/components/MenuHamburguer.css";
+import "../Styles/components/MenuHamburguer.css";
 
 function MenuHamburguer() {
   const [menu, setMenu] = useState("close");
