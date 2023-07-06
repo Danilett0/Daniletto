@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { preguntasFrecuentes } from "../Data/data";
-import "../Styles/components/PreguntasFrecuentes.css";
+import "../styles/components/PreguntasFrecuentes.css";
 
 function PreguntasFrecuentes() {
   const [pregunta, setpregunta] = useState(preguntasFrecuentes[0].id);

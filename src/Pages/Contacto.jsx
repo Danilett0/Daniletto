@@ -5,7 +5,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import Loading from "../Components/Loading";
 import { Link } from "react-router-dom";
 import "../App.css";
-import "../Styles/pages/Contacto.css";
+import "../styles/pages/Contacto.css";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../Styles/components/LinksNavegacion.css";
+import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
 

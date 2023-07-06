@@ -8,7 +8,7 @@ import { FcDocument } from "react-icons/fc";
 import { ListaServicios, HabilidadesTecnica } from "../Data/data";
 import { Link } from "react-router-dom";
 import "../App.css";
-import "../Styles/pages/About.css";
+import "../styles/pages/About.css";
 
 const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 

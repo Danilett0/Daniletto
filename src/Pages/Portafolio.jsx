@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import "../App.css";
-import "../Styles/pages/Portafolio.css";
+import "../styles/pages/Portafolio.css";
 
 function Portafolio() {
   const [showProyectos, setShowProyectos] = useState(false);

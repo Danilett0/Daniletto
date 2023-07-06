@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import "../Styles/components/Header.css";
+import "../styles/components/Header.css";
 import LinksNavegacion from "./LinksNavegacion";
 import { Link } from "react-router-dom";
 import MenuHamburguer from "./MenuHamburguer";
