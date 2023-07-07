@@ -21,7 +21,6 @@ function Contacto() {
 
         <div className="Imagen">
           <img
-            loading="lazy"
             src="/images/contacto.png"
             alt="imagen de contacto Daniletto"
           />
@@ -31,6 +30,7 @@ function Contacto() {
               className="Whatsapp"
               target="_blank"
               rel="noopener noreferrer"
+              title="Whatsapp"
               to="https://wa.me/3112878998?text=Hola%20Jeferson%20te%20escribo%20por%20informacion%20ya%20que%20vi%20tu%20perfil%20en%20tu%20sitio%20web%20Daniletto"
             >
               <FaWhatsappSquare className="Icon" />
@@ -40,6 +40,7 @@ function Contacto() {
               className="Email"
               target="_blank"
               rel="noopener noreferrer"
+              title="Email"
               to="mailto:daniilo.97@hotmail.com?subject=DANILETTO"
             >
               <MdMarkEmailUnread className="Icon" />
@@ -49,6 +50,7 @@ function Contacto() {
               className="Linkedin"
               target="_blank"
               rel="noopener noreferrer"
+              title="Linkedin"
               to="https://www.linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
             >
               <BsLinkedin className="Icon" />
