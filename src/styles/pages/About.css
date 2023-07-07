@@ -145,33 +145,33 @@
   width: 50%;
 }
 
-.About .Conocimientos{
+.About .Conocimientos {
   width: 100%;
   padding: 5px;
 }
 
-.About .Conocimientos h3{
+.About .Conocimientos h3 {
   color: white;
 }
 
-.About .Conocimientos ul{
+.About .Conocimientos ul {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
 }
 
-.About .Conocimientos li{
+.About .Conocimientos li {
   display: flex;
   align-items: center;
   border-radius: 4px;
   margin: auto 5px;
 }
 
-.About .Conocimientos li .Icon{
+.About .Conocimientos li .Icon {
   color: var(--verde-claro);
 }
 
-.About .Conocimientos li p{
+.About .Conocimientos li p {
   color: white;
   margin-left: 3px;
   font-size: 14px;
@@ -259,35 +259,9 @@
   text-align: center;
 }
 
-.About .Contacto {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 25px;
-  flex-direction: column;
-  align-items: center;
-}
-
-.About .Contacto p {
-  color: white;
-  text-align: center;
-  margin: 50px 0px;
-  max-width: 1100px;
-}
-
-.About .Formulario {
-  width: 100%;
-  max-width: 1100px;
-  background-color: white;
-  padding: 25px;
-  border-radius: 3px;
-  box-shadow: 0px 0px 10px var(--gris-oscuro);
-}
-
 /* espacio para ajuste de cambio de tamaño de pantalla */
 @media screen and (max-width: 777px) {
-
-  .About .Box-Perfil{
+  .About .Box-Perfil {
     padding: 10px;
   }
 
@@ -325,7 +299,7 @@
     width: 90%;
   }
 
-  .About .Habilidades .Texto p{
+  .About .Habilidades .Texto p {
     display: flex;
   }
 
@@ -333,7 +307,7 @@
     display: none;
   }
 
-  .About .Conocimientos{
+  .About .Conocimientos {
     display: none;
   }
 
@@ -351,12 +325,7 @@
     max-width: 350px;
   }
 
-  .About .Metodologia .Cards .Card:hover{
+  .About .Metodologia .Cards .Card:hover {
     transform: scale(1);
   }
-
-  .About .Contacto {
-    padding: 10px;
-  }
-
 }

@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
 import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
@@ -8,8 +8,6 @@ import { ListaServicios, HabilidadesTecnica } from "../Data/data";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/pages/About.css";
-
-const FormContacto = lazy(() => import("../Components/FormContacto"));
 
 function About(props) {
   return (
@@ -186,18 +184,6 @@ function About(props) {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="Contacto">
-        <p>
-          Soy Jeferson Castro, un apasionado desarrollador web. ¿Necesitas una
-          página web increíble? Llena este formulario y te ayudaré a hacerla
-          realidad.
-        </p>
-
-        <Suspense fallback={<></>}>
-          <FormContacto />
-        </Suspense>
       </div>
     </div>
   );
