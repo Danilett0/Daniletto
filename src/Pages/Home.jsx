@@ -1,12 +1,11 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
-import Loading from "../Components/Loading";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import "../App.css";
 import "../styles/pages/Home.css";
 
-const FormContacto = React.lazy(() => import("../Components/FormContacto"));
+const FormContacto = lazy(() => import("../Components/FormContacto"));
 
 function Home() {
   return (
@@ -27,12 +26,16 @@ function Home() {
 
       <div className="Beneficios">
         <h2>
-        ¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB? 3 BENEFICIOS CLAVE
+          ¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB? 3 BENEFICIOS CLAVE
         </h2>
         <div className="Cards">
           <div className="Card">
             <h3>ALTA CALIDAD</h3>
-            <img loading="lazy" src="/images/Calidad.png" alt="Icono de calidad para proyectos web" />
+            <img
+              loading="lazy"
+              src="/images/Calidad.png"
+              alt="Icono de calidad para proyectos web"
+            />
             <p>
               Me aseguro de que cada sitio web sea único y refleje tanto la
               marca, como los valores de nuestros clientes.
@@ -40,7 +43,11 @@ function Home() {
           </div>
           <div className="Card">
             <h3>PRECIOS asequibles</h3>
-            <img loading="lazy" src="/images/Dinero.png" alt="Icono de paginas web económicas" />
+            <img
+              loading="lazy"
+              src="/images/Dinero.png"
+              alt="Icono de paginas web económicas"
+            />
             <p>
               Ofrezco precios competitivos para que puedas obtener un sitio web
               de muy alta calidad sin gastar una fortuna.
@@ -67,15 +74,11 @@ function Home() {
       </div>
 
       <div className="Contacto">
-        <h2>
-          CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN
-        </h2>
+        <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
         <div className="Datos-Form">
-          {
-            <Suspense fallback={<Loading />}>
-              <FormContacto />
-            </Suspense>
-          }
+          <Suspense fallback={<></>}>
+            <FormContacto />
+          </Suspense>
 
           <img
             loading="lazy"

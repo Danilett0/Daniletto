@@ -1,21 +1,17 @@
-import React, { useEffect } from "react";
+import React from 'react';
+import HubspotForm from "react-hubspot-form";
+import Loading from "../Components/Loading";
 
 function FormContacto() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "//js.hsforms.net/forms/embed/v2.js";
-    script.addEventListener("load", () => {
-      window.hbspt.forms.create({
-        region: "na1",
-        portalId: "39987181",
-        formId: "075e6686-f49c-4be5-82d6-cd0e56c513d6",
-        target: ".Formulario",
-      });
-    });
-    document.body.appendChild(script);
-  }, []);
-
-  return <div className="Formulario"></div>;
+  return (
+    <div className="Formulario">
+      <HubspotForm
+        portalId="39987181"
+        formId="075e6686-f49c-4be5-82d6-cd0e56c513d6"
+        loading={<Loading />}
+      />
+    </div>
+  );
 }
 
 export default FormContacto;

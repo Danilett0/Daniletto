@@ -1,6 +1,5 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import { VisualEffectTopWhite } from "../Components/ShapeVisualEffects";
-import Loading from "../Components/Loading";
 import { FaCheckCircle, FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
@@ -10,7 +9,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/pages/About.css";
 
-const FormContacto = React.lazy(() => import("../Components/FormContacto"));
+const FormContacto = lazy(() => import("../Components/FormContacto"));
 
 function About(props) {
   return (
@@ -196,11 +195,9 @@ function About(props) {
           realidad.
         </p>
 
-        <div className="Formulario">
-          <Suspense fallback={<Loading />}>
-            <FormContacto />
-          </Suspense>
-        </div>
+        <Suspense fallback={<></>}>
+          <FormContacto />
+        </Suspense>
       </div>
     </div>
   );

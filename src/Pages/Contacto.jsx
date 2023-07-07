@@ -1,13 +1,11 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
-import Loading from "../Components/Loading";
+import FormContacto from "../Components/FormContacto";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/pages/Contacto.css";
-
-const FormContacto = React.lazy(() => import("../Components/FormContacto"));
 
 function Contacto() {
   return (
@@ -19,9 +17,7 @@ function Contacto() {
         realidad.
       </p>
       <div className="Datos-Form">
-        <Suspense fallback={<Loading />}>
-          <FormContacto />
-        </Suspense>
+        <FormContacto />
 
         <div className="Imagen">
           <img
