@@ -1,11 +1,9 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import "../App.css";
 import "../styles/pages/Home.css";
-
-const FormContacto = lazy(() => import("../Components/FormContacto"));
 
 function Home() {
   return (
@@ -74,11 +72,19 @@ function Home() {
       </div>
 
       <div className="Contacto">
-        <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
         <div className="Datos-Form">
-          <Suspense fallback={<></>}>
-            <FormContacto />
-          </Suspense>
+          <div>
+            <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
+            <p>
+              <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo? ¿Te interesa contratar
+              mis servicios como desarrollador web? ¿Necesitas soporte técnico o
+              quieres colaborar conmigo en algún proyecto? No dudes en
+              contactarme haciendo clic en el botón de abajo. Te responderé lo
+              antes posible y te brindaré la mejor atención.
+            </p>
+
+            <Link to="/Contacto">Contacto</Link>
+          </div>
 
           <img
             loading="lazy"

@@ -1,7 +1,7 @@
 :root {
   --color-primario: #092239;
-  --rojo-claro: #f15f4c;
-  --rojo-oscuro: #da4a1f;
+  --rojo-claro: #ff6e6e;
+  --rojo-oscuro: #ee5656;
   --azul-claro: #2b97e8;
   --gris-claro: #f3f3f3;
   --gris-oscuro: #c7c7c7;
@@ -48,7 +48,7 @@ h6 {
 p {
   font-family: Nunito, sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   margin: 10px 0px;
   color: var(--color-primario);
 }

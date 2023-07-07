@@ -135,18 +135,42 @@ main .Contacto .Datos-Form {
   margin: auto;
   margin: 30px auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   box-shadow: 0px 0px 7px var(--gris-claro);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px;
 }
 
-main .Contacto .Datos-Form .Formulario {
+main .Contacto .Datos-Form > div{
   width: 100%;
-  max-width: 500px;
-  min-width: 300px;
+  max-width: 450px;
+} 
+
+main .Contacto .Datos-Form > div h2{
+  color: var(--azul-claro);
+  text-align: left;
+}
+
+main .Contacto .Datos-Form > div p{
+  color: var(--color-primario);
+  text-align: justify;
+  margin: 20px 0px;
+}
+
+main .Contacto .Datos-Form > div a{
+  background-color: var(--rojo-claro);
+  padding: 10px 15px;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+}
+
+main .Contacto .Datos-Form > div a:hover{
+  transform: scale(1.03);
+  background-color: var(--rojo-oscuro);
+  transition: .6s;
 }
 
 main .Contacto .Datos-Form img {
@@ -210,6 +234,11 @@ main .Contacto .Datos-Form img {
 
   main .Contacto .Datos-Form {
     flex-direction: column;
+  }
+
+  main .Contacto .Datos-Form > div > h2,
+  main .Contacto .Datos-Form > div > p {
+    text-align: center;
   }
 
   main .Contacto .Datos-Form img {
