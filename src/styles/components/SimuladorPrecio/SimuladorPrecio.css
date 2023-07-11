@@ -108,3 +108,13 @@
 .SimuladorPrecios .Resultados .Opciones a{
     margin: 0px 10px;
 }
+
+@media screen and (max-width: 777px) {
+    .SimuladorPrecios .Resultados .Opciones{
+        flex-direction: column;
+    }
+
+    .SimuladorPrecios .Resultados .Opciones a{
+        margin: 5px 0px;
+    }
+}
