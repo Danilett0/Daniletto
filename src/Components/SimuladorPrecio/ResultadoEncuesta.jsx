@@ -16,6 +16,9 @@ function ResultadoEncuesta(props) {
   if (props.respuestas[4] === "Si") {
     valorPagina += 1000000;
   }
+  if (props.respuestas[5] === "No") {
+    valorPagina += 50000;
+  }
 
   const formatter = new Intl.NumberFormat("es-CO", {
     style: "currency",
