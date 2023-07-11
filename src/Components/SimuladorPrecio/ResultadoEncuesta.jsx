@@ -2,22 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function ResultadoEncuesta(props) {
-  let valorPagina = 200000;
+  let valorTotal = 200000;
+  const valorDomHost = 150000;
+  const valorDiseño = 100000;
+  const valorConten = 50000;
+  const valorTienda = 1000000;
+  const valorPagBasic = 200000;
+  const valorPag = 60000;
 
   if (props.respuestas[1] === "No") {
-    valorPagina += 100000;
+    valorTotal += valorDiseño;
   }
   if (props.respuestas[2] === "No") {
-    valorPagina += 150000;
+    valorTotal += valorDomHost;
   }
   if (props.respuestas[3] === "No") {
-    valorPagina += 100000;
+    valorTotal += valorConten;
   }
   if (props.respuestas[4] === "Si") {
-    valorPagina += 1000000;
+    valorTotal += valorTienda;
   }
   if (props.respuestas[5] === "No") {
-    valorPagina += 50000;
+    valorTotal += valorPag;
   }
 
   const formatter = new Intl.NumberFormat("es-CO", {
@@ -29,53 +35,53 @@ function ResultadoEncuesta(props) {
     <div>
       <div className="Resumen">
         <p className="Title">
-          Basándome en tus respuestas el costo incluirá los siguientes Items.
+        De acuerdo con sus respuestas, el presupuesto incluye los siguientes conceptos:
         </p>
         <div className="ItemsCobro">
           {props.respuestas[1] === "No" && (
             <p>
-              Costo diseño web totalmente personalizado:{" "}
-              <b className="Valor">$100.000</b>
+              Valor del diseño web a la medida:{" "}
+              <b className="Valor">{formatter.format(valorDiseño)}</b>
             </p>
           )}
 
           {props.respuestas[2] === "No" && (
             <p>
-              Compara Hosting y dominio para el sitio web:{" "}
-              <b className="Valor">$150.000</b>{" "}
+              Compara alojamiento y dominio para el sitio web:{" "}
+              <b className="Valor">{formatter.format(valorDomHost)}</b>{" "}
             </p>
           )}
 
           {props.respuestas[3] === "No" && (
             <p>
-              Creación de contenido como imágenes, textos, videos etc:{" "}
-              <b className="Valor">$100.000</b>{" "}
+              Producción de contenido multimedia como imágenes, textos, etc:{" "}
+              <b className="Valor">{formatter.format(valorConten)}</b>{" "}
             </p>
           )}
 
           {props.respuestas[4] === "Si" && (
             <p>
-              Creación de tienda Online para el sitio web:{" "}
-              <b className="Valor">$1'000.000</b>{" "}
+              Sitio web con páginas fundamentales:{" "}
+              <b className="Valor">{formatter.format(valorTienda)}</b>{" "}
             </p>
           )}
 
           <p>
             Sitio web con paginas esenciales (inicio, servicios, contacto):{" "}
-            <b className="Valor">$200.000</b>{" "}
+            <b className="Valor">{formatter.format(valorPagBasic)}</b>{" "}
           </p>
 
           {props.respuestas[5] === "No" && (
             <p>
               Incluir mas paginas aparte de las esenciales:{" "}
-              <b className="Valor">$50.000 por pagina adicional</b>{" "}
+              <b className="Valor">{formatter.format(valorPag)} por pagina adicional</b>{" "}
             </p>
           )}
         </div>
         <div className="ValorCobro">
           <p>
             Valor aproximado para crear su pagina web:
-            <b className="Valor"> {formatter.format(valorPagina)}</b>
+            <b className="Valor">{formatter.format(valorTotal)}</b>
           </p>
         </div>
       </div>
