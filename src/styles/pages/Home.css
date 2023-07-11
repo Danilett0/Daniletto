@@ -1,6 +1,6 @@
 main .Encabezado {
   background-image: linear-gradient(rgba(0, 0, 0, 0.856), #081827c4),
-    url("/public/images/backgroud-encabezado.jpg");
+    url("/public/images/desarrollo_web.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@ main .Encabezado {
   flex-direction: column;
   padding: 15px;
   position: relative;
-  height: 85vh;
+  height: 100vh;
   clip-path: ellipse(100% 141% at 50% -45%);
 }
 
@@ -39,23 +39,15 @@ main .Encabezado p .creador{
 }
 
 main .Encabezado a {
-  background-color: var(--rojo-claro);
-  padding: 15px 20px;
-  border-radius: 3px;
-  transition: 0.5s;
+  padding: 14px 17px;
   animation-name: pulse;
   animation-duration: 1.5s;
   animation-iteration-count: 3;
 }
 
-main .Encabezado a:hover {
-  background-color: var(--rojo-oscuro);
-  transform: scale(1.1);
-}
-
 main .Beneficios {
   padding: 25px;
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 main .Beneficios h2 {
@@ -114,6 +106,44 @@ main .Beneficios .Cards .Card p {
   font-size: 15px;
 }
 
+main .Cotizacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 25px;
+}
+
+main .Cotizacion h2{
+  color: white;
+  width: 100%;
+  max-width: 700px;
+}
+
+main .Cotizacion img{
+  width: 100%;
+  max-width: 600px;
+  min-width: 350px;
+  height: 100%;
+  max-height: 600px;
+  min-height: 350px;
+  transition: 1s;
+}
+
+main .Cotizacion img:hover{
+  transform: scale(1.1);
+}
+
+main .Cotizacion p{
+  color: white;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+
 .Preguntas-Frecuentes {
   display: flex;
   flex-direction: column;
@@ -159,20 +189,6 @@ main .Contacto .Datos-Form > div p{
   margin: 20px 0px;
 }
 
-main .Contacto .Datos-Form > div a{
-  background-color: var(--rojo-claro);
-  padding: 10px 15px;
-  border-radius: 3px;
-  display: block;
-  text-align: center;
-}
-
-main .Contacto .Datos-Form > div a:hover{
-  transform: scale(1.03);
-  background-color: var(--rojo-oscuro);
-  transition: .6s;
-}
-
 main .Contacto .Datos-Form img {
   width: 100%;
   max-width: 500px;
@@ -216,7 +232,6 @@ main .Contacto .Datos-Form img {
   }
 
   main .Beneficios {
-    margin: 0px;
     padding: 0px 25px;
   }
 

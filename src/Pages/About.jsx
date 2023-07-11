@@ -34,10 +34,10 @@ function About(props) {
             </p>
             <div className="GitHub">
               <p>
-                Te invito a visitar mi perfil en GitHb para ver mas sobre mis
-                proyectos
+                Te invito a que visites mi perfil en GitHb, para ver mas sobre mi y los
+                proyectos que he realizado
               </p>
-              <Link target="_blank" to="https://github.com/Danilett0">
+              <Link className="Button Red" target="_blank" to="https://github.com/Danilett0">
                 Ver Repositorio
               </Link>
             </div>

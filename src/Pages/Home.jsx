@@ -19,7 +19,9 @@ function Home() {
           Daniletto ofrece soluciones creativas y eficientes para proyectos web
           de todo tipo, desde páginas personales hasta aplicaciones complejas.
         </p>
-        <Link to="/Contacto">Obtén una cotización gratis</Link>
+        <Link className="Button Red" to="/Contacto">
+          Obtén una cotización gratis
+        </Link>
       </div>
 
       <div className="Beneficios">
@@ -65,6 +67,29 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="Cotizacion">
+        <h2>
+          Descubre cuánto te costaría crear tu página web con este simulador
+          online
+        </h2>
+        <img
+          src="/images/cotizacion_online.png"
+          alt="cotizacion online de pagina web"
+          title="realiza una cotizacion con nuestro simulador online"
+        />
+        <p>
+          ¿Te gustaría tener tu propia página web, pero no sabes cuánto te
+          costaría? No te preocupes, he creado un simulador online que te
+          permite calcular el precio de tu página web según tus preferencias y
+          necesidades. Solo tienes que responder unas sencillas preguntas y en
+          minutos obtendrás un presupuesto personalizado y sin compromiso.
+        </p>
+        <Link className="Button Red" to="/Simulador">
+          Realiza Simulación Online
+        </Link>
+      </div>
+
       <VisualEffectTopBlue />
 
       <div className="Preguntas-Frecuentes">
@@ -76,20 +101,24 @@ function Home() {
           <div>
             <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
             <p>
-              <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo? ¿Te interesa contratar
-              mis servicios como desarrollador web? ¿Necesitas soporte técnico o
-              quieres colaborar conmigo en algún proyecto? No dudes en
-              contactarme haciendo clic en el botón de abajo. Te responderé lo
-              antes posible y te brindaré la mejor atención.
+              <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo? ¿Te
+              interesa contratar mis servicios como desarrollador web?
+              ¿Necesitas soporte técnico o quieres colaborar conmigo en algún
+              proyecto? No dudes en contactarme haciendo clic en el botón de
+              abajo. Te responderé lo antes posible y te brindaré la mejor
+              atención.
             </p>
 
-            <Link to="/Contacto">Contacto</Link>
+            <Link className="Button Red" to="/Contacto">
+              Contacto
+            </Link>
           </div>
 
           <img
             loading="lazy"
             src="/images/contacto.png"
             alt="Imagen de contacto Daniletto"
+            title="Contáctame para mas información"
           />
         </div>
       </div>

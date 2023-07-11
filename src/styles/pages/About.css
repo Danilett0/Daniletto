@@ -37,19 +37,6 @@
   margin-bottom: 20px;
 }
 
-.About .Box-Perfil .Perfil .Descripcion .GitHub a {
-  color: white;
-  padding: 10px 15px;
-  background-color: var(--rojo-claro);
-  text-transform: none;
-  font-size: 15px;
-  border-radius: 3px;
-}
-
-.About .Box-Perfil .Perfil .Descripcion .GitHub a:hover {
-  background-color: var(--rojo-oscuro);
-}
-
 .About .Box-Perfil .Perfil .Descripcion h1 {
   text-align: left;
   color: var(--azul-claro);

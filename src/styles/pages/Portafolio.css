@@ -75,17 +75,6 @@
   margin: 15px 0px;
   color: white;
 }
-.Portafolio .Proyectos .Box-Proyectos .Proyecto a {
-  background-color: var(--rojo-claro);
-  padding: 10px 15px;
-  border-radius: 3px;
-}
-
-.Portafolio .Proyectos .Box-Proyectos .Proyecto a:hover {
-  background-color: var(--rojo-oscuro);
-  transform: scale(1.1);
-  transition: 0.5s;
-}
 
 .Portafolio .Proyectos .ProyectosIniciales {
   display: flex;
@@ -154,22 +143,6 @@
   margin: 50px 0px;
 }
 
-.Portafolio .OtrosProyectos p a {
-  color: white;
-  padding: 13px;
-  background-color: var(--rojo-claro);
-  text-transform: none;
-  font-size: 15px;
-  border-radius: 3px;
-  margin-top: 20px;
-  display: block;
-  text-align: center;
-}
-
-.Portafolio .OtrosProyectos p a:hover {
-  background-color: var(--rojo-oscuro);
-}
-
 .Portafolio .OtrosProyectos img {
   width: 100%;
   max-width: 400px;
@@ -179,6 +152,10 @@
 
 .Portafolio .OtrosProyectos p {
   color: gray;
+}
+
+.Portafolio .OtrosProyectos p a{
+  margin-top: 20px;
 }
 
 @keyframes pulse {

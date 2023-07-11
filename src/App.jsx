@@ -9,6 +9,7 @@ import About from "./Pages/About";
 import Contacto from "./Pages/Contacto";
 import Portafolio from "./Pages/Portafolio";
 import NotFound from "./Pages/NotFound";
+import SimuladorPrecio from "./Pages/Simulador";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/Simulador" element={<SimuladorPrecio />} />
         </Routes>
       </Router>
     </Suspense>

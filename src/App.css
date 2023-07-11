@@ -5,7 +5,7 @@
   --azul-claro: #257BB9;
   --gris-claro: #f3f3f3;
   --gris-oscuro: #c7c7c7;
-  --verde-claro: rgb(18, 197, 182);
+  --verde-claro: rgb(17, 161, 149);
 }
 
 * {
@@ -51,6 +51,36 @@ p {
   font-size: 17px;
   margin: 10px 0px;
   color: var(--color-primario);
+}
+
+.Button{
+  padding: 10px 15px;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+  transition: .5s;
+  border: none;
+  cursor: pointer;
+}
+
+.Button:hover{
+  transform: scale(1.05);
+}
+
+.Red{
+  background-color: var(--rojo-claro);
+}
+
+.Red:hover{
+  background-color: var(--rojo-oscuro);
+}
+
+.Green{
+  background-color: var(--verde-claro);
+}
+
+.Blue{
+  background-color: var(--azul-claro);
 }
 
 .EfectBorderRoundBlue,

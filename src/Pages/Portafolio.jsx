@@ -50,7 +50,7 @@ function Portafolio() {
                 Conoce el clima con esta app. Temperatura, humedad, viento,
                 presión y pronóstico. Hecha con React y lo último en tecnología.
               </p>
-              <Link target="_blank" to="https://danilett0.github.io/WhaterApp/">
+              <Link className="Button Red" target="_blank" to="https://danilett0.github.io/WhaterApp/">
                 VER SITIO WEB
               </Link>
             </div>
@@ -66,7 +66,7 @@ function Portafolio() {
                 operaciones básicas con una interfaz sencilla y bonita. Creada
                 con React y las últimas tecnologías.
               </p>
-              <Link target="_blank" to="https://danilett0.github.io/calculadoraReact/">
+              <Link className="Button Red" target="_blank" to="https://danilett0.github.io/calculadoraReact/">
                 VER SITIO WEB
               </Link>
             </div>
@@ -82,7 +82,7 @@ function Portafolio() {
                 increíbles con frases al azar. ¡Nunca sabrás lo que te va a
                 tocar!
               </p>
-              <Link target="_blank" to="https://danilett0.github.io/RandomGif/">
+              <Link className="Button Red" target="_blank" to="https://danilett0.github.io/RandomGif/">
                 VER SITIO WEB
               </Link>
             </div>
@@ -93,7 +93,7 @@ function Portafolio() {
           <div className="Proyecto">
             <img src="/images/fyllo.jpeg" alt="creacion de pagina web FYLLO" />
             <h4>Landing Page Fyllo</h4>
-            <Link target="_blank" to="https://danilett0.github.io/Landing-Page-Fyllo/">
+            <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Fyllo/">
               VER SITIO WEB
             </Link>
           </div>
@@ -103,7 +103,7 @@ function Portafolio() {
               alt="Creación de pagina web para FincaRaíz"
             />
             <h4>Pagina FincaRaíz</h4>
-            <Link target="_blank" to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
+            <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/">
               VER SITIO WEB
             </Link>
           </div>
@@ -113,7 +113,7 @@ function Portafolio() {
               alt="Creación de pagina web BookMark"
             />
             <h4>Landing Page BookMark</h4>
-            <Link target="_blank" to="https://danilett0.github.io/Landing-Page-Bokmark/">
+            <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Bokmark/">
               VER SITIO WEB
             </Link>
           </div>
@@ -133,7 +133,7 @@ function Portafolio() {
                   alt="creación de pagina web para psicóloga"
                 />
                 <h4>Landing Page ClaudiaBotero</h4>
-                <Link target="_blank" to="https://danilett0.github.io/Landing-Page-Psicologa/">
+                <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Psicologa/">
                   VER SITIO WEB
                 </Link>
               </div>
@@ -143,7 +143,7 @@ function Portafolio() {
                   alt="creación de pagina web LifeMiles"
                 />
                 <h4>Landing Page LifeMiles</h4>
-                <Link target="_blank" to="https://danilett0.github.io/Landing-Page-Lifemiles/">
+                <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Lifemiles/">
                   VER SITIO WEB
                 </Link>
               </div>
@@ -153,7 +153,7 @@ function Portafolio() {
                   alt="creación de pagina web Shortly"
                 />
                 <h4>Landing Page Shortly</h4>
-                <Link target="_blank" to="https://danilett0.github.io/Landing-Page-Shortli/">
+                <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Shortli/">
                   VER SITIO WEB
                 </Link>
               </div>
@@ -170,7 +170,7 @@ function Portafolio() {
             un diseño atractivo y funcional. Si quieres ver más de mi trabajo,
             puedes visitar mi repositorio de github donde encontrarás otros
             proyectos más complejos y variados.
-            <Link target="_blank" to="https://github.com/Danilett0">
+            <Link className="Button Red" target="_blank" to="https://github.com/Danilett0">
               Ver Repositorio
             </Link>
           </p>
