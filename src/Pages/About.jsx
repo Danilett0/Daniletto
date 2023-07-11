@@ -79,15 +79,14 @@ function About(props) {
                 <BsLinkedin className="Icon" />
               </Link>
 
-              <Link
+              <a
                 className="cv"
-                rel="noopener noreferrer"
-                to="/docs/cv.pdf"
+                href="/docs/cv.pdf"
                 download
                 title="Descargar CV Jeferson"
               >
                 <FcDocument className="Icon" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
