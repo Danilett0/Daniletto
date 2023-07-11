@@ -29,7 +29,7 @@ function MenuHamburguer() {
         <div className="box-menu">
           <div className="Logo">
             <Link to="/" onClick={cerrarMenu}>
-              <img src="/images/logo-recortado.png" alt="logo Daniletto" />
+              <img src="/images/logo-daniletto.png" alt="logo Daniletto" />
             </Link>
           </div>
 

@@ -31,90 +31,86 @@
 .SimuladorPrecios img {
   width: 100%;
   max-width: 450px;
-  min-width: 350px;
   height: 100%;
   max-height: 450px;
-  min-height: 350px;
 }
 
-.SimuladorPrecios .Cuestionario{
-    padding: 15px;
-    text-align: center;
+.SimuladorPrecios .Cuestionario {
+  padding: 15px;
+  text-align: center;
 }
 
-
-.SimuladorPrecios .OpcionesMenu{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+.SimuladorPrecios .OpcionesMenu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
 
-.SimuladorPrecios .Cuestionario .Title{
-    font-weight: bold;
-    font-size: 20px;
+.SimuladorPrecios .Cuestionario .Title {
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.SimuladorPrecios .Cuestionario .Checkbox{
-    background-color: var(--gris-claro);
-    padding: 10px;
-    border-radius: 4px;
-    font-family: nunito, sans-serif;
-    display: flex;
-    justify-content: flex-start;
+.SimuladorPrecios .Cuestionario .Checkbox {
+  background-color: var(--gris-claro);
+  padding: 10px;
+  border-radius: 4px;
+  font-family: nunito, sans-serif;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.SimuladorPrecios .Cuestionario .Checkbox input{
-    margin-right: 5px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    
+.SimuladorPrecios .Cuestionario .Checkbox input {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
-.SimuladorPrecios .Cuestionario .Checkbox label{
-    font-weight: bold;
+.SimuladorPrecios .Cuestionario .Checkbox label {
+  font-weight: bold;
 }
 
-.SimuladorPrecios .OpcionesMenu button{
-    margin: 0px 10px;
-    color: white;
-    font-weight: bold;
+.SimuladorPrecios .OpcionesMenu button {
+  margin: 0px 10px;
+  color: white;
+  font-weight: bold;
 }
 
-.SimuladorPrecios .Resultados .Title{
-    color: var(--verde-claro);
-    font-weight: bold;
-    font-size: 17px;
+.SimuladorPrecios .Resultados .Title {
+  color: var(--verde-claro);
+  font-weight: bold;
+  font-size: 17px;
 }
 
-.SimuladorPrecios .Resultados .ItemsCobro{
-    background-color: rgb(238, 238, 238);
-    border-radius: 4px;
-    padding: 15px;
-    margin: 15px 0px;
-    text-align: left;
+.SimuladorPrecios .Resultados .ItemsCobro {
+  background-color: rgb(238, 238, 238);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px 0px;
+  text-align: left;
 }
 
-.SimuladorPrecios .Resultados .Valor{
-    color: var(--rojo-claro);
+.SimuladorPrecios .Resultados .Valor {
+  color: var(--rojo-claro);
 }
 
-.SimuladorPrecios .Resultados .Opciones{
-    display: flex;
-    justify-content: center;
+.SimuladorPrecios .Resultados .Opciones {
+  display: flex;
+  justify-content: center;
 }
 
-.SimuladorPrecios .Resultados .Opciones a{
-    margin: 0px 10px;
+.SimuladorPrecios .Resultados .Opciones a {
+  margin: 0px 10px;
 }
 
 @media screen and (max-width: 777px) {
-    .SimuladorPrecios .Resultados .Opciones{
-        flex-direction: column;
-    }
+  .SimuladorPrecios .Resultados .Opciones {
+    flex-direction: column;
+  }
 
-    .SimuladorPrecios .Resultados .Opciones a{
-        margin: 5px 0px;
-    }
+  .SimuladorPrecios .Resultados .Opciones a {
+    margin: 5px 0px;
+  }
 }
