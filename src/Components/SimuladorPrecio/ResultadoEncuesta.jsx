@@ -47,7 +47,7 @@ function ResultadoEncuesta(props) {
 
           {props.respuestas[2] === "No" && (
             <p>
-              Compara alojamiento y dominio para el sitio web:{" "}
+              Compra de alojamiento y dominio para el sitio web:{" "}
               <b className="Valor">{formatter.format(valorDomHost)}</b>{" "}
             </p>
           )}
