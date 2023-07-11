@@ -42,7 +42,7 @@ function Pruebas() {
   return (
     <div className="SimuladorPrecios">
       <img
-        src="/images/calcular_factura.png"
+        src="/images/encuesta_simulador_precios.svg"
         alt="cotización online de pagina web"
         title="realiza una cotización con nuestro simulador online"
       />

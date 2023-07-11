@@ -74,7 +74,7 @@ function Home() {
           online
         </h2>
         <img
-          src="/images/cotizacion_online.png"
+          src="/images/simulador_precios_online.png"
           alt="cotizacion online de pagina web"
           title="realiza una cotizacion con nuestro simulador online"
         />
