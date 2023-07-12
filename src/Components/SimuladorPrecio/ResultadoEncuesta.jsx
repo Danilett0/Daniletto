@@ -61,7 +61,7 @@ function ResultadoEncuesta(props) {
 
           {props.respuestas[4] === "Si" && (
             <p>
-              Sitio web con páginas fundamentales:{" "}
+              Valor tienda online:{" "}
               <b className="Valor">{formatter.format(valorTienda)}</b>{" "}
             </p>
           )}
