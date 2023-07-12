@@ -45,7 +45,7 @@ function About(props) {
 
           <div className="Imagen">
             <img
-              src="/images/perfil.jpg"
+              src="/images/foto-perfil-jeferson-danilo-castro.jpg"
               alt="imagen de perfil Jeferson Danilo Castro Becerra"
             />
             <div>
