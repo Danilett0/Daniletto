@@ -33,7 +33,7 @@ function App() {
           <Route path="/Simulador" element={<SimuladorPrecio />} />
           <Route path="*" element={<NotFound />} />
 
-          {/* rutas para articulos del blog */}
+          {/* rutas para artículos del blog */}
           <Route path="/todo-lo-que-necesitas-saber-sobre-el-diseño-ux-y-cómo-aplicarlo-a-tu-página-web" element={<ExperienciaUsuario />}></Route>
           <Route path="/cómo-crear-imágenes-de-alta-calidad-con-ia" element={<ImgConIA />}></Route>
           <Route path="/google-search-console:-cómo-optimizar-tu-web-y-atraer-más-clientes" element={<GoogleSearchConsole />}></Route>
