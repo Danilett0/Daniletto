@@ -21,7 +21,7 @@ function Blog() {
         <main className="BoxBlog">
           <div className="Banner">
             <img
-              src="/images/ImagesBlog/Banner_blog_daniletto.jpg"
+              src="/images/ImagesBlog/Banner-blog-daniletto.webp"
               alt="Banner blog daniletto"
               width="100%"
               max-width="1500px"
@@ -38,7 +38,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/creacion de imagen usando inteligencia artificial.jpg"
+                src="/images/ImagesBlog/creacion-de-imagen-usando-inteligencia-artificial.webp"
                 alt="crear imágenes con inteligencia artificial"
               />
               <div className="BodyCard">
@@ -60,7 +60,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Posicionamiento web SEO.jpg"
+                src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
                 alt="mejorar posicionamiento web con SEO"
               />
               <div className="BodyCard">
@@ -85,7 +85,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Diseño de paginas web atractivas.jpg"
+                src="/images/ImagesBlog/Diseño-de-paginas-web-atractivas.webp"
                 alt="importancia del diseño web"
               />
               <div className="BodyCard">
@@ -111,7 +111,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/importancia de la experiencia de usuario en la web.jpg"
+                src="/images/ImagesBlog/importancia-de-la-experiencia-de-usuario-en-la-web.webp"
                 alt="importancia de la experiencia de usuario UX"
               />
               <div className="BodyCard">
@@ -137,7 +137,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Optimizacion web.jpg"
+                src="/images/ImagesBlog/Optimizacion-web.webp"
                 alt="optimización de paginas web"
               />
               <div className="BodyCard">
@@ -162,7 +162,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Google search console.jpg"
+                src="/images/ImagesBlog/Google-search-console.webp"
                 alt="importancia de google search console"
               />
               <div className="BodyCard">
