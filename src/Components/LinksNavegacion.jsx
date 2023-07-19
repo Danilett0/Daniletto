@@ -32,6 +32,15 @@ function LinksNavegacion(props) {
             ¿Quien soy?
           </NavLink>
         </li>
+        {/* <li>
+          <NavLink
+            to="/Blog"
+            activeclassname="active"
+            onClick={cerrarMenu}
+          >
+            Blog
+          </NavLink>
+        </li> */}
         <li>
           <NavLink
             className="LinkContacto"
