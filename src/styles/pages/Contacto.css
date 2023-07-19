@@ -51,6 +51,7 @@
 
 .Contacto .Datos-Form .Formulario {
   width: 60%;
+  position: relative;
 }
 
 .Contacto .Datos-Form .Imagen {
