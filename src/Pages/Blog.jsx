@@ -10,7 +10,7 @@ function Blog() {
   useEffect(() => {
     setTimeout(() => {
       setLoadingPage(false);
-    }, 1200);
+    }, 2000);
     
   }, []);
 
