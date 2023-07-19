@@ -26,7 +26,8 @@ function Blog() {
         </div>
       </div>
 
-      <div className="Articles">
+      {!loading && (
+        <div className="Articles">
         <div className="Article">
           <img
             loading="lazy"
@@ -172,6 +173,9 @@ function Blog() {
           </div>
         </div>
       </div>
+      )}
+
+      
     </main>
   );
 }
