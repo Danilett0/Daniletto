@@ -9,6 +9,12 @@
   animation: fadeInOut 2s linear infinite;
 }
 
+.loading img.ImgLoading{
+  width: 100%;
+  max-width: 200px;
+  box-shadow: none;
+}
+
 .loading-text {
   margin-top: 8px;
   color: white;

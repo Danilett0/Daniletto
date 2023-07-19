@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/pages/Blog.css";
+import Loading from "../Components/Loading";
 
 function Blog() {
+  const [loading, setLoading] = useState(true);
+
+  function handleImageLoad() {
+    setLoading(false);
+  }
+
   return (
     <main>
       <div className="Banner">
+        {loading && <Loading />}
         <img
           src="/images/ImagesBlog/Banner_blog_daniletto.jpg"
           alt="Banner blog daniletto"
+          onLoad={handleImageLoad}
         />
         <div className="Text">
           <h1>El Blog de Daniletto</h1>
