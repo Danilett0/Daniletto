@@ -11,7 +11,6 @@ function Blog() {
     setTimeout(() => {
       setLoadingPage(false);
     }, 1000);
-    
   }, []);
 
   return (
@@ -24,6 +23,10 @@ function Blog() {
             <img
               src="/images/ImagesBlog/Banner_blog_daniletto.jpg"
               alt="Banner blog daniletto"
+              width="100%"
+              max-width="1500px"
+              height="100%"
+              max-height="850px"
             />
             <div className="Text">
               <h1>El Blog de Daniletto</h1>

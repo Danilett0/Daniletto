@@ -5,12 +5,6 @@ main.BoxBlog {
   align-items: center;
 }
 
-main .Banner {
-  width: 100%;
-  max-width: 1500px;
-  height: 100%;
-}
-
 main .Banner img {
   width: 100%;
   box-shadow: 0px 5px 10px #0707079d;
