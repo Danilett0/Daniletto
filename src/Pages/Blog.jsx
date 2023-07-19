@@ -8,7 +8,6 @@ function Blog() {
     <main>
       <div className="Banner">
         <img
-          loading="lazy"
           src="/images/ImagesBlog/Banner_blog_daniletto.jpg"
           alt="Banner blog daniletto"
         />
