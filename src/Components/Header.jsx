@@ -7,7 +7,7 @@ import MenuHamburguer from "./MenuHamburguer";
 
 function Header() {
   return (
-    <div className="Header">
+    <header>
       <div className="Logo">
         <Link to="/">
           <img src="/images/logo-daniletto.png" alt="logo Daniletto" />
@@ -19,7 +19,7 @@ function Header() {
       </div>
 
       <MenuHamburguer />
-    </div>
+    </header>
   );
 }
 

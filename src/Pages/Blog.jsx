@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Loading from "../Components/Loading";
+import Header from "../Components/Blog/Header";
 import "../App.css";
 import "../styles/pages/Blog.css";
 
@@ -19,20 +20,8 @@ function Blog() {
         <Loading />
       ) : (
         <main className="BoxBlog">
-          <div className="Banner">
-            <img
-              src="/images/ImagesBlog/Banner-blog-daniletto.webp"
-              alt="Banner blog daniletto"
-              width="100%"
-              max-width="1500px"
-              height="100%"
-              max-height="850px"
-            />
-            <div className="Text">
-              <h1>El Blog de Daniletto</h1>
-              <h2>Tecnología, Desarrollo Web y Más</h2>
-            </div>
-          </div>
+         
+        <Header Title="El Blog de Daniletto" SubTitle="Tecnología, Desarrollo Web y Más" />
 
           <div className="Articles">
             <div className="Article">
@@ -57,7 +46,7 @@ function Blog() {
               </div>
             </div>
 
-            <div className="Article">
+            {/* <div className="Article">
               <img
                 loading="lazy"
                 src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
@@ -183,7 +172,7 @@ function Blog() {
                   Ver Artículo
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </main>
       )}

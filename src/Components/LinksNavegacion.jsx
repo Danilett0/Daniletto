@@ -32,7 +32,7 @@ function LinksNavegacion(props) {
             ¿Quien soy?
           </NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink
             to="/Blog"
             activeclassname="active"
@@ -40,7 +40,7 @@ function LinksNavegacion(props) {
           >
             Blog
           </NavLink>
-        </li> */}
+        </li>
         <li>
           <NavLink
             className="LinkContacto"
