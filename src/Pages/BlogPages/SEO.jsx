@@ -59,20 +59,20 @@ function SEO() {
 
         <ul>
           <li>
-            Los metadatos HTML: son etiquetas que proporcionan información sobre
+            <b>Los metadatos HTML:</b> son etiquetas que proporcionan información sobre
             el contenido de tu web, como el título, la descripción, las palabras
             clave, etc. Debes optimizarlos para que sean relevantes, atractivos
             y que contengan las palabras clave que quieres posicionar.
           </li>
           <li>
-            La indexación del sitio web: es el proceso por el cual los
+            <b>La indexación del sitio web:</b> es el proceso por el cual los
             buscadores rastrean e incluyen las páginas de tu web en su índice.
             Debes facilitar este proceso mediante un archivo robots.txt que
             indique qué páginas quieres que se indexen y cuáles no, y un mapa
             del sitio XML que liste todas las páginas de tu web y su jerarquía.
           </li>
           <li>
-            Los códigos de estado HTTP y las páginas de error: son respuestas
+            <b>Los códigos de estado HTTP y las páginas de error:</b> son respuestas
             que indican el estado de una solicitud al servidor. Debes evitar los
             códigos de error como el 404 (página no encontrada) o el 500 (error
             interno del servidor), ya que afectan negativamente al SEO y a la
@@ -81,7 +81,7 @@ function SEO() {
             ofrezcan una solución.
           </li>
           <li>
-            La velocidad de carga del sitio web: es el tiempo que tarda una
+            <b>La velocidad de carga del sitio web:</b> es el tiempo que tarda una
             página en mostrarse completamente al usuario. Debes mejorar la
             velocidad de carga de tu web reduciendo el tamaño de las imágenes,
             eliminando los recursos innecesarios, usando la compresión y la
@@ -104,7 +104,7 @@ function SEO() {
           <div className="Section-1">
             <ul>
               <li>
-                La investigación de palabras clave: es el proceso de identificar
+                <b>La investigación de palabras clave:</b> es el proceso de identificar
                 las palabras o frases que usan los usuarios para buscar
                 información relacionada con tu tema o nicho. Debes hacer una
                 investigación exhaustiva de palabras clave para conocer la
@@ -113,7 +113,7 @@ function SEO() {
                 clave para posicionar tu contenido.
               </li>
               <li>
-                La optimización del contenido: es el proceso de crear contenido
+                <b>La optimización del contenido:</b> es el proceso de crear contenido
                 original, relevante, útil y de calidad para tu público objetivo,
                 usando las palabras clave adecuadas. Debes optimizar el
                 contenido para que responda a las necesidades e intereses de los
@@ -122,7 +122,7 @@ function SEO() {
                 comprender, usando títulos, subtítulos, listas, imágenes, etc.
               </li>
               <li>
-                La estructura del sitio web: es la forma en que organizas las
+                <b>La estructura del sitio web:</b> es la forma en que organizas las
                 páginas de tu web y las enlazas entre sí. Debes crear una
                 estructura lógica, clara y sencilla que facilite la navegación y
                 la comprensión de los usuarios y los buscadores. También debes
@@ -204,17 +204,17 @@ function SEO() {
         </p>
         <ul>
           <li>
-            Google Analytics: es una herramienta gratuita que te permite medir
+            <b>Google Analytics:</b> es una herramienta gratuita que te permite medir
             el tráfico, el comportamiento y la conversión de los usuarios que
             visitan tu web.
           </li>
           <li>
-            Google Search Console: es una herramienta gratuita que te permite
+            <b>Google Search Console:</b> es una herramienta gratuita que te permite
             monitorizar el estado de indexación, los errores técnicos y el
             rendimiento de tu web en los resultados de búsqueda de Google.
           </li>
           <li>
-            Ahrefs: es una herramienta de pago que te permite analizar las
+            <b>Ahrefs:</b> es una herramienta de pago que te permite analizar las
             palabras clave, los enlaces, la competencia y el posicionamiento de
             tu web y la de tus competidores.
           </li>
@@ -237,7 +237,7 @@ function SEO() {
         <p>Algunas de las tendencias actuales del SEO son:</p>
         <ul>
           <li>
-            La búsqueda por voz: es la forma de buscar información usando la voz
+            <b>La búsqueda por voz:</b> es la forma de buscar información usando la voz
             en vez del teclado. Cada vez más usuarios usan esta modalidad
             gracias a los asistentes virtuales como Siri, Alexa o Google
             Assistant. Para optimizar tu web para la búsqueda por voz, debes
@@ -245,7 +245,7 @@ function SEO() {
             tail), y responder a preguntas frecuentes (FAQs).
           </li>
           <li>
-            La búsqueda semántica: es la forma de buscar información basándose
+            <b>La búsqueda semántica:</b> es la forma de buscar información basándose
             en el significado e intención detrás de las palabras, no solo en las
             palabras mismas. Los buscadores usan la inteligencia artificial para
             entender el contexto, las preferencias y el historial de búsqueda de
@@ -256,7 +256,7 @@ function SEO() {
             por parte de los buscadores.
           </li>
           <li>
-            La búsqueda móvil: es la forma de buscar información usando
+            <b>La búsqueda móvil:</b> es la forma de buscar información usando
             dispositivos móviles como smartphones o tablets. Cada vez más
             usuarios usan esta modalidad gracias a la facilidad y comodidad que
             ofrecen estos dispositivos. Para optimizar tu web para la búsqueda
