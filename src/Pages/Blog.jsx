@@ -46,7 +46,7 @@ function Blog() {
               </div>
             </div>
 
-            {/* <div className="Article">
+           <div className="Article">
               <img
                 loading="lazy"
                 src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
@@ -54,8 +54,7 @@ function Blog() {
               />
               <div className="BodyCard">
                 <h3>
-                  Cómo lograr el mejor posicionamiento SEO para tu página web en
-                  5 pasos
+                  Cómo lograr el mejor posicionamiento SEO para tu página web
                 </h3>
                 <p>
                   En este artículo te enseñamos cómo optimizar tu web en todos
@@ -70,7 +69,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
-
+ {/* 
             <div className="Article">
               <img
                 loading="lazy"

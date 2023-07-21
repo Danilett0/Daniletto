@@ -37,7 +37,7 @@ main .Banner .Title h2 {
 main .Articles {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -53,7 +53,7 @@ main .Articles .Article {
   margin: 10px;
   max-width: 350px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   width: 100%;
   border: 1px solid var(--gris-claro);
 }
@@ -86,7 +86,8 @@ main .BodyArticle {
   overflow: hidden;
 }
 
-main .BodyArticle h3 {
+main .BodyArticle h3,
+main .BodyArticle h4 {
   text-align: left;
   margin: 15px 0px;
 }
@@ -100,7 +101,7 @@ main .BodyArticle ul {
 }
 
 main .BodyArticle ul li {
-  list-style: circle;
+  list-style: disc;
   font-weight: bold;
   font-family: Nunito, sans-serif;
   padding: 5px 0px;
@@ -129,6 +130,22 @@ main .BodyArticle .Images img {
   max-width: 370px;
 }
 
+main .BodyArticle .Sectionx2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .BodyArticle .Sectionx2 .Section-1{
+  width: 60%;
+  padding: 15px;
+}
+
+main .BodyArticle .Sectionx2 .Section-2{
+width: 40%;
+}
+
+
 @media (max-width: 777px) {
   main .Banner .Title {
     padding: 10px;
@@ -137,4 +154,13 @@ main .BodyArticle .Images img {
   main .Banner .Title h2 {
     font-size: 16px;
   }
+
+  main .BodyArticle .Sectionx2{
+    flex-direction: column-reverse;
+  }
+
+  main .BodyArticle .Sectionx2 .Section-1,
+    main .BodyArticle .Sectionx2 .Section-2{
+      width: 100%;
+    }
 }
