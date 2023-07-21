@@ -9,7 +9,9 @@ function Blog() {
   const [loadingPage, setLoadingPage] = useState(true);
 
   useEffect(() => {
+    setTimeout(() => {
       setLoadingPage(false);
+    }, 500);
   }, []);
 
   return (
