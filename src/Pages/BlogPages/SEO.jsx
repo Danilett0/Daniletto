@@ -3,7 +3,7 @@ import "../../App.css";
 import "../../styles/pages/Blog.css";
 import Header from "../../Components/Blog/Header";
 
-function SEO(props) {
+function SEO() {
   return (
     <main className="BoxBlog">
       <Header

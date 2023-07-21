@@ -9,9 +9,7 @@ function Blog() {
   const [loadingPage, setLoadingPage] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
       setLoadingPage(false);
-    }, 1000);
   }, []);
 
   return (
@@ -20,8 +18,10 @@ function Blog() {
         <Loading />
       ) : (
         <main className="BoxBlog">
-         
-        <Header Title="El Blog de Daniletto" SubTitle="Tecnología, Desarrollo Web y Más" />
+          <Header
+            Title="El Blog de Daniletto"
+            SubTitle="Tecnología, Desarrollo Web y Más"
+          />
 
           <div className="Articles">
             <div className="Article">
@@ -46,7 +46,7 @@ function Blog() {
               </div>
             </div>
 
-           <div className="Article">
+            <div className="Article">
               <img
                 loading="lazy"
                 src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
@@ -69,7 +69,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
- {/* 
+            {/* 
             <div className="Article">
               <img
                 loading="lazy"
@@ -121,7 +121,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
-
+*/}
             <div className="Article">
               <img
                 loading="lazy"
@@ -146,7 +146,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
-
+            {/*
             <div className="Article">
               <img
                 loading="lazy"

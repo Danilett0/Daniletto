@@ -75,7 +75,8 @@ main .Articles .Article .BodyCard {
 
 main .Articles .Article .BodyCard h3 {
   text-align: left;
-  color: var(--color-primario);
+  color: var(--azul-primario);
+  
 }
 
 main .BodyArticle {
@@ -90,6 +91,7 @@ main .BodyArticle h3,
 main .BodyArticle h4 {
   text-align: left;
   margin: 15px 0px;
+  color: var(--verde-claro);
 }
 
 main .BodyArticle hr {
@@ -102,9 +104,12 @@ main .BodyArticle ul {
 
 main .BodyArticle ul li {
   list-style: disc;
-  font-weight: bold;
   font-family: Nunito, sans-serif;
   padding: 5px 0px;
+}
+
+main .BodyArticle ul li b{
+  color: var(--azul-claro);
 }
 
 main .BodyArticle img {
@@ -113,6 +118,8 @@ main .BodyArticle img {
   border-radius: 3px;
   width: 100%;
   max-width: 1150px;
+  height: 100%;
+  max-height: 600px;
   transition: 0.5s;
 }
 
@@ -143,6 +150,13 @@ main .BodyArticle .Sectionx2 .Section-1{
 
 main .BodyArticle .Sectionx2 .Section-2{
 width: 40%;
+}
+
+main .BodyArticle .Code{
+  background-color: var(--color-primario);
+  border-radius: 3px;
+  padding: 15px;
+  color: white;
 }
 
 
