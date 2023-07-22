@@ -38,6 +38,7 @@ function ExperienciaDeUsuarioUX(props) {
         <img
           src="/images/ImagesBlog/Articles/UxDesign/diseño-ux.svg"
           alt="diseño web UX"
+          loading="lazy"
         />
 
         <p>
@@ -180,6 +181,7 @@ function ExperienciaDeUsuarioUX(props) {
             <img
               src="/images/ImagesBlog/Articles/UxDesign/importancia-diseño-ux.svg"
               alt="diseño web UX"
+              loading="lazy"
             />
           </div>
         </div>
@@ -261,6 +263,7 @@ function ExperienciaDeUsuarioUX(props) {
             <img
               src="/images/ImagesBlog/Articles/UxDesign/diferencia-entre-diseño-ux-ui.svg"
               alt="diferencia entre diseño UX y diseño UI"
+              loading="lazy"
             />
           </div>
 

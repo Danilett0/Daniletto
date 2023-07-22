@@ -15,6 +15,7 @@ function SEO() {
         <img
           src="images/ImagesBlog/Articles/SEO/Search Engine Optimization SEO.webp"
           alt="Search Engine Optimization SEO"
+          loading="lazy"
         />
 
         <p>
@@ -59,10 +60,11 @@ function SEO() {
 
         <ul>
           <li>
-            <b>Los metadatos HTML:</b> son etiquetas que proporcionan información sobre
-            el contenido de tu web, como el título, la descripción, las palabras
-            clave, etc. Debes optimizarlos para que sean relevantes, atractivos
-            y que contengan las palabras clave que quieres posicionar.
+            <b>Los metadatos HTML:</b> son etiquetas que proporcionan
+            información sobre el contenido de tu web, como el título, la
+            descripción, las palabras clave, etc. Debes optimizarlos para que
+            sean relevantes, atractivos y que contengan las palabras clave que
+            quieres posicionar.
           </li>
           <li>
             <b>La indexación del sitio web:</b> es el proceso por el cual los
@@ -72,17 +74,17 @@ function SEO() {
             del sitio XML que liste todas las páginas de tu web y su jerarquía.
           </li>
           <li>
-            <b>Los códigos de estado HTTP y las páginas de error:</b> son respuestas
-            que indican el estado de una solicitud al servidor. Debes evitar los
-            códigos de error como el 404 (página no encontrada) o el 500 (error
-            interno del servidor), ya que afectan negativamente al SEO y a la
-            experiencia de usuario. En su lugar, debes crear páginas de error
-            personalizadas que redirijan al usuario a otra página relevante o le
-            ofrezcan una solución.
+            <b>Los códigos de estado HTTP y las páginas de error:</b> son
+            respuestas que indican el estado de una solicitud al servidor. Debes
+            evitar los códigos de error como el 404 (página no encontrada) o el
+            500 (error interno del servidor), ya que afectan negativamente al
+            SEO y a la experiencia de usuario. En su lugar, debes crear páginas
+            de error personalizadas que redirijan al usuario a otra página
+            relevante o le ofrezcan una solución.
           </li>
           <li>
-            <b>La velocidad de carga del sitio web:</b> es el tiempo que tarda una
-            página en mostrarse completamente al usuario. Debes mejorar la
+            <b>La velocidad de carga del sitio web:</b> es el tiempo que tarda
+            una página en mostrarse completamente al usuario. Debes mejorar la
             velocidad de carga de tu web reduciendo el tamaño de las imágenes,
             eliminando los recursos innecesarios, usando la compresión y la
             caché, etc. Una web rápida mejora el SEO y la experiencia de
@@ -104,26 +106,26 @@ function SEO() {
           <div className="Section-1">
             <ul>
               <li>
-                <b>La investigación de palabras clave:</b> es el proceso de identificar
-                las palabras o frases que usan los usuarios para buscar
-                información relacionada con tu tema o nicho. Debes hacer una
-                investigación exhaustiva de palabras clave para conocer la
+                <b>La investigación de palabras clave:</b> es el proceso de
+                identificar las palabras o frases que usan los usuarios para
+                buscar información relacionada con tu tema o nicho. Debes hacer
+                una investigación exhaustiva de palabras clave para conocer la
                 intención de búsqueda, el volumen, la dificultad y la
                 competencia de cada una. Así podrás elegir las mejores palabras
                 clave para posicionar tu contenido.
               </li>
               <li>
-                <b>La optimización del contenido:</b> es el proceso de crear contenido
-                original, relevante, útil y de calidad para tu público objetivo,
-                usando las palabras clave adecuadas. Debes optimizar el
-                contenido para que responda a las necesidades e intereses de los
-                usuarios, y que les ofrezca valor añadido. También debes
+                <b>La optimización del contenido:</b> es el proceso de crear
+                contenido original, relevante, útil y de calidad para tu público
+                objetivo, usando las palabras clave adecuadas. Debes optimizar
+                el contenido para que responda a las necesidades e intereses de
+                los usuarios, y que les ofrezca valor añadido. También debes
                 optimizar el contenido para que sea fácil de leer, escanear y
                 comprender, usando títulos, subtítulos, listas, imágenes, etc.
               </li>
               <li>
-                <b>La estructura del sitio web:</b> es la forma en que organizas las
-                páginas de tu web y las enlazas entre sí. Debes crear una
+                <b>La estructura del sitio web:</b> es la forma en que organizas
+                las páginas de tu web y las enlazas entre sí. Debes crear una
                 estructura lógica, clara y sencilla que facilite la navegación y
                 la comprensión de los usuarios y los buscadores. También debes
                 usar enlaces internos y externos para conectar tu contenido con
@@ -135,6 +137,7 @@ function SEO() {
             <img
               src="images/ImagesBlog/Articles/SEO/Optimizacion-de-contenido.svg"
               alt="optimizacion del contenido web"
+              loading="lazy"
             />
           </div>
         </div>
@@ -160,8 +163,11 @@ function SEO() {
         </p>
         <div className="Sectionx2">
           <div className="Section-2">
-            <img src="images/ImagesBlog/Articles/SEO/calidad web.svg"
-            alt="calidad de un sitio web" />
+            <img
+              src="images/ImagesBlog/Articles/SEO/calidad web.svg"
+              alt="calidad de un sitio web"
+              loading="lazy"
+            />
           </div>
           <div className="Section-1">
             <ul>
@@ -204,19 +210,19 @@ function SEO() {
         </p>
         <ul>
           <li>
-            <b>Google Analytics:</b> es una herramienta gratuita que te permite medir
-            el tráfico, el comportamiento y la conversión de los usuarios que
-            visitan tu web.
+            <b>Google Analytics:</b> es una herramienta gratuita que te permite
+            medir el tráfico, el comportamiento y la conversión de los usuarios
+            que visitan tu web.
           </li>
           <li>
-            <b>Google Search Console:</b> es una herramienta gratuita que te permite
-            monitorizar el estado de indexación, los errores técnicos y el
-            rendimiento de tu web en los resultados de búsqueda de Google.
+            <b>Google Search Console:</b> es una herramienta gratuita que te
+            permite monitorizar el estado de indexación, los errores técnicos y
+            el rendimiento de tu web en los resultados de búsqueda de Google.
           </li>
           <li>
-            <b>Ahrefs:</b> es una herramienta de pago que te permite analizar las
-            palabras clave, los enlaces, la competencia y el posicionamiento de
-            tu web y la de tus competidores.
+            <b>Ahrefs:</b> es una herramienta de pago que te permite analizar
+            las palabras clave, los enlaces, la competencia y el posicionamiento
+            de tu web y la de tus competidores.
           </li>
         </ul>
         <p>
@@ -237,23 +243,23 @@ function SEO() {
         <p>Algunas de las tendencias actuales del SEO son:</p>
         <ul>
           <li>
-            <b>La búsqueda por voz:</b> es la forma de buscar información usando la voz
-            en vez del teclado. Cada vez más usuarios usan esta modalidad
+            <b>La búsqueda por voz:</b> es la forma de buscar información usando
+            la voz en vez del teclado. Cada vez más usuarios usan esta modalidad
             gracias a los asistentes virtuales como Siri, Alexa o Google
             Assistant. Para optimizar tu web para la búsqueda por voz, debes
             usar palabras clave más naturales, conversacionales y largas (long
             tail), y responder a preguntas frecuentes (FAQs).
           </li>
           <li>
-            <b>La búsqueda semántica:</b> es la forma de buscar información basándose
-            en el significado e intención detrás de las palabras, no solo en las
-            palabras mismas. Los buscadores usan la inteligencia artificial para
-            entender el contexto, las preferencias y el historial de búsqueda de
-            los usuarios. Para optimizar tu web para la búsqueda semántica,
-            debes usar palabras clave relacionadas (LSI), crear contenido
-            relevante para cada etapa del embudo de conversión, y usar datos
-            estructurados (schema) para facilitar la comprensión de tu contenido
-            por parte de los buscadores.
+            <b>La búsqueda semántica:</b> es la forma de buscar información
+            basándose en el significado e intención detrás de las palabras, no
+            solo en las palabras mismas. Los buscadores usan la inteligencia
+            artificial para entender el contexto, las preferencias y el
+            historial de búsqueda de los usuarios. Para optimizar tu web para la
+            búsqueda semántica, debes usar palabras clave relacionadas (LSI),
+            crear contenido relevante para cada etapa del embudo de conversión,
+            y usar datos estructurados (schema) para facilitar la comprensión de
+            tu contenido por parte de los buscadores.
           </li>
           <li>
             <b>La búsqueda móvil:</b> es la forma de buscar información usando
