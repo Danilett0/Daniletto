@@ -69,11 +69,11 @@ main .Articles .Article img {
   max-height: 311px;
 }
 
-main .Articles .Article .BodyCard {
+main .Articles .Article .BodyArticle {
   padding: 15px;
 }
 
-main .Articles .Article .BodyCard h3 {
+main .Articles .Article .BodyArticle h3 {
   text-align: left;
   color: var(--azul-primario);
   
@@ -159,6 +159,33 @@ main .BodyArticle .Code{
   color: white;
 }
 
+main .BodyArticle .Cards{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 50px 10px;
+  background-color: white;
+}
+
+main .BodyArticle .Cards .Card{
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px var(--gris-oscuro);
+  height: 100%;
+  margin: 10px;
+  max-width: 350px;
+  overflow: hidden;
+  transition: 0.5s;
+  width: 100%;
+  border: 1px solid var(--gris-claro);
+}
+
+main .BodyArticle .Cards .Card .BodyCard{
+  padding: 15px;
+}
 
 @media (max-width: 777px) {
   main .Banner .Title {

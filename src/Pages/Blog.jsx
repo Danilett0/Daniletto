@@ -32,7 +32,7 @@ function Blog() {
                 src="/images/ImagesBlog/creacion-de-imagen-usando-inteligencia-artificial.webp"
                 alt="crear imágenes con inteligencia artificial"
               />
-              <div className="BodyCard">
+              <div className="BodyArticle">
                 <h3>Cómo crear imágenes de alta calidad con IA</h3>
                 <p>
                   ¿Te gustaría crear imágenes impresionantes sin necesidad de
@@ -54,7 +54,7 @@ function Blog() {
                 src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
                 alt="mejorar posicionamiento web con SEO"
               />
-              <div className="BodyCard">
+              <div className="BodyArticle">
                 <h3>
                   Cómo lograr el mejor posicionamiento SEO para tu página web
                 </h3>
@@ -78,7 +78,7 @@ function Blog() {
                 src="/images/ImagesBlog/Diseño-de-paginas-web-atractivas.webp"
                 alt="importancia del diseño web"
               />
-              <div className="BodyCard">
+              <div className="BodyArticle">
                 <h3>
                   Cómo diseñar una página web atractiva que enamore a tus
                   visitantes
@@ -97,6 +97,32 @@ function Blog() {
                 </Link>
               </div>
             </div>
+*/}
+
+            <div className="Article">
+              <img
+                loading="lazy"
+                src="/images/ImagesBlog/Optimizacion-web.webp"
+                alt="optimización de paginas web"
+              />
+              <div className="BodyArticle">
+                <h3>
+                  Optimización web: cómo hacer que tu página web sea más rápida
+                  y eficiente
+                </h3>
+                <p>
+                  Descubre cómo reducir el tamaño de tus archivos, mejorar el
+                  tiempo de carga, utilizar herramientas de optimización web y
+                  evaluar la velocidad y el rendimiento de tu página web.
+                </p>
+                <Link
+                  className="Button Red"
+                  to="/optimización-web:-cómo-hacer-que-tu-página-web-sea-más-rápida-y-eficiente"
+                >
+                  Ver Artículo
+                </Link>
+              </div>
+            </div>
 
             <div className="Article">
               <img
@@ -104,7 +130,7 @@ function Blog() {
                 src="/images/ImagesBlog/importancia-de-la-experiencia-de-usuario-en-la-web.webp"
                 alt="importancia de la experiencia de usuario UX"
               />
-              <div className="BodyCard">
+              <div className="BodyArticle">
                 <h3>
                   Todo lo que necesitas saber sobre el diseño UX y cómo
                   aplicarlo a tu página web
@@ -123,31 +149,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
-*/}
-            <div className="Article">
-              <img
-                loading="lazy"
-                src="/images/ImagesBlog/Optimizacion-web.webp"
-                alt="optimización de paginas web"
-              />
-              <div className="BodyCard">
-                <h3>
-                  Optimización web: cómo hacer que tu página web sea más rápida
-                  y eficiente
-                </h3>
-                <p>
-                  Descubre cómo reducir el tamaño de tus archivos, mejorar el
-                  tiempo de carga, utilizar herramientas de optimización web y
-                  evaluar la velocidad y el rendimiento de tu página web.
-                </p>
-                <Link
-                  className="Button Red"
-                  to="/optimización-web:-cómo-hacer-que-tu-página-web-sea-más-rápida-y-eficiente"
-                >
-                  Ver Artículo
-                </Link>
-              </div>
-            </div>
+
             {/*
             <div className="Article">
               <img
@@ -155,7 +157,7 @@ function Blog() {
                 src="/images/ImagesBlog/Google-search-console.webp"
                 alt="importancia de google search console"
               />
-              <div className="BodyCard">
+              <div className="BodyArticle">
                 <h3>
                   Google Search Console: cómo optimizar tu web y atraer más
                   clientes
