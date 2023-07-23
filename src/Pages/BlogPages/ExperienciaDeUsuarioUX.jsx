@@ -36,7 +36,7 @@ function ExperienciaDeUsuarioUX(props) {
         </p>
 
         <img
-          src="/images/ImagesBlog/Articles/UxDesign/diseño-ux.svg"
+          src="/images//Blog//Articles/UxDesign/diseño-ux.svg"
           alt="diseño web UX"
           loading="lazy"
         />
@@ -179,7 +179,7 @@ function ExperienciaDeUsuarioUX(props) {
           </div>
           <div className="Section-2">
             <img
-              src="/images/ImagesBlog/Articles/UxDesign/importancia-diseño-ux.svg"
+              src="/images//Blog//Articles/UxDesign/importancia-diseño-ux.svg"
               alt="diseño web UX"
               loading="lazy"
             />
@@ -261,7 +261,7 @@ function ExperienciaDeUsuarioUX(props) {
         <div className="Sectionx2">
           <div className="Section-2">
             <img
-              src="/images/ImagesBlog/Articles/UxDesign/diferencia-entre-diseño-ux-ui.svg"
+              src="/images//Blog//Articles/UxDesign/diferencia-entre-diseño-ux-ui.svg"
               alt="diferencia entre diseño UX y diseño UI"
               loading="lazy"
             />

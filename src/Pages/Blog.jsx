@@ -30,7 +30,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/creacion-de-imagen-usando-inteligencia-artificial.webp"
+                src="/images//Blog//creacion-de-imagen-usando-inteligencia-artificial.webp"
                 alt="crear imágenes con inteligencia artificial"
               />
               <div className="BodyArticle">
@@ -52,7 +52,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Posicionamiento-web-SEO.webp"
+                src="/images//Blog//Posicionamiento-web-SEO.webp"
                 alt="mejorar posicionamiento web con SEO"
               />
               <div className="BodyArticle">
@@ -75,7 +75,7 @@ function Blog() {
             {/*  <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Diseño-de-paginas-web-atractivas.webp"
+                src="/images//Blog//Diseño-de-paginas-web-atractivas.webp"
                 alt="importancia del diseño web"
               />
               <div className="BodyArticle">
@@ -101,7 +101,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Optimizacion-web.webp"
+                src="/images//Blog//Optimizacion-web.webp"
                 alt="optimización de paginas web"
               />
               <div className="BodyArticle">
@@ -126,7 +126,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/importancia-de-la-experiencia-de-usuario-en-la-web.webp"
+                src="/images//Blog//importancia-de-la-experiencia-de-usuario-en-la-web.webp"
                 alt="importancia de la experiencia de usuario UX"
               />
               <div className="BodyArticle">
@@ -152,7 +152,7 @@ function Blog() {
             <div className="Article">
               <img
                 loading="lazy"
-                src="/images/ImagesBlog/Google-search-console.webp"
+                src="/images//Blog//Google-search-console.webp"
                 alt="importancia de google search console"
               />
               <div className="BodyArticle">

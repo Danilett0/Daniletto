@@ -29,7 +29,7 @@ function GoogleSearchConsole() {
 
         <h3>Paso 1: Verifica la propiedad de tu sitio web</h3>
         <img
-          src="images/ImagesBlog/Articles/GoogleSearchConsole/verificar-propiedad-en-google-search-console.webp"
+          src="images//Blog//Articles/GoogleSearchConsole/verificar-propiedad-en-google-search-console.webp"
           alt="verificacion de propiedad en google search console"
           loading="lazy"
         />
@@ -89,7 +89,7 @@ function GoogleSearchConsole() {
         </p>
 
         <img
-          src="images/ImagesBlog/Articles/GoogleSearchConsole/plataforma-google-search-console.webp"
+          src="images//Blog//Articles/GoogleSearchConsole/plataforma-google-search-console.webp"
           alt="plataforma google search console"
           loading="lazy"
         />
@@ -169,7 +169,7 @@ function GoogleSearchConsole() {
           </div>
           <div className="Section-2">
             <img
-              src="images/ImagesBlog/Articles/GoogleSearchConsole/problemas-tecnicos-del-sitio-web.svg"
+              src="images//Blog//Articles/GoogleSearchConsole/problemas-tecnicos-del-sitio-web.svg"
               alt="validacion de errores web"
               loading="lazy"
             />
@@ -208,7 +208,7 @@ function GoogleSearchConsole() {
         <div className="Sectionx2">
           <div className="Section-2">
             <img
-              src="images/ImagesBlog/Articles/GoogleSearchConsole/calidad-del-contenido-web.svg"
+              src="images//Blog//Articles/GoogleSearchConsole/calidad-del-contenido-web.svg"
               alt="calidad en el contenido"
               loading="lazy"
             />

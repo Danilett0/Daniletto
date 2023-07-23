@@ -13,7 +13,7 @@ function OptimizacionWeb() {
 
       <div className="BodyArticle">
         <img
-          src="/images/ImagesBlog/Articles/OptimizacionWeb/pagina-web-rapida.svg"
+          src="/images//Blog//Articles/OptimizacionWeb/pagina-web-rapida.svg"
           alt="pagina web optimizada"
           loading="lazy"
         />

@@ -13,7 +13,7 @@ function SEO() {
       <div className="BodyArticle">
         <hr />
         <img
-          src="images/ImagesBlog/Articles/SEO/Search-Engine-Optimization-SEO.webp"
+          src="images//Blog//Articles/SEO/Search-Engine-Optimization-SEO.webp"
           alt="Search Engine Optimization SEO"
           loading="lazy"
         />
@@ -135,7 +135,7 @@ function SEO() {
           </div>
           <div className="Section-2">
             <img
-              src="images/ImagesBlog/Articles/SEO/Optimizacion-de-contenido.svg"
+              src="images//Blog//Articles/SEO/Optimizacion-de-contenido.svg"
               alt="optimizacion del contenido web"
               loading="lazy"
             />
@@ -164,7 +164,7 @@ function SEO() {
         <div className="Sectionx2">
           <div className="Section-2">
             <img
-              src="images/ImagesBlog/Articles/SEO/calidad web.svg"
+              src="images//Blog//Articles/SEO/calidad web.svg"
               alt="calidad de un sitio web"
               loading="lazy"
             />

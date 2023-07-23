@@ -31,17 +31,17 @@ function Genera_Imagenes_con_IA() {
 
         <div className="Images">
           <img
-            src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 1.webp"
+            src="/images//Blog//Articles/LeonardoAI/imagen generada con inteligencia artificial 1.webp"
             alt="imagen generada con inteligencia artificial"
             loading="lazy"
           />
           <img
-            src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 2.webp"
+            src="/images//Blog//Articles/LeonardoAI/imagen generada con inteligencia artificial 2.webp"
             alt="imagen generada con inteligencia artificial"
             loading="lazy"
           />
           <img
-            src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 3.webp"
+            src="/images//Blog//Articles/LeonardoAI/imagen generada con inteligencia artificial 3.webp"
             alt="imagen generada con inteligencia artificial"
             loading="lazy"
           />
@@ -117,7 +117,7 @@ function Genera_Imagenes_con_IA() {
           registrarte en su página web con tu correo electrónico y crear una
           cuenta.
           <img
-            src="/images/ImagesBlog/Articles/LeonardoAI/home-page-leonardo.webp"
+            src="/images//Blog//Articles/LeonardoAI/home-page-leonardo.webp"
             alt="home page de Leonado AI"
             loading="lazy"
           />
@@ -144,7 +144,7 @@ function Genera_Imagenes_con_IA() {
           opción "AI Image Generation" como podemos ver en la siguiente imagen:
         </p>
         <img
-          src="/images/ImagesBlog/Articles/LeonardoAI/pagina de inicio leonardo ai.webp"
+          src="/images//Blog//Articles/LeonardoAI/pagina de inicio leonardo ai.webp"
           alt="Pagina de inicio de aplicacion Leonardo AI"
           loading="lazy"
         />
@@ -175,7 +175,7 @@ function Genera_Imagenes_con_IA() {
           inteligencia artificial.
         </p>
         <img
-          src="/images/ImagesBlog/Articles/LeonardoAI/crear imagen con leonardo ai.webp"
+          src="/images//Blog//Articles/LeonardoAI/crear imagen con leonardo ai.webp"
           alt="Seccion pagina Leonardo AI para generar imagen"
           loading="lazy"
         />
