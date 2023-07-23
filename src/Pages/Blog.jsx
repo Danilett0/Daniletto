@@ -26,6 +26,7 @@ function Blog() {
           />
 
           <div className="Articles">
+
             <div className="Article">
               <img
                 loading="lazy"
@@ -150,7 +151,6 @@ function Blog() {
               </div>
             </div>
 
-            {/*
             <div className="Article">
               <img
                 loading="lazy"
@@ -159,8 +159,7 @@ function Blog() {
               />
               <div className="BodyArticle">
                 <h3>
-                  Google Search Console: cómo optimizar tu web y atraer más
-                  clientes
+                Cómo dominar Google Search Console en 5 pasos
                 </h3>
                 <p>
                   Aprende cómo usar Google Search Console, una herramienta
@@ -175,7 +174,8 @@ function Blog() {
                   Ver Artículo
                 </Link>
               </div>
-            </div> */}
+            </div> 
+
           </div>
         </main>
       )}

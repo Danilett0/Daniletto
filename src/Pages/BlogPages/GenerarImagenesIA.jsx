@@ -33,14 +33,17 @@ function Genera_Imagenes_con_IA() {
           <img
             src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 1.webp"
             alt="imagen generada con inteligencia artificial"
+            loading="lazy"
           />
           <img
             src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 2.webp"
             alt="imagen generada con inteligencia artificial"
+            loading="lazy"
           />
           <img
             src="/images/ImagesBlog/Articles/LeonardoAI/imagen generada con inteligencia artificial 3.webp"
             alt="imagen generada con inteligencia artificial"
+            loading="lazy"
           />
         </div>
 
@@ -116,6 +119,7 @@ function Genera_Imagenes_con_IA() {
           <img
             src="/images/ImagesBlog/Articles/LeonardoAI/home-page-leonardo.webp"
             alt="home page de Leonado AI"
+            loading="lazy"
           />
           Al hacerlo, obtendrás un acceso instantáneo a la plataforma y podrás
           generar hasta 100 imágenes al mes sin ningún costo. También podrás
@@ -142,6 +146,7 @@ function Genera_Imagenes_con_IA() {
         <img
           src="/images/ImagesBlog/Articles/LeonardoAI/pagina de inicio leonardo ai.webp"
           alt="Pagina de inicio de aplicacion Leonardo AI"
+          loading="lazy"
         />
         <p>
           Luego de hacer esto veremos una interfaz como esta, en donde podremos
@@ -172,6 +177,7 @@ function Genera_Imagenes_con_IA() {
         <img
           src="/images/ImagesBlog/Articles/LeonardoAI/crear imagen con leonardo ai.webp"
           alt="Seccion pagina Leonardo AI para generar imagen"
+          loading="lazy"
         />
 
         <hr />

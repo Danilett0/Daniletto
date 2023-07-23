@@ -3,7 +3,7 @@ import "../../App.css";
 import "../../styles/pages/Blog.css";
 import Header from "../../Components/Blog/Header";
 
-function OptimizacionWeb(props) {
+function OptimizacionWeb() {
   return (
     <main className="BoxBlog">
       <Header
@@ -15,6 +15,7 @@ function OptimizacionWeb(props) {
         <img
           src="/images/ImagesBlog/Articles/OptimizacionWeb/pagina-web-rapida.svg"
           alt="pagina web optimizada"
+          loading="lazy"
         />
         <p>
           La velocidad y la eficiencia de una página web son factores clave para
@@ -110,19 +111,19 @@ function OptimizacionWeb(props) {
 
         <ul>
           <li>
-          <b>HTMLMinifier:</b> Esta herramienta te permite reducir el tamaño del
-            código HTML, eliminando los espacios en blanco, los comentarios, los
-            atributos innecesarios o las etiquetas vacías.
+            <b>HTMLMinifier:</b> Esta herramienta te permite reducir el tamaño
+            del código HTML, eliminando los espacios en blanco, los comentarios,
+            los atributos innecesarios o las etiquetas vacías.
           </li>
           <li>
-          <b>CSSNano:</b> Esta herramienta te permite reducir el tamaño del código
-            CSS, eliminando los espacios en blanco, los comentarios, los
+            <b>CSSNano:</b> Esta herramienta te permite reducir el tamaño del
+            código CSS, eliminando los espacios en blanco, los comentarios, los
             prefijos innecesarios o los valores por defecto.
           </li>
           <li>
-           <b>UglifyJS:</b> Esta herramienta te permite reducir el tamaño del código
-            JavaScript, eliminando los espacios en blanco, los comentarios, los
-            nombres largos o las funciones innecesarias.
+            <b>UglifyJS:</b> Esta herramienta te permite reducir el tamaño del
+            código JavaScript, eliminando los espacios en blanco, los
+            comentarios, los nombres largos o las funciones innecesarias.
           </li>
         </ul>
 
