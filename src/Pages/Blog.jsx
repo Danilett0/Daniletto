@@ -72,8 +72,7 @@ function Blog() {
                 </Link>
               </div>
             </div>
-            {/* 
-            <div className="Article">
+            {/*  <div className="Article">
               <img
                 loading="lazy"
                 src="/images/ImagesBlog/Diseño-de-paginas-web-atractivas.webp"
@@ -97,8 +96,7 @@ function Blog() {
                   Ver Artículo
                 </Link>
               </div>
-            </div>
-*/}
+            </div> */}
 
             <div className="Article">
               <img

@@ -7,9 +7,9 @@ function Header({Title = "El Blog de Daniletto", SubTitle="Tecnología, Desarrol
         src="/images/ImagesBlog/Banner-blog-daniletto.webp"
         alt="Banner blog daniletto"
         width="100%"
-        max-width="1500px"
+        max-width="1200px"
         height="100%"
-        max-height="850px"
+        max-height="680px"
       />
       <div className="Title">
         <h1>{Title}</h1>
