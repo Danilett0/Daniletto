@@ -1,6 +1,6 @@
 main .Encabezado {
   background-image: linear-gradient(rgba(0, 0, 0, 0.856), #081827c4),
-    url("/public/images/desarrollo_web.jpg");
+    url("/public/images/Home/desarrollo_web.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
