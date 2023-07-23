@@ -1,18 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Loading from "../Components/Loading";
 import Header from "../Components/Blog/Header";
+import useLoading from "../Hooks/useLoading";
 import "../App.css";
 import "../styles/pages/Blog.css";
 
 function Blog() {
-  const [loadingPage, setLoadingPage] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoadingPage(false);
-    }, 500);
-  }, []);
+  const loadingPage = useLoading('blog', 300);
 
   return (
     <>

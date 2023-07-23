@@ -1,19 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import Loading from "../Components/Loading";
+import useLoading from "../Hooks/useLoading";
 import "../App.css";
 import "../styles/pages/Home.css";
 
 function Home() {
-  const [loadingPage, setLoadingPage] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoadingPage(false);
-    }, 300);
-  }, []);
+  const loadingPage = useLoading('home', 300);
 
   return (
     <>
