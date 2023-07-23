@@ -43,10 +43,6 @@
   margin-bottom: 30px;
 }
 
-.About .Box-Perfil .Perfil .Descripcion p {
-  color: gray;
-}
-
 .About .Box-Perfil .Perfil .Imagen {
   width: 40%;
   display: flex;
@@ -242,7 +238,6 @@
   margin: 10px 0px;
 }
 .About .Metodologia .Cards .Card p {
-  color: gray;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
