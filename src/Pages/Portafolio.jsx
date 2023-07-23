@@ -33,7 +33,7 @@ function Portafolio() {
             de lo que puedo hacer por ti y por tu proyecto.
           </p>
         </div>
-        <img src="/images/Portafolio/landing.png" alt="imagen landing page" />
+        <img src="/images/Portafolio/landing.webp" alt="imagen landing page" />
       </div>
 
       <VisualEffectTopWhite />
@@ -45,7 +45,7 @@ function Portafolio() {
           <div className="Box-Proyectos">
             <div className="Proyecto">
               <h4>App del clima</h4>
-              <img src="/images/Portafolio/sol.png" alt="Aplicación del clima con react" />
+              <img src="/images/Portafolio/sol.webp" alt="Aplicación del clima con react" />
               <p>
                 Conoce el clima con esta app. Temperatura, humedad, viento,
                 presión y pronóstico. Hecha con React y lo último en tecnología.
@@ -58,7 +58,7 @@ function Portafolio() {
             <div className="Proyecto">
               <h4>Calculadora</h4>
               <img
-                src="/images/Portafolio/calculadora.png"
+                src="/images/Portafolio/calculadora.webp"
                 alt="Aplicación de calculadora con react"
               />
               <p>
@@ -74,7 +74,7 @@ function Portafolio() {
             <div className="Proyecto">
               <h4>Imagen Random</h4>
               <img
-                src="/images/Portafolio/imagenes.png"
+                src="/images/Portafolio/imagenes.webp"
                 alt="Aplicación de random gif con react"
               />
               <p>
@@ -91,7 +91,7 @@ function Portafolio() {
 
         <div className="Box-Proyectos">
           <div className="Proyecto">
-            <img src="/images/Portafolio/fyllo.jpeg" alt="creacion de pagina web FYLLO" />
+            <img src="/images/Portafolio/fyllo.webp" alt="creacion de pagina web FYLLO" />
             <h4>Landing Page Fyllo</h4>
             <Link className="Button Red" target="_blank" to="https://danilett0.github.io/Landing-Page-Fyllo/">
               VER SITIO WEB
@@ -99,7 +99,7 @@ function Portafolio() {
           </div>
           <div className="Proyecto">
             <img
-              src="/images/Portafolio/FincaRaiz.jpeg"
+              src="/images/Portafolio/FincaRaiz.webp"
               alt="Creación de pagina web para FincaRaíz"
             />
             <h4>Pagina FincaRaíz</h4>
@@ -109,7 +109,7 @@ function Portafolio() {
           </div>
           <div className="Proyecto">
             <img
-              src="/images/Portafolio/BookMark.jpeg"
+              src="/images/Portafolio/BookMark.webp"
               alt="Creación de pagina web BookMark"
             />
             <h4>Landing Page BookMark</h4>
@@ -129,7 +129,7 @@ function Portafolio() {
             <div className="Box-Proyectos">
               <div className="Proyecto">
                 <img
-                  src="/images/Portafolio/ClaudiaBotero.jpeg"
+                  src="/images/Portafolio/ClaudiaBotero.webp"
                   alt="creación de pagina web para psicóloga"
                 />
                 <h4>Landing Page ClaudiaBotero</h4>
@@ -139,7 +139,7 @@ function Portafolio() {
               </div>
               <div className="Proyecto">
                 <img
-                  src="/images/Portafolio/LifeMiles.jpg"
+                  src="/images/Portafolio/LifeMiles.webp"
                   alt="creación de pagina web LifeMiles"
                 />
                 <h4>Landing Page LifeMiles</h4>
@@ -149,7 +149,7 @@ function Portafolio() {
               </div>
               <div className="Proyecto">
                 <img
-                  src="/images/Portafolio/Shortly.jpeg"
+                  src="/images/Portafolio/Shortly.webp"
                   alt="creación de pagina web Shortly"
                 />
                 <h4>Landing Page Shortly</h4>
@@ -175,7 +175,7 @@ function Portafolio() {
             </Link>
           </p>
           <img
-            src="/images/Portafolio/Person.png"
+            src="/images/Portafolio/Person.webp"
             alt="consulta mas información sobre Daniletto"
           />
         </div>

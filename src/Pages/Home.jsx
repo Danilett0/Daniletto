@@ -33,7 +33,7 @@ function Home() {
             <h3>ALTA CALIDAD</h3>
             <img
               loading="lazy"
-              src="/images/Home/Calidad.png"
+              src="/images/Home/Calidad.webp"
               alt="Icono de calidad para proyectos web"
             />
             <p>
@@ -45,7 +45,7 @@ function Home() {
             <h3>PRECIOS asequibles</h3>
             <img
               loading="lazy"
-              src="/images/Home/Dinero.png"
+              src="/images/Home/Dinero.webp"
               alt="Icono de paginas web económicas"
             />
             <p>
@@ -57,7 +57,7 @@ function Home() {
             <h3>EXPERIENCIA DE USUARIO</h3>
             <img
               loading="lazy"
-              src="/images/Home/Satisfaccion.png"
+              src="/images/Home/Satisfaccion.webp"
               alt="Icono de satisfacción del usuario en su sitio web"
             />
             <p>
@@ -74,7 +74,7 @@ function Home() {
           online
         </h2>
         <img
-          src="/images/Home/simulador_precios_online.png"
+          src="/images/Home/simulador_precios_online.webp"
           alt="cotizacion online de pagina web"
           title="realiza una cotizacion con nuestro simulador online"
         />
@@ -116,7 +116,7 @@ function Home() {
 
           <img
             loading="lazy"
-            src="/images/Home/contacto.png"
+            src="/images/Home/contacto.webp"
             alt="Imagen de contacto Daniletto"
             title="Contáctame para mas información"
           />

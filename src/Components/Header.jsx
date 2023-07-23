@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className="Logo">
         <Link to="/">
-          <img src="/images/logo-daniletto.png" alt="logo Daniletto" />
+          <img src="/images/logo-daniletto.webp" alt="logo Daniletto" />
         </Link>
       </div>
 

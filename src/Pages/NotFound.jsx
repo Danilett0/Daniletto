@@ -8,7 +8,7 @@ function NotFound() {
     <div className="NotFound">
       <img
         loading="lazy"
-        src="/images/NotFound/Not-Found.png"
+        src="/images/NotFound/Not-Found.webp"
         alt="imagen pagina no encontrada"
       />
       <Link to="/"> Home </Link>

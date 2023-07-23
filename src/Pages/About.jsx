@@ -45,7 +45,7 @@ function About(props) {
 
           <div className="Imagen">
             <img
-              src="/images/About/foto-perfil-jeferson-danilo-castro.jpg"
+              src="/images/About/foto-perfil-jeferson-danilo-castro.webp"
               alt="imagen de perfil Jeferson Danilo Castro Becerra"
             />
             <div>
@@ -111,7 +111,7 @@ function About(props) {
 
         <img
           className="Imagen"
-          src="/images/About/dev.png"
+          src="/images/About/dev.webp"
           alt="Desarrollador web Daniletto"
         />
       </div>
@@ -135,7 +135,7 @@ function About(props) {
             <h4>REQUERIMIENTOS</h4>
             <img
               loading="lazy"
-              src="/images/About/requerimientos.png"
+              src="/images/About/requerimientos.webp"
               alt="requerimientos para empezar tu proyecto web"
             />
             <p>
@@ -148,7 +148,7 @@ function About(props) {
             <h4>DISEÑO</h4>
             <img
               loading="lazy"
-              src="/images/About/diseño.png"
+              src="/images/About/diseño.webp"
               alt="diseño web Daniletto"
             />
             <p>
@@ -160,7 +160,7 @@ function About(props) {
             <h4>DESARROLLO</h4>
             <img
               loading="lazy"
-              src="/images/About/desarrollo.png"
+              src="/images/About/desarrollo.webp"
               alt="desarrollo de paginas web"
             />
             <p>
@@ -173,7 +173,7 @@ function About(props) {
             <h4>IMPLEMENTACIÓN</h4>
             <img
               loading="lazy"
-              src="/images/About/implementacion.png"
+              src="/images/About/implementacion.webp"
               alt="implementacion de sitios web"
             />
             <p>

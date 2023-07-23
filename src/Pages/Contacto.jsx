@@ -21,7 +21,7 @@ function Contacto() {
 
         <div className="Imagen">
           <img
-            src="/images/Home/contacto.png"
+            src="/images/Home/contacto.webp"
             alt="imagen de contacto Daniletto"
           />
 
