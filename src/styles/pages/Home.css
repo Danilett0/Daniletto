@@ -8,9 +8,7 @@ main .Encabezado {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 15px;
-  position: relative;
-  height: 100vh;
+  padding: 200px 10px;
   clip-path: ellipse(100% 141% at 50% -45%);
 }
 
@@ -210,9 +208,8 @@ main .Contacto .Datos-Form img {
 @media screen and (max-width: 777px) {
   main .Encabezado {
     justify-content: flex-start;
-    padding-top: 40px;
-    height: 60vh;
-    clip-path: ellipse(140% 141% at 50% -41%);
+    padding: 60px 20px;
+    clip-path: none;
   }
 
   main .Encabezado p {
