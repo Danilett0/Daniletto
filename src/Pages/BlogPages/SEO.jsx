@@ -13,7 +13,7 @@ function SEO() {
       <div className="BodyArticle">
         <hr />
         <img
-          src="images/ImagesBlog/Articles/SEO/Search Engine Optimization SEO.webp"
+          src="images/ImagesBlog/Articles/SEO/Search-Engine-Optimization-SEO.webp"
           alt="Search Engine Optimization SEO"
           loading="lazy"
         />
