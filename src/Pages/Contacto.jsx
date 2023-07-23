@@ -10,7 +10,7 @@ import "../App.css";
 import "../styles/pages/Contacto.css";
 
 function Contacto() {
-  const loadingPage = useLoading("contacto", 300);
+  const loadingPage = useLoading("contacto", 500);
   return (
     <>
       {loadingPage ? (
