@@ -11,7 +11,6 @@ function SEO() {
         SubTitle="5 consejos prácticos y efectivos para optimizar tu sitio web y atraer más visitantes."
       ></Header>
       <div className="BodyArticle">
-        <hr />
         <img
           src="images//Blog//Articles/SEO/Search-Engine-Optimization-SEO.webp"
           alt="Search Engine Optimization SEO"

@@ -7,7 +7,7 @@ import "../App.css";
 import "../styles/pages/Blog.css";
 
 function Blog() {
-  const loadingPage = useLoading('blog', 300);
+  const loadingPage = useLoading("blog", 300);
 
   return (
     <>
@@ -21,7 +21,6 @@ function Blog() {
           />
 
           <div className="Articles">
-
             <div className="Article">
               <img
                 loading="lazy"
@@ -67,7 +66,8 @@ function Blog() {
                 </Link>
               </div>
             </div>
-            {/*  <div className="Article">
+
+            <div className="Article">
               <img
                 loading="lazy"
                 src="/images//Blog//Diseño-de-paginas-web-atractivas.webp"
@@ -79,10 +79,9 @@ function Blog() {
                   visitantes
                 </h3>
                 <p>
-                  Descubre cómo elegir los colores, las fuentes, las imágenes,
-                  los elementos interactivos y la estructura de tu web para
-                  crear un diseño atractivo y funcional que enamore a tus
-                  visitantes.
+                  Descubre cómo definir el objetivo, el público, el contenido,
+                  la navegación y el estilo de tu web para crear un diseño
+                  atractivo que seduzca a tus visitantes.
                 </p>
                 <Link
                   className="Button Red"
@@ -91,7 +90,7 @@ function Blog() {
                   Ver Artículo
                 </Link>
               </div>
-            </div> */}
+            </div>
 
             <div className="Article">
               <img
@@ -151,9 +150,7 @@ function Blog() {
                 alt="importancia de google search console"
               />
               <div className="BodyArticle">
-                <h3>
-                Cómo dominar Google Search Console en 5 pasos
-                </h3>
+                <h3>Cómo dominar Google Search Console en 5 pasos</h3>
                 <p>
                   Aprende cómo usar Google Search Console, una herramienta
                   gratuita que te ayuda a analizar y mejorar tu web, a detectar
@@ -167,8 +164,7 @@ function Blog() {
                   Ver Artículo
                 </Link>
               </div>
-            </div> 
-
+            </div>
           </div>
         </main>
       )}
