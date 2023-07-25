@@ -129,7 +129,7 @@ function Blog() {
                   aplicarlo a tu página web
                 </h3>
                 <p>
-                  Aprende qué es el diseño UX, cuáles son sus beneficios, qué
+                  Aprende que es el diseño UX, sus beneficios, qué
                   principios y herramientas se utilizan y cómo crear una página
                   web que satisfaga las necesidades, expectativas y emociones de
                   los usuarios.
