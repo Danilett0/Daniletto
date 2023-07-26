@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import { Helmet } from "react-helmet";
 import Cuestionario from "../Components/SimuladorPrecio/Cuestionario";
 import OpcionesEncuesta from "../Components/SimuladorPrecio/OpcionesEncuesta";
 import "../App.css";
@@ -40,25 +41,40 @@ function Pruebas() {
   }, 1);
 
   return (
-    <div className="SimuladorPrecios">
-      <img
-        src="/images/SimuladorPrecio/encuesta_simulador_precios.svg"
-        alt="cotización online de pagina web"
-        title="realiza una cotización con nuestro simulador online"
-      />
+    <>
+      <Helmet>
+        <title>Simulador de precios - Jeferson Danilo Castro Becerra</title>
+        <meta
+          name="description"
+          content="Utiliza nuestro simulador de precios para obtener una cotización aproximada para tu página web. Responde algunas preguntas sobre tus necesidades y te daremos un valor aproximado."
+        />
+        <meta
+          name="keywords"
+          content="Jeferson Danilo Castro Becerra, simulador de precios, cotización, página web, diseño web, desarrollo web, bogota"
+        />
+        <link rel="canonical" href="https://www.daniletto.site/simulador" />
+      </Helmet>
 
-      <Cuestionario
-        pregunta={pregunta}
-        respuestas={respuestas}
-        handleCheckboxChange={handleCheckboxChange}
-      />
+      <div className="SimuladorPrecios">
+        <img
+          src="/images/SimuladorPrecio/encuesta_simulador_precios.svg"
+          alt="cotización online de pagina web"
+          title="realiza una cotización con nuestro simulador online"
+        />
 
-      <OpcionesEncuesta
-        pregunta={pregunta}
-        respuestas={respuestas}
-        dispatch={dispatch}
-      />
-    </div>
+        <Cuestionario
+          pregunta={pregunta}
+          respuestas={respuestas}
+          handleCheckboxChange={handleCheckboxChange}
+        />
+
+        <OpcionesEncuesta
+          pregunta={pregunta}
+          respuestas={respuestas}
+          dispatch={dispatch}
+        />
+      </div>
+    </>
   );
 }
 
