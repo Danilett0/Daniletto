@@ -41,30 +41,32 @@ function Portafolio() {
 
           <div className="Portafolio">
             <div className="Encabezado">
-              <div className="Texto">
-                <h1>PORTAFOLIO DE DISEÑO WEB</h1>
-                <p>
-                  Bienvenido a mi portafolio de diseño web, donde podrás ver
-                  algunos de los proyectos que he realizado y que reflejan mi
-                  estilo, mi creatividad y mis habilidades técnicas.
-                </p>
-                <p>
-                  Me apasiona el diseño web y me gusta crear experiencias
-                  digitales innovadoras, atractivas e intuitivas para diferentes
-                  tipos de clientes y usuarios. En este portafolio encontrarás
-                  una muestra de mi trabajo, desde sitios web corporativos hasta
-                  aplicaciones web interactivas, pasando por diseños gráficos y
-                  motion graphics.
-                </p>
-                <p>
-                  Espero que te guste lo que ves y que te sirva para hacerte una
-                  idea de lo que puedo hacer por ti y por tu proyecto.
-                </p>
+              <div>
+                <div className="Texto">
+                  <h1>PORTAFOLIO DE DISEÑO WEB</h1>
+                  <p>
+                    Bienvenido a mi portafolio de diseño web, donde podrás ver
+                    algunos de los proyectos que he realizado y que reflejan mi
+                    estilo, mi creatividad y mis habilidades técnicas.
+                  </p>
+                  <p>
+                    Me apasiona el diseño web y me gusta crear experiencias
+                    digitales innovadoras, atractivas e intuitivas para
+                    diferentes tipos de clientes y usuarios. En este portafolio
+                    encontrarás una muestra de mi trabajo, desde sitios web
+                    corporativos hasta aplicaciones web interactivas, pasando
+                    por diseños gráficos y motion graphics.
+                  </p>
+                  <p>
+                    Espero que te guste lo que ves y que te sirva para hacerte
+                    una idea de lo que puedo hacer por ti y por tu proyecto.
+                  </p>
+                </div>
+                <img
+                  src="/images/Portafolio/landing.webp"
+                  alt="imagen landing page"
+                />
               </div>
-              <img
-                src="/images/Portafolio/landing.webp"
-                alt="imagen landing page"
-              />
             </div>
 
             <VisualEffectTopWhite />
