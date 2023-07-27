@@ -174,7 +174,7 @@
 
 /* espacio para ajuste de cambio de tamaño de pantalla */
 @media screen and (max-width: 777px) {
-  .Portafolio .Encabezado {
+  .Portafolio .Encabezado > div {
     flex-direction: column;
   }
 
