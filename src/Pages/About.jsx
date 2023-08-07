@@ -100,7 +100,7 @@ function About() {
                       className="Linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
-                      to="https://www.linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
+                      to="www.linkedin.com/in/jefersoncastrob"
                       title="Ver Perfil de Linkedin"
                     >
                       <BsLinkedin className="Icon" />
