@@ -100,7 +100,7 @@ function About() {
                       className="Linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
-                      to="www.linkedin.com/in/jefersoncastrob"
+                      to="https://www.linkedin.com/in/jefersoncastrob/"
                       title="Ver Perfil de Linkedin"
                     >
                       <BsLinkedin className="Icon" />
