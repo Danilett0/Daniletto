@@ -222,8 +222,8 @@ main .Contacto .Datos-Form img {
   }
 
   main .Encabezado .BtnOpciones {
-    Flex-direction:column;
-    Align-items:center;
+    flex-direction:column;
+    align-items:center;
   }
 
   main .Beneficios {
