@@ -43,23 +43,20 @@ function Portafolio() {
             <div className="Encabezado">
               <div>
                 <div className="Texto">
-                  <h1>PORTAFOLIO DE DISEÑO WEB</h1>
-                  <p>
-                    Bienvenido a mi portafolio de diseño web, donde podrás ver
-                    algunos de los proyectos que he realizado y que reflejan mi
-                    estilo, mi creatividad y mis habilidades técnicas.
-                  </p>
+                  <h1>BIENVENIDO A MI PORTAFOLIO</h1>
                   <p>
                     Me apasiona el diseño web y me gusta crear experiencias
                     digitales innovadoras, atractivas e intuitivas para
                     diferentes tipos de clientes y usuarios. En este portafolio
-                    encontrarás una muestra de mi trabajo, desde sitios web
-                    corporativos hasta aplicaciones web interactivas, pasando
-                    por diseños gráficos y motion graphics.
+                    encontrarás una muestra de mi trabajo, aplicaciones web
+                    interactivas, paginas web con diseños atractivos y
+                    funcionales etc.
                   </p>
                   <p>
-                    Espero que te guste lo que ves y que te sirva para hacerte
-                    una idea de lo que puedo hacer por ti y por tu proyecto.
+                    Mi objetivo es crear páginas web que te encanten y que te
+                    ayuden a alcanzar tus metas. Ya sea que necesites una web
+                    personal o profesional, yo puedo diseñarla a tu medida y con
+                    las mejores herramientas.
                   </p>
                 </div>
                 <img
@@ -155,14 +152,14 @@ function Portafolio() {
                 </div>
                 <div className="Proyecto">
                   <img
-                    src="/images/Portafolio/FincaRaiz.webp"
-                    alt="Creación de pagina web para FincaRaíz"
+                    src="/images/Portafolio/e-learning.webp"
+                    alt="Creación de pagina web E-Learning"
                   />
-                  <h4>Pagina FincaRaíz</h4>
+                  <h4>Landing Page E-Learning</h4>
                   <Link
                     className="Button Red"
                     target="_blank"
-                    to="https://danilett0.github.io/Pagina-Web-Finca-Raiz/"
+                    to="https://landing-page-elearning.netlify.app/"
                   >
                     VER SITIO WEB
                   </Link>
@@ -193,14 +190,14 @@ function Portafolio() {
                   <div className="Box-Proyectos">
                     <div className="Proyecto">
                       <img
-                        src="/images/Portafolio/ClaudiaBotero.webp"
-                        alt="creación de pagina web para psicóloga"
+                        src="/images/Portafolio/sonix.webp"
+                        alt="creación de pagina web sonix"
                       />
-                      <h4>Landing Page ClaudiaBotero</h4>
+                      <h4>Landing Page SoniX</h4>
                       <Link
                         className="Button Red"
                         target="_blank"
-                        to="https://danilett0.github.io/Landing-Page-Psicologa/"
+                        to="https://landing-page-sonix.netlify.app/"
                       >
                         VER SITIO WEB
                       </Link>

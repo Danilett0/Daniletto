@@ -2,10 +2,14 @@
   --color-primario: #092239;
   --rojo-claro: #d94848;
   --rojo-oscuro: #c34040;
-  --azul-claro: #257BB9;
+  --azul-claro: #257bb9;
   --gris-claro: #f3f3f3;
   --gris-oscuro: #c7c7c7;
   --verde-claro: rgb(17, 161, 149);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -53,33 +57,33 @@ p {
   color: var(--color-primario);
 }
 
-.Button{
+.Button {
   padding: 10px 15px;
   border-radius: 3px;
   display: block;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
   border: none;
   cursor: pointer;
 }
 
-.Button:hover{
+.Button:hover {
   transform: scale(1.05);
 }
 
-.Red{
+.Red {
   background-color: var(--rojo-claro);
 }
 
-.Red:hover{
+.Red:hover {
   background-color: var(--rojo-oscuro);
 }
 
-.Green{
+.Green {
   background-color: var(--verde-claro);
 }
 
-.Blue{
+.Blue {
   background-color: var(--azul-claro);
 }
 
@@ -117,5 +121,19 @@ p {
   .EfectBorderRoundBlue,
   .EfectBorderRoundWhite {
     height: 100px;
+  }
+}
+
+/* animaciones globales */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
   }
 }

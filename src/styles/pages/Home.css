@@ -9,7 +9,8 @@ main .Encabezado {
   justify-content: center;
   flex-direction: column;
   clip-path: ellipse(100% 141% at 50% -45%);
-  height: 90vh;
+  height: 100vh;
+  scroll-behavior: smooth;
 }
 
 main .Encabezado h1 {
@@ -106,14 +107,18 @@ main .Cotizacion {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px;
   padding: 25px;
+  background-color: white;
 }
 
 main .Cotizacion h2 {
-  color: white;
+  color: var(--azul-claro);
   width: 100%;
   max-width: 700px;
+}
+
+main .Cotizacion h3 {
+  color: var(--color-primario);
 }
 
 main .Cotizacion img {
@@ -129,11 +134,15 @@ main .Cotizacion img:hover {
 }
 
 main .Cotizacion p {
-  color: white;
+  color: --var(--color-primario);
   width: 100%;
   max-width: 700px;
   text-align: center;
   margin: 20px 0px;
+}
+
+main .Cotizacion a {
+  animation: pulse 1.5s infinite;
 }
 
 .Preguntas-Frecuentes {
@@ -186,22 +195,6 @@ main .Contacto .Datos-Form img {
   max-width: 500px;
   height: 100%;
   max-height: 500px;
-}
-
-/* espacio para animaciones */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    background-color: var(--rojo-claro);
-  }
-  50% {
-    transform: scale(1.05);
-    background-color: var(--rojo-oscuro);
-  }
-  100% {
-    transform: scale(1);
-    background-color: var(--rojo-claro);
-  }
 }
 
 /* espacio para ajuste de cambio de tamaño de pantalla */

@@ -98,11 +98,11 @@ function Home() {
               </div>
             </div>
 
+            <VisualEffectTopBlue />
+
             <div className="Cotizacion">
-              <h2>
-                Descubre cuánto te costaría crear tu página web con este
-                simulador online
-              </h2>
+              <h2>¿Quieres saber cuánto vale tu página web?</h2>
+              <h3>Prueba este simulador online y averígualo!</h3>
               <img
                 src="/images/Home/simulador_precios_online.webp"
                 alt="cotizacion online de pagina web"
@@ -120,8 +120,6 @@ function Home() {
                 Realiza Simulación Online
               </Link>
             </div>
-
-            <VisualEffectTopBlue />
 
             <div className="Preguntas-Frecuentes">
               <PreguntasFrecuentes />

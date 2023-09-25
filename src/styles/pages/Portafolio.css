@@ -156,20 +156,8 @@
   max-height: 400px;
 }
 
-.Portafolio .OtrosProyectos p a{
+.Portafolio .OtrosProyectos p a {
   margin-top: 20px;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.02);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 /* espacio para ajuste de cambio de tamaño de pantalla */
