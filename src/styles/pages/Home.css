@@ -221,6 +221,11 @@ main .Contacto .Datos-Form img {
     font-size: 12px;
   }
 
+  main .Encabezado .BtnOpciones {
+    Flex-direction:column;
+    Align-items:center;
+  }
+
   main .Beneficios {
     padding: 0px 25px;
   }
