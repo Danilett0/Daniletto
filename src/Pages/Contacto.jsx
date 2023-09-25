@@ -73,7 +73,7 @@ function Contacto() {
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Linkedin"
-                    to="https://www.linkedin.com/in/jeferson-danilo-castro-becerra-ab46a7180/"
+                    to="https://www.linkedin.com/in/jefersondanilocastro/"
                   >
                     <BsLinkedin className="Icon" />
                   </Link>

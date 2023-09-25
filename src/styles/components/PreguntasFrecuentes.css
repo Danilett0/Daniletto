@@ -12,8 +12,8 @@
 .Preguntas .Pregunta h3 {
   color: var(--color-primario);
   text-align: left;
-  padding: 13px;
-  background-color: var(--gris-claro);
+  padding: 10px;
+  background-color: white;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
@@ -22,15 +22,14 @@
   font-size: 16px;
 }
 
-.Preguntas .Pregunta h4 .icon {
+.Preguntas .Pregunta h3 .icon {
   margin-right: 10px;
   color: var(--azul-claro);
   font-size: 19px;
 }
 
-.Preguntas .Pregunta h4:hover {
-  color: white;
-  background-color: var(--color-primario);
+.Preguntas .Pregunta h3:hover {
+  background-color: var(--gris-oscuro);
   transform: scale(1.05);
   transition: 1s;
 }

@@ -36,8 +36,8 @@ function Home() {
           <main>
             <div className="Encabezado">
               <h1>
-                Crea tu sitio web con <span> Daniletto</span>, diseño y desarrollo web de
-                calidad
+                Crea tu sitio web con <span> Daniletto</span>, diseño y
+                desarrollo web de calidad
               </h1>
               <p>
                 Daniletto es una marca personal creada por
@@ -60,24 +60,23 @@ function Home() {
             </div>
 
             <div className="Beneficios">
-              <h2>
-                ¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB?
-              </h2>
+              <h2>¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB?</h2>
               <div className="Cards">
                 <div className="Card">
-                  <h3>ALTA CALIDAD</h3>
+                  <h3>CALIDAD</h3>
                   <img
                     loading="lazy"
                     src="/images/Home/Calidad.webp"
                     alt="Icono de calidad para proyectos web"
                   />
                   <p>
-                    Me aseguro de que cada sitio web sea único y refleje tanto
-                    la marca, como los valores de nuestros clientes.
+                    Me esfuerzo por crear sitios web que cumplan con los
+                    estándares de accesibilidad, usabilidad y
+                    rendimiento.
                   </p>
                 </div>
                 <div className="Card">
-                  <h3>PRECIOS asequibles</h3>
+                  <h3>PRECIOS</h3>
                   <img
                     loading="lazy"
                     src="/images/Home/Dinero.webp"
@@ -89,15 +88,16 @@ function Home() {
                   </p>
                 </div>
                 <div className="Card">
-                  <h3>EXPERIENCIA DE USUARIO</h3>
+                  <h3>EXPERIENCIA</h3>
                   <img
                     loading="lazy"
                     src="/images/Home/Satisfaccion.webp"
                     alt="Icono de satisfacción del usuario en su sitio web"
                   />
                   <p>
-                    Cada sitio web sera muy fácil de usar y estará diseñado para
-                    brindar la mejor experiencia posible a los visitantes.
+                    Tengo amplia experiencia en el desarrollo y diseño de
+                    páginas web. Ofrezco soluciones de calidad, creativas y
+                    asequibles.
                   </p>
                 </div>
               </div>

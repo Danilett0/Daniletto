@@ -69,7 +69,7 @@ main .Beneficios .Cards {
 }
 
 main .Beneficios .Cards .Card {
-  background-color: white;
+  background-color: var(--gris-claro);
   display: flex;
   flex-direction: column;
   align-items: center;
