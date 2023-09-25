@@ -46,7 +46,7 @@ main .Encabezado .BtnOpciones {
 
 main .Encabezado .BtnOpciones a {
   padding: 14px 17px;
-  margin: 0px 10px;
+  margin: 10px;
 }
 
 main .Beneficios {
