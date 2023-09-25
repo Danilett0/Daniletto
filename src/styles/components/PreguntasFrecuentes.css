@@ -5,11 +5,11 @@
 }
 
 .Preguntas h2 {
-  color: var(--azul-claro);
+  color: white;
   margin: 20px 0px;
 }
 
-.Preguntas .Pregunta h4 {
+.Preguntas .Pregunta h3 {
   color: var(--color-primario);
   text-align: left;
   padding: 13px;
@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   text-transform: none;
+  font-size: 16px;
 }
 
 .Preguntas .Pregunta h4 .icon {
@@ -35,5 +36,5 @@
 }
 
 .Preguntas .Pregunta .Respuesta > div p {
-  color: var(--color-primario);
+  color: white;
 }

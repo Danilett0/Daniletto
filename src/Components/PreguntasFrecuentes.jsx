@@ -12,12 +12,12 @@ function PreguntasFrecuentes() {
 
   return (
     <div className="Preguntas">
-      <h2>PREGUNTAS FRECUENTES</h2>
+      <h2>ALGUNAS DE LAS PREGUNTAS MÁS COMUNES QUE ME HACEN AL EMPEZAR</h2>
       {preguntasFrecuentes.map((preguntaFrecuente) => (
         <div className="Pregunta" key={preguntaFrecuente.id}>
-          <h4 onClick={() => handleClick(preguntaFrecuente.id)}>
+          <h3 onClick={() => handleClick(preguntaFrecuente.id)}>
             <FaArrowCircleDown className="icon" /> {preguntaFrecuente.pregunta}
-          </h4>
+          </h3>
           <div
             className="Respuesta"
             style={{

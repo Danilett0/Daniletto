@@ -36,7 +36,8 @@ function Home() {
           <main>
             <div className="Encabezado">
               <h1>
-                Crea tu sitio web con Daniletto, diseño y desarrollo de calidad
+                Crea tu sitio web con <span> Daniletto</span>, diseño y desarrollo web de
+                calidad
               </h1>
               <p>
                 Daniletto es una marca personal creada por
@@ -48,15 +49,19 @@ function Home() {
                 proyectos web de todo tipo, desde páginas personales hasta
                 aplicaciones complejas.
               </p>
-              <Link className="Button Red" to="/Contacto">
-                Obtén una cotización gratis
-              </Link>
+              <div className="BtnOpciones">
+                <Link className="Button Red" to="/Contacto">
+                  Contáctame ahora
+                </Link>
+                <Link className="Button Green" to="/simulador">
+                  Cotización Online
+                </Link>
+              </div>
             </div>
 
             <div className="Beneficios">
               <h2>
-                ¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB? 3 BENEFICIOS
-                CLAVE
+                ¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB?
               </h2>
               <div className="Cards">
                 <div className="Card">
@@ -104,7 +109,7 @@ function Home() {
               <h2>¿Quieres saber cuánto vale tu página web?</h2>
               <h3>Prueba este simulador online y averígualo!</h3>
               <img
-                src="/images/Home/simulador_precios_online.webp"
+                src="/images/Home/daniletto-simulador-de-precios-paginas-web.webp"
                 alt="cotizacion online de pagina web"
                 title="realiza una cotizacion con nuestro simulador online"
               />
@@ -126,12 +131,14 @@ function Home() {
             </div>
 
             <div className="Contacto">
+              <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
               <div className="Datos-Form">
                 <div>
-                  <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
+                  <h3>
+                    ¿Te interesa contratar mis servicios como desarrollador web?
+                  </h3>
                   <p>
-                    <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo? ¿Te
-                    interesa contratar mis servicios como desarrollador web?
+                    <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo?
                     ¿Necesitas soporte técnico o quieres colaborar conmigo en
                     algún proyecto? No dudes en contactarme haciendo clic en el
                     botón de abajo. Te responderé lo antes posible y te brindaré

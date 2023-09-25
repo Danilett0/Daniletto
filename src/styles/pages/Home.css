@@ -1,6 +1,6 @@
 main .Encabezado {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.856), #081827c4),
-    url("/public/images/Home/desarrollo_web.webp");
+  background-image: linear-gradient(rgba(2, 28, 49, 0.466), hsl(0, 0%, 0%)),
+    url("/public/images/Home/daniletto-desarrollador-web.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,20 +10,24 @@ main .Encabezado {
   flex-direction: column;
   clip-path: ellipse(100% 141% at 50% -45%);
   height: 100vh;
-  scroll-behavior: smooth;
 }
 
 main .Encabezado h1 {
   color: white;
   width: 100%;
-  max-width: 900px;
+  padding: 10px 35px;
+  max-width: 1200px;
+}
+
+main .Encabezado h1 span {
+  color: var(--rojo-claro);
 }
 
 main .Encabezado p {
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   width: 100%;
-  max-width: 750px;
+  max-width: 850px;
   margin: 30px 0px;
   color: white;
 }
@@ -36,15 +40,17 @@ main .Encabezado p .creador {
   font-family: Nunito, sans-serif;
 }
 
-main .Encabezado a {
+main .Encabezado .BtnOpciones {
+  display: flex;
+}
+
+main .Encabezado .BtnOpciones a {
   padding: 14px 17px;
-  animation-name: pulse;
-  animation-duration: 1.5s;
-  animation-iteration-count: 3;
+  margin: 0px 10px;
 }
 
 main .Beneficios {
-  padding: 25px;
+  padding: 80px 25px;
   margin-top: 30px;
 }
 
@@ -107,14 +113,13 @@ main .Cotizacion {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px;
+  padding: 80px 25px;
   background-color: white;
 }
 
 main .Cotizacion h2 {
   color: var(--azul-claro);
   width: 100%;
-  max-width: 700px;
 }
 
 main .Cotizacion h3 {
@@ -149,9 +154,12 @@ main .Cotizacion a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   padding: 25px;
   overflow: hidden;
+}
+
+main .Contacto {
+  padding: 25px;
 }
 
 main .Contacto h2 {
@@ -171,7 +179,6 @@ main .Contacto .Datos-Form {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
 }
 
 main .Contacto .Datos-Form > div {
@@ -179,7 +186,7 @@ main .Contacto .Datos-Form > div {
   max-width: 450px;
 }
 
-main .Contacto .Datos-Form > div h2 {
+main .Contacto .Datos-Form > div h3 {
   color: var(--azul-claro);
   text-align: left;
 }

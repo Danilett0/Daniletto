@@ -55,6 +55,7 @@
   max-width: 450px;
   max-height: 450px;
   border-radius: 50%;
+  animation: pulse 2.5s infinite;
 }
 .About .Box-Perfil .Perfil .Imagen p {
   color: var(--color-primario);
@@ -106,7 +107,7 @@
 
 .About .Habilidades .Texto h2 {
   text-align: left;
-  color: var(--azul-claro);
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -129,6 +130,7 @@
   max-width: 450px;
   height: 100%;
   max-height: 450px;
+  animation: pulse 2s infinite;
 }
 
 .About .Conocimientos {
