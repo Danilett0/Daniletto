@@ -92,6 +92,17 @@
   text-align: left;
 }
 
+.SimuladorPrecios .Resultados .ItemsCobro p{
+  text-align: left;
+  color: var(--color-primario);
+}
+
+
+.SimuladorPrecios .Resultados .ValorCobro p{
+  color: var(--color-primario);
+}
+
+
 .SimuladorPrecios .Resultados .Valor {
   color: var(--rojo-claro);
 }

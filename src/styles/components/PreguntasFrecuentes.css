@@ -36,4 +36,5 @@
 
 .Preguntas .Pregunta .Respuesta > div p {
   color: white;
+  text-align: left;
 }

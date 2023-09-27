@@ -11,6 +11,7 @@ import Blog from "./Pages/Blog";
 import Portafolio from "./Pages/Portafolio";
 import NotFound from "./Pages/NotFound";
 import SimuladorPrecio from "./Pages/Simulador";
+import Gracias from "./Pages/Gracias";
 
 import ExperienciaUsuario from "./Pages/BlogPages/ExperienciaDeUsuarioUX";
 import ImgConIA from "./Pages/BlogPages/GenerarImagenesIA";
@@ -31,6 +32,7 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="/Simulador" element={<SimuladorPrecio />} />
+          <Route path="/Gracias" element={<Gracias />} />
           <Route path="*" element={<NotFound />} />
 
           {/* rutas para artículos del blog */}

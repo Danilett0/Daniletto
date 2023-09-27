@@ -139,7 +139,7 @@ main .Cotizacion img:hover {
 }
 
 main .Cotizacion p {
-  color: --var(--color-primario);
+  color: var(--color-primario);
   width: 100%;
   max-width: 700px;
   text-align: center;

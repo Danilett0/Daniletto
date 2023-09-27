@@ -43,6 +43,11 @@
   margin-bottom: 30px;
 }
 
+.About .Box-Perfil .Perfil .Descripcion p{
+  color: var(--color-primario);
+  text-align: left;
+}
+
 .About .Box-Perfil .Perfil .Imagen {
   width: 40%;
   display: flex;
@@ -113,6 +118,7 @@
 
 .About .Habilidades .Texto p {
   color: white;
+  text-align: left;
   margin: 5px 0px;
 }
 .About .Habilidades .Texto ul .Icon {
@@ -243,6 +249,7 @@
   font-size: 14px;
   font-weight: 600;
   text-align: center;
+  color: var(--color-primario);
 }
 
 /* espacio para ajuste de cambio de tamaño de pantalla */

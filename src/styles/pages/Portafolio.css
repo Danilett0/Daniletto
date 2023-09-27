@@ -24,6 +24,9 @@
 }
 .Portafolio .Encabezado .Texto p {
   margin-top: 30px;
+  color: var(--color-primario);
+  text-align: left;
+  
 }
 .Portafolio .Encabezado img {
   width: 50%;
@@ -147,17 +150,25 @@
   max-width: 900px;
   padding: 25px;
   margin: 50px 0px;
+  flex-direction: column-reverse;
+}
+
+.Portafolio .OtrosProyectos > div p{
+  color: var(--color-primario);
+  text-align: center;
 }
 
 .Portafolio .OtrosProyectos img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   height: 100%;
-  max-height: 400px;
+  max-height: 300px;
 }
 
 .Portafolio .OtrosProyectos p a {
-  margin-top: 20px;
+  width: 100%;
+  max-width: 220px;
+  margin: 15px auto;
 }
 
 /* espacio para ajuste de cambio de tamaño de pantalla */

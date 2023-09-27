@@ -78,9 +78,13 @@ main .Articles .Article .BodyArticle {
 
 main .Articles .Article .BodyArticle h3 {
   text-align: left;
-  color: var(--azul-primario);
-  
+  color: var(--azul-primario);  
 }
+
+main .Articles .Article .BodyArticle p{
+  color: var(--color-primario);
+  text-align: left;
+} 
 
 main .BodyArticle {
   background-color: white;
@@ -95,6 +99,12 @@ main .BodyArticle h4 {
   text-align: left;
   margin: 15px 0px;
   color: var(--verde-claro);
+}
+
+main .BodyArticle p{
+  color: var(--color-primario);
+  text-align: left;
+  max-width: 100%;
 }
 
 main .BodyArticle hr {

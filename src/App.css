@@ -68,17 +68,18 @@ p {
 }
 
 .Button {
-  padding: 10px 15px;
+  padding: 10px 15px !important;
   border-radius: 3px;
+  font-weight: bold;
   display: block;
   text-align: center;
   transition: 0.5s;
-  border: none;
+  border: none !important;
   cursor: pointer;
 }
 
 .Button:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .Red {
