@@ -118,8 +118,7 @@ function Home() {
                 costaría? No te preocupes, he creado un simulador online que te
                 permite calcular el precio de tu página web según tus
                 preferencias y necesidades. Solo tienes que responder unas
-                sencillas preguntas y en minutos obtendrás un presupuesto
-                personalizado y sin compromiso.
+                sencillas preguntas y en minutos obtendrás un valor aproximado del costo de tu sitio web.
               </p>
               <Link className="Button Red" to="/Simulador">
                 Realiza Simulación Online
