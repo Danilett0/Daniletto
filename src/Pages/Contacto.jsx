@@ -44,7 +44,7 @@ function Contacto() {
 
               <div className="Imagen">
                 <img
-                  src="/images/Home/contacto.webp"
+                  src="/images/Contacto/daniletto-contactanos-animado.svg"
                   alt="imagen de contacto Daniletto"
                 />
 

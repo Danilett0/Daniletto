@@ -5,6 +5,7 @@ import { VisualEffectTopBlue } from "../Components/ShapeVisualEffects";
 import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import Loading from "../Components/Loading";
 import useLoading from "../Hooks/useLoading";
+import ContactForm from "../Components/FormularioContacto/FormularioContacto";
 import "../App.css";
 import "../styles/pages/Home.css";
 
@@ -71,8 +72,7 @@ function Home() {
                   />
                   <p>
                     Me esfuerzo por crear sitios web que cumplan con los
-                    estándares de accesibilidad, usabilidad y
-                    rendimiento.
+                    estándares de accesibilidad, usabilidad y rendimiento.
                   </p>
                 </div>
                 <div className="Card">
@@ -109,7 +109,7 @@ function Home() {
               <h2>¿Quieres saber cuánto vale tu página web?</h2>
               <h3>Prueba este simulador online y averígualo!</h3>
               <img
-                src="/images/Home/daniletto-simulador-de-precios-paginas-web.webp"
+                src="/images/Home/daniletto-cotizacion-online-animada.svg"
                 alt="cotizacion online de pagina web"
                 title="realiza una cotizacion con nuestro simulador online"
               />
@@ -132,27 +132,20 @@ function Home() {
 
             <div className="Contacto">
               <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
+              <p>
+                ¿Tienes alguna pregunta sobre mi trabajo? ¿Necesitas soporte
+                técnico o quieres colaborar conmigo en algún proyecto? No dudes
+                en contactarme haciendo clic en el botón de abajo. Te responderé
+                lo antes posible y te brindaré la mejor atención.
+              </p>
               <div className="Datos-Form">
                 <div>
-                  <h3>
-                    ¿Te interesa contratar mis servicios como desarrollador web?
-                  </h3>
-                  <p>
-                    <b>¡Hey!</b> ¿Tienes alguna pregunta sobre mi trabajo?
-                    ¿Necesitas soporte técnico o quieres colaborar conmigo en
-                    algún proyecto? No dudes en contactarme haciendo clic en el
-                    botón de abajo. Te responderé lo antes posible y te brindaré
-                    la mejor atención.
-                  </p>
-
-                  <Link className="Button Red" to="/Contacto">
-                    Contacto
-                  </Link>
+                  <ContactForm />
                 </div>
 
                 <img
                   loading="lazy"
-                  src="/images/Home/contacto.webp"
+                  src="/images/Contacto/daniletto-contactanos-animado.svg"
                   alt="Imagen de contacto Daniletto"
                   title="Contáctame para mas información"
                 />

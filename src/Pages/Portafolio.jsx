@@ -60,7 +60,7 @@ function Portafolio() {
                   </p>
                 </div>
                 <img
-                  src="/images/Portafolio/landing.webp"
+                  src="/images/Portafolio/daniletto-landing-page-portafolio.svg"
                   alt="imagen landing page"
                 />
               </div>
@@ -252,7 +252,7 @@ function Portafolio() {
                   </Link>
                 </p>
                 <img
-                  src="/images/Portafolio/Person.webp"
+                  src="/images/Portafolio/daniletto-conoce-mas-de-mi-trabajo.svg"
                   alt="consulta mas información sobre Daniletto"
                 />
               </div>

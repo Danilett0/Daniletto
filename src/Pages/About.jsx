@@ -138,7 +138,7 @@ function About() {
 
               <img
                 className="Imagen"
-                src="/images/About/dev.webp"
+                src="/images/About/daniletto-desarrollador-web.svg"
                 alt="Desarrollador web Daniletto"
               />
             </div>

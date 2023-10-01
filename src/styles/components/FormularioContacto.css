@@ -1,4 +1,3 @@
-/* *{border: 1px solid red;} */
 .FormContact {
   background-color: white;
   width: 100%;
@@ -62,15 +61,17 @@ textarea:focus::placeholder {
   width: 98%;
 }
 
-.FormContact .Colx2 .Col-1,
-.Col-2 {
-  display: flex;
-  flex-direction: column;
-}
-
 .FormContact .Colx1 .Button {
   width: 100%;
   color: white;
   font-size: 15px;
   margin-top: 8px;
+}
+
+
+@media screen and (max-width: 777px) {
+  .FormContact .Colx2, .Colx1{
+    flex-direction: column;
+    margin: 0px;
+  }
 }
