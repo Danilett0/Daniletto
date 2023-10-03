@@ -53,7 +53,7 @@ const ContactForm = () => {
             {...register("Nombre", {
               required: "Nombre requerido",
               pattern: {
-                value: /^[a-z]+$/i,
+                value: /^[a-z\s]+$/i,
                 message: "El nombre sólo puede contener letras",
               },
             })}
@@ -67,7 +67,7 @@ const ContactForm = () => {
             {...register("Apellido", {
               required: "Apellido requerido",
               pattern: {
-                value: /^[a-z]+$/i,
+                value: /^[a-z\s]+$/i,
                 message: "El apellido sólo puede contener letras",
               },
             })}
