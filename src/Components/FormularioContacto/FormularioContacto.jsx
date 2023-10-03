@@ -6,6 +6,8 @@ import PlantillaHtml from "./PlantillaHtml";
 import Loading from "../Loading";
 import "../../App.css";
 import "../../styles/components/FormularioContacto.css";
+import { enviarCorreo } from './services';
+import { getRequestOptions } from './config';
 
 const ContactForm = () => {
   const Navigate = useNavigate();
@@ -16,9 +18,8 @@ const ContactForm = () => {
   const onSubmit = (data) => {
     setCargando(true);
 
-    //convieto el contenido en html que pueda entender el server
+    //realizo la plantilla html para enviar
     const html = ReactDOMServer.renderToString(
-      //componente de plantilla que genera el html
       <PlantillaHtml
         Nombre={data.Nombre}
         Apellido={data.Apellido}
@@ -28,39 +29,11 @@ const ContactForm = () => {
       />
     );
 
-    //defino cabeceras para la petición
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
+    //optengo las configuracions para la peticion
+    const requestOptions = getRequestOptions(html);
 
-    //datos para envio de correo
-    const raw = JSON.stringify({
-      to: "daniilo.97@hotmail.com",
-      subject: "Nuevo Registro de Contacto",
-      html: html,
-    });
-
-    const requestOptions = {
-      method: "POST",
-      headers: myHeaders,
-      body: raw,
-      redirect: "follow",
-    };
-    
-    // realizo peticion al api (envio de datos)
-    fetch("https://daniletto-notificacion-contacto.onrender.com/enviar-correo", requestOptions)
-      .then((response) => response.text())
-      .then(() => {
-        setCargando(false);
-        setErrores(false)
-        setTimeout(() => {
-          Navigate("/Gracias");
-        }, 500);
-      }).catch((error) => {
-        setCargando(false);
-        setErrores(true)
-        console.log(error)
-        
-      });
+    // realizo el llamado al servicio
+    enviarCorreo(requestOptions, setCargando, setErrores, Navigate);
   };
 
   return (
