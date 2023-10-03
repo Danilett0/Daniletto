@@ -6,14 +6,18 @@ import PlantillaHtml from "./PlantillaHtml";
 import Loading from "../Loading";
 import "../../App.css";
 import "../../styles/components/FormularioContacto.css";
-import { enviarCorreo } from './services';
-import { getRequestOptions } from './config';
+import { enviarCorreo } from "./services";
+import { getRequestOptions } from "./config";
 
 const ContactForm = () => {
   const Navigate = useNavigate();
   const [Cargando, setCargando] = useState(false);
   const [Errores, setErrores] = useState(false);
-  const { register, handleSubmit, formState: { errors }, } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   const onSubmit = (data) => {
     setCargando(true);
@@ -46,37 +50,64 @@ const ContactForm = () => {
         <div className="Col-1">
           <input
             placeholder="Nombre"
-            {...register("Nombre", { required: true })}
+            {...register("Nombre", {
+              required: "Nombre requerido",
+              pattern: {
+                value: /^[a-z]+$/i,
+                message: "El nombre sólo puede contener letras",
+              },
+            })}
           />
-          {errors.Nombre && <span>Nombre es requerido</span>}
+          {errors.Nombre && <span>{errors.Nombre.message}</span>}
         </div>
 
         <div div className="Col-2">
           <input
             placeholder="Apellido"
-            {...register("Apellido", { required: true })}
+            {...register("Apellido", {
+              required: "Apellido requerido",
+              pattern: {
+                value: /^[a-z]+$/i,
+                message: "El apellido sólo puede contener letras",
+              },
+            })}
           />
-          {errors.Apellido && <span>Apellido es requerido</span>}
+          {errors.Apellido && <span>{errors.Apellido.message}</span>}
         </div>
       </div>
 
       <div className="Colx2">
         <div className="Col-1">
           <input
-            type="email"
             placeholder="Correo Electronico"
-            {...register("Email", { required: true })}
+            {...register("Email", {
+              required: "El correo es requerido",
+              pattern: {
+                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                message: "correo electrónico no válido",
+              },
+            })}
           />
-          {errors.Email && <span>Correo es requerido</span>}
+          {errors.Email && <span>{errors.Email.message}</span>}
         </div>
 
         <div div className="Col-2">
           <input
             type="number"
             placeholder="Telefono"
-            {...register("Tel", { required: true })}
+            {...register("Tel", {
+              required: "Teléfono requerido",
+              minLength: {
+                value: 10,
+                message: "El teléfono debe tener exactamente 10 números",
+              },
+              maxLength: {
+                value: 10,
+                message: "El teléfono no puede tener mas de 10 números",
+              },
+            })}
           />
-          {errors.Tel && <span>Telefono es requerido</span>}
+          {errors.Tel && <span>{errors.Tel.message}</span>}
         </div>
       </div>
 
@@ -86,15 +117,25 @@ const ContactForm = () => {
           name="mensaje"
           cols="5"
           rows="5"
-          {...register("Mensaje", { required: true })}
+          {...register("Mensaje", {
+            required: "No olvides incluir un mensaje",
+            minLength: {
+              value: 30,
+              message: "El mensaje debe tener al menos 30 caracteres",
+            },
+          })}
         />
-        {errors.Mensaje && <span>No olvides incluir un mensaje</span>}
+        {errors.Mensaje && <span>{errors.Mensaje.message}</span>}
       </div>
 
       <div className="Colx1">
         <input className="Button Red" type="submit" />
       </div>
-      {Errores && <span>Ops! Ocurrió un error inesperado al intentar enviar el formulario</span>}
+      {Errores && (
+        <span>
+          Ops! Ocurrió un error inesperado al intentar enviar el formulario
+        </span>
+      )}
       {Cargando && <Loading />}
     </form>
   );
