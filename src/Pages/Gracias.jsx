@@ -13,9 +13,9 @@ function Gracias() {
       <h1>¡Gracias por tu tiempo!</h1>
       <p>
         Realmente aprecio el tiempo que has dedicado a completar este
-        formulario. He recibido tu solicitud de cotización con éxito y estoy
+        formulario. He recibido tu solicitud y estoy
         emocionado de revisarla. Me pondré en contacto contigo lo antes posible.
-        ¡Gracias por considerar mis servicios de desarrollo!
+        ¡Gracias por considerar mis servicios como desarrollador!
       </p>
 
       <Link className="Button Green" to="/">
