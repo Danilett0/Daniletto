@@ -129,7 +129,7 @@ const ContactForm = () => {
       </div>
 
       <div className="Colx1">
-        <input className="Button Red" type="submit" />
+        <input className={!Cargando ? "Button Red" : "Hidde"} type="submit" />
       </div>
       {Errores && (
         <span>

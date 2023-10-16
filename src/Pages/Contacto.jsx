@@ -40,6 +40,8 @@ function Contacto() {
               hacerla realidad.
             </p>
             <div className="Datos-Form">
+
+              {/* formulario de contacto */}
               <ContactForm />
 
               <div className="Imagen">
