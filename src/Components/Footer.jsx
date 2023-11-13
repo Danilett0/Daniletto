@@ -1,7 +1,7 @@
 import React from "react";
+import LinksNavegacion from "./LinksNavegacion";
 import "../App.css";
 import "../styles/components/Footer.css";
-import LinksNavegacion from "./LinksNavegacion";
 
 function Footer(props) {
   return (

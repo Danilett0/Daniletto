@@ -80,8 +80,7 @@ function ResultadoEncuesta(props) {
         </div>
         <div className="ValorCobro">
           <p>
-            Valor aproximado para crear su pagina web:
-            <b className="Valor">{formatter.format(valorTotal)}</b>
+            Valor aproximado para crear su pagina web: <b className="Valor">{formatter.format(valorTotal)}</b>
           </p>
         </div>
       </div>

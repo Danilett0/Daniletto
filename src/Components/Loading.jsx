@@ -6,10 +6,7 @@ function Loading() {
     <div className="loading">
       <img className="ImgLoading" src="/images/logo-daniletto.webp" alt="imagen de carga" />
       <div className="loading-text">
-        Cargando
-        <span className="loading-dot"> .</span>
-        <span className="loading-dot"> .</span>
-        <span className="loading-dot"> .</span>
+        Cargando<span className="loading-dot"> .</span><span className="loading-dot"> .</span><span className="loading-dot"> .</span>
       </div>
     </div>
   );

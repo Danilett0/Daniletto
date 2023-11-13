@@ -4,10 +4,10 @@ import ReactDOMServer from "react-dom/server";
 import { useNavigate } from "react-router-dom";
 import PlantillaHtml from "./PlantillaHtml";
 import Loading from "../Loading";
-import "../../App.css";
-import "../../styles/components/FormularioContacto.css";
 import { enviarCorreo } from "./services";
 import { getRequestOptions } from "./config";
+import "../../App.css";
+import "../../styles/components/FormularioContacto.css";
 
 const ContactForm = () => {
   const Navigate = useNavigate();

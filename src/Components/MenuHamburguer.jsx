@@ -16,10 +16,7 @@ function MenuHamburguer() {
 
   return (
     <div className="MenuHamburguer">
-      <div
-        className={`hamburguer ${menu === "open" ? "open" : "close"}`}
-        onClick={animarMenu}
-      >
+      <div className={`hamburguer ${menu === "open" ? "open" : "close"}`} onClick={animarMenu} >
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>

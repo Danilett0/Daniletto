@@ -6,10 +6,9 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import useLoading from "../Hooks/useLoading";
 import Loading from "../Components/Loading";
+import ContactForm from "../Components/FormularioContacto/FormularioContacto";
 import "../App.css";
 import "../styles/pages/Contacto.css";
-
-import ContactForm from "../Components/FormularioContacto/FormularioContacto";
 
 function Contacto() {
   const loadingPage = useLoading("contacto", 300);
