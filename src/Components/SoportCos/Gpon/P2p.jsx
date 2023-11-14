@@ -2,8 +2,8 @@ import React from 'react'
 
 function P2p(props) {
   return (
-    <div className='MainP2p'>
-        <h3>Selecciona Marca</h3>
+    <div style={{display:"flex", justifyContent: "center"}} className='MainP2p'>
+      <img src="/images/NotFound/Not-Found.webp" alt="" />
     </div>
   )
 }

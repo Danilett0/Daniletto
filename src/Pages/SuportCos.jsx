@@ -5,7 +5,7 @@ import "../App.css";
 import "../styles/pages/SuportCos.css";
 
 function SuportCos() {
-  const [Fibra, SetFibra] = useState(true);
+  const [Fibra, SetFibra] = useState(false);
   const [Hfc, SetHfc] = useState(false);
 
   return (
