@@ -2,22 +2,17 @@ import React, { useRef, useState } from "react";
 
 function Huawei() {
   const [firtsComan, setFirtsComan] = useState(false);
-
   const [ipValida, SetIpvalida] = useState("");
   const [ipWan, SetIpWan] = useState("");
-
   const [Enlace, setEnlace] = useState("");
   const [ServPort, setServPort] = useState("");
   const [Puertos, setPuertos] = useState("");
-
   const InputEnlaceRef = useRef();
   const InpServPortRef = useRef();
-
   const InpRackRef = useRef();
   const InpSlotRef = useRef();
   const InpPuertoRef = useRef();
   const InpOnuRef = useRef();
-
   const InpIpValRef = useRef();
   const InpIpWanRef = useRef();
 
@@ -122,57 +117,20 @@ function Huawei() {
                 {Puertos && (
                   <>
                     <p>PASO 3</p>
-                    <code>
-                      display service-port port{" "}
-                      {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]
-                        }`}
-                    </code>
-                    <code>
-                      display service-port port{" "}
-                      {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]
-                        }`}{" "}
-                      ont {`${Puertos.split("/")[3]}`}
-                    </code>
-                    <code>
-                      display current-configuration ont{" "}
-                      {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]
-                        } ${Puertos.split("/")[3]}`}
-                    </code>
-                    <code>
-                      display mac-address port{" "}
-                      {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]
-                        }`}{" "}
-                      ont {`${Puertos.split("/")[3]}`}
-                    </code>
+                    <code>display service-port port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`}</code>
+                    <code>display service-port port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`} ont {`${Puertos.split("/")[3]}`}</code>
+                    <code>display current-configuration ont {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
+                    <code>display mac-address port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`} ont {`${Puertos.split("/")[3]}`}</code>
 
                     <p>PASO 4</p>
                     <code>config</code>
-                    <code>
-                      interface gpon{" "}
-                      {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}`}
-                    </code>
-                    <code>
-                      display ont optical-info{" "}
-                      {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}
-                    </code>
-                    <code>
-                      display ont alarm-state{" "}
-                      {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}
-                    </code>
-                    <code>
-                      display ont info{" "}
-                      {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}
-                    </code>
-                    <code>
-                      display ont port state{" "}
-                      {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}{" "}
-                      eth-port all
-                    </code>
+                    <code>interface gpon {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}`}</code>
+                    <code>display ont optical-info {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
+                    <code>display ont alarm-state {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
+                    <code>display ont info {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
+                    <code>display ont port state {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`} eth-port all</code>
 
-                    <h3 style={{ marginTop: "30px" }}>
-                      validacion{" "}
-                      <span style={{ color: "red" }}> Ruta Ping</span>
-                    </h3>
+                    <h3 style={{ marginTop: "30px" }}> validacion<span style={{ color: "red" }}> Ruta Ping</span></h3>
 
                     <div className="Ips">
                       <input ref={InpIpValRef} type="text" placeholder="IP VALIDA" />
@@ -183,8 +141,9 @@ function Huawei() {
                             SetIpvalida(InpIpValRef.current.value)
                           } else {
                             alert("Ip Valida es requerida para continuar")
+                            SetIpvalida("")
+                            SetIpWan("")
                           }
-
                         }}
                         className="Button Green"
                       >
@@ -206,8 +165,8 @@ function Huawei() {
                                 SetIpWan(InpIpWanRef.current.value)
                               } else {
                                 alert("Ip Wan es requerida para continuar")
+                                SetIpWan("")
                               }
-
                             }}
                             className="Button Green"
                           >
@@ -217,31 +176,28 @@ function Huawei() {
                         {ipWan && (
                           <div className="ComandosIps">
                             <div>
-                              <h4>NODO A1K</h4>
+                              <h4>NODO <span style={{ color: "red" }}> A1K</span></h4>
                               <code>show run vrf pymes-internet | inc {ipWan}</code>
                               <code>show run interface  </code>
                               <code>ping vrf pymes-internet {ipWan} </code>
                               <code>ping vrf pymes-internet {ipWan} re 1500 </code>
                               <code>show arp vrf pymes-internet {ipWan} </code>
-                              <code>telnet {ipWan} /vrf pymes-internet </code>
-
+                              <code><span style={{ color: "red" }}>Acceso Router:</span> telnet {ipWan} /vrf pymes-internet </code>
                             </div>
 
                             <div>
-                              <h4>NODO A9K</h4>
+                              <h4>NODO <span style={{ color: "red" }}>A9K</span></h4>
                               <code>show run router static vrf pymes-internet | inc {ipWan} </code>
                               <code>show run interface Puerto Logico</code>
                               <code>ping vrf pymes-internet {ipWan}</code>
                               <code>ping vrf pymes-internet {ipWan} co 1500</code>
                               <code>show arp vrf pymes-internet {ipWan}</code>
-                              <code>telnet vrf pymes-internet {ipWan}</code>
+                              <code><span style={{ color: "red" }}>Acceso Router:</span> telnet vrf pymes-internet {ipWan}</code>
                             </div>
                           </div>
                         )}
-
                       </>
                     )}
-
                   </>
                 )}
               </>
