@@ -3,6 +3,9 @@
   width: 100%;
   padding: 25px;
   color: white;
+  max-width: 1000px;
+  margin: auto;
+  background: rgb(3, 55, 85);
 }
 
 .Opciones .Botones {

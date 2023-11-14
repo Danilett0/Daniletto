@@ -46,7 +46,7 @@ function Zte() {
     return (
         <div className="MainHuawei">
             <h3>
-                validacion <span style={{ color: "red" }}> red de acceso </span>
+                validacion <span style={{ color: "red" }}> red de acceso ZTE</span>
             </h3>
 
             <div className="Enlace">
@@ -59,11 +59,11 @@ function Zte() {
             <div className="Comandos">
                 {firtsComan && (
                     <>
-                        <p>PASO 1</p>
+                        <p>PASO 1 (Info, Validacion Clientes OLT)</p>
                         <code>show running-config | inc {Enlace}</code>
                         <code>show running-config | begin {Enlace}</code>
 
-                        <p>PASO 2</p>
+                        <p>PASO 2 (Validacion Puertos)</p>
 
                         <div className="Puertos">
                             <div>
@@ -79,7 +79,7 @@ function Zte() {
 
                         {Puertos && (
                             <>
-                                <p>PASO 3</p>
+                                <p>PASO 3 (Validar Potencias y Alarmas)</p>
                                 <code>sh running-config-interface gpon_onu-{`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}:${Puertos.split("/")[3]}`}</code>
                                 <code>show pon power onu-rx gpon_onu-{`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}:${Puertos.split("/")[3]}`}</code>
                                 <code>sh pon power attenuation gpon_onu-{`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}:${Puertos.split("/")[3]}`}</code>

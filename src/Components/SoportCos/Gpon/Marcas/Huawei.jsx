@@ -62,7 +62,7 @@ function Huawei() {
   return (
     <div className="MainHuawei">
       <h3>
-        validacion <span style={{ color: "red" }}> red de acceso </span>
+        validacion <span style={{ color: "red" }}> red de acceso HUAWEI</span>
       </h3>
 
       <div className="Enlace">
@@ -75,7 +75,7 @@ function Huawei() {
       <div className="Comandos">
         {firtsComan && (
           <>
-            <p>PASO 1</p>
+            <p>PASO 1 (Configuracion del sistema)</p>
             <code>display current-configuration | include {Enlace}</code>
             <code>display mac-address all | include</code>
 
@@ -92,7 +92,7 @@ function Huawei() {
 
             {ServPort && (
               <>
-                <p>PASO 2</p>
+                <p>PASO 2 (Validacion Puertos)</p>
                 <code>display service-port {ServPort}</code>
                 <code>
                   display current-configuration service-port {ServPort}
@@ -116,13 +116,13 @@ function Huawei() {
 
                 {Puertos && (
                   <>
-                    <p>PASO 3</p>
+                    <p>PASO 3 (Informacion Puertos y ONT)</p>
                     <code>display service-port port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`}</code>
                     <code>display service-port port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`} ont {`${Puertos.split("/")[3]}`}</code>
                     <code>display current-configuration ont {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
                     <code>display mac-address port {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}/${Puertos.split("/")[2]}`} ont {`${Puertos.split("/")[3]}`}</code>
 
-                    <p>PASO 4</p>
+                    <p>PASO 4 (Validar Potencias y Alarmas)</p>
                     <code>config</code>
                     <code>interface gpon {`${Puertos.split("/")[0]}/${Puertos.split("/")[1]}`}</code>
                     <code>display ont optical-info {`${Puertos.split("/")[2]} ${Puertos.split("/")[3]}`}</code>
