@@ -98,6 +98,11 @@ p {
   background-color: var(--azul-claro);
 }
 
+.Black{
+  background-color: black;
+  color: white;
+}
+
 .Hidde{
   display: none;
 }

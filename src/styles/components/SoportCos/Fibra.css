@@ -1,7 +1,16 @@
+.MainFibra {
+  border-radius: 4px;
+}
+
 .MainFibra .Botones {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.MainFibra .EncabezadoFibra {
+  background-color: rgb(196, 196, 196);
+  padding: 25px;
 }
 
 .MainFibra .Botones button {
@@ -12,24 +21,29 @@
 }
 
 .Marcas {
-  background-color: rgb(5, 53, 68);
-  border-radius: 4px;
+  background-color: rgb(196, 196, 196);
   padding: 20px;
   display: flex;
   justify-content: center;
+  border-top: 5px solid var(--color-primario);
 }
 
 .Marcas button {
-  background-color: white;
-  margin: 0px 5px;
   width: 200px;
+  margin: 0px 5px;
+}
+
+.MainHuawei {
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
 
 .MainHuawei .Enlace {
-  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .MainHuawei .Enlace input {
@@ -83,4 +97,43 @@
 
 .MainFibra .Comandos .Puertos button {
   color: white;
+}
+
+.MainFibra .Comandos .Ips {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainFibra .Comandos .Ips input {
+  margin: 0px 7px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+
+.MainFibra .Comandos .Ips button{
+  color: white;
+  margin: 0px 5px;
+
+}
+
+.MainFibra .Comandos .ComandosIps {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.MainFibra .Comandos .ComandosIps div{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  width: 48%;
+}
+
+.MainFibra .Comandos .ComandosIps code{
+  display: block;
 }

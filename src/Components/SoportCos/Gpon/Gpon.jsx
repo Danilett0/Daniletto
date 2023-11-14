@@ -8,7 +8,7 @@ function Gpon(props) {
 
   return (
     <div className="MainGpon">
-      <h3>Selecciona Marca</h3>
+
 
       <div className="Marcas">
         <button
@@ -16,7 +16,7 @@ function Gpon(props) {
             setHuawei(true);
             setZte(false);
           }}
-          className="Button"
+          className="Button Black"
         >
           HUAWEI
         </button>
@@ -25,7 +25,7 @@ function Gpon(props) {
             setZte(true);
             setHuawei(false);
           }}
-          className="Button"
+          className="Button Black"
         >
           ZTE
         </button>
