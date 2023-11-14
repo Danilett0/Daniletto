@@ -1,0 +1,28 @@
+.Opciones {
+  width: 100%;
+  padding: 25px;
+  color: white;
+}
+
+.Opciones .Botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Opciones .Botones button {
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  margin: 3px 5px;
+  padding: 15px !important;
+}
+
+.OpcionSelecionada{
+    background-color: white;
+    margin: 3px auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 25px;
+    border-radius: 4px;
+}

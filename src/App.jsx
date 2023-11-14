@@ -18,7 +18,8 @@ import ImgConIA from "./Pages/BlogPages/GenerarImagenesIA";
 import GoogleSearchConsole from "./Pages/BlogPages/GoogleSearchConsole";
 import ImportanciaDelDiseñoWeb from "./Pages/BlogPages/ImportanciaDelDiseñoWeb";
 import OptimizacionWeb from "./Pages/BlogPages/OptimizacionWeb";
-import SEO from "./Pages/BlogPages/SEO";
+import SuportCos from "./Pages/SuportCos";
+import Seo from "./Pages/BlogPages/SEO";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/SuportCos" element={<SuportCos />} />
           <Route path="/Simulador" element={<SimuladorPrecio />} />
           <Route path="/Gracias" element={<Gracias />} />
           <Route path="*" element={<NotFound />} />
@@ -41,7 +43,7 @@ function App() {
           <Route path="/google-search-console:-cómo-optimizar-tu-web-y-atraer-más-clientes" element={<GoogleSearchConsole />}></Route>
           <Route path="/cómo-diseñar-una-página-web-atractiva-que-enamore-a-tus-visitantes" element={<ImportanciaDelDiseñoWeb />}></Route>
           <Route path="/optimización-web:-cómo-hacer-que-tu-página-web-sea-más-rápida-y-eficiente" element={<OptimizacionWeb />}></Route>
-          <Route path="/cómo-lograr-el-mejor-posicionamiento-seo-para-tu-página-web-en-5-pasos" element={<SEO />}></Route>
+          <Route path="/cómo-lograr-el-mejor-posicionamiento-seo-para-tu-página-web-en-5-pasos" element={<Seo />}></Route>
 
         </Routes>
       </Router>
