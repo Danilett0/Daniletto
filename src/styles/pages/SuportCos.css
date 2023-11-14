@@ -1,4 +1,3 @@
-
 .Opciones {
   width: 100%;
   padding: 25px;
@@ -28,4 +27,49 @@
     width: 100%;
     max-width: 1000px;
     border-radius: 4px;
+}
+
+.MainRazonLlamada {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.Box-Razones{
+  display: flex;
+}
+
+.Bloque{
+  width: 100%;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgb(204, 204, 204);
+  padding: 20px;
+  background-color:var(--color-primario);
+  color: white;
+  margin: 0px 10px;
+}
+
+.Bloque div{
+  background-color: rgb(245, 245, 245);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-primario);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.Bloque div span{
+  background-color: red;
+  border-radius: 4px;
+  padding: 2px;
+  display: block;
+  width: 45px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
