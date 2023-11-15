@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ComFibra from "../Components/SoportCos/Fibra";
-import CompHfc from "../Components/SoportCos/HFC";
+import ComFibra from "../Components/SoportCos/Fibra/Fibra";
+import CompHfc from "../Components/SoportCos/Hfc/HFC";
 import "../App.css";
 import "../styles/pages/SuportCos.css";
 

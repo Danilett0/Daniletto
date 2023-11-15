@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import RazonLlamada from "./RazonLlamada";
-import Tipologia from "./Tipologia";
-import Comandos from "./Comandos";
-import Botones from "./Botones";
+import RazonLlamada from "./Components/RazonLlamada";
+import Tipologia from "./Components/Tipologia";
+import Comandos from "./Components/Comandos";
+import Botones from "./Components/Botones";
 
 function HFC() {
   const [razonLlamada, SetRazonLlamada] = useState(false);

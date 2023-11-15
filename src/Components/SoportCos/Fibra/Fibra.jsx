@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Gpon from "./Gpon/Gpon";
 import P2p from "./Gpon/P2p";
-import "../../styles/components/SoportCos/Fibra.css";
+import "../../../styles/components/SoportCos/Fibra.css";
 
 function Fibra() {
   const [gpon, setGpon] = useState(false);
