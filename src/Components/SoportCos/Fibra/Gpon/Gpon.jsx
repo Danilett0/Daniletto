@@ -8,8 +8,6 @@ function Gpon(props) {
 
   return (
     <div className="MainGpon">
-
-
       <div className="Marcas">
         <button
           onClick={() => {
@@ -31,15 +29,10 @@ function Gpon(props) {
         </button>
       </div>
 
-        <div>
-          {zte && (
-            <Zte />
-          )}
-          {huawei && (
-            <Huawei />
-          )}
-        </div>
-
+      <div>
+        {zte && <Zte />}
+        {huawei && <Huawei />}
+      </div>
     </div>
   );
 }

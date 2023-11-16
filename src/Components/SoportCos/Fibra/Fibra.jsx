@@ -9,11 +9,11 @@ function Fibra() {
 
   return (
     <div className="MainFibra">
-
-      <div className="EncabezadoFibra"> 
-      <h2>Fibra Optica</h2>
+      <div className="EncabezadoFibra">
+        <h2>Fibra Optica</h2>
 
         <h4>SELECCIONA EL TIPO DE RED DE ACCESO</h4>
+
         <div className="Botones">
           <button
             onClick={() => {

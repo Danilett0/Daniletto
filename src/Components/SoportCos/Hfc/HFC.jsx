@@ -23,7 +23,6 @@ function HFC() {
 
   return (
     <div className="MainHfc">
-
       <Botones
         ResetModulos={ResetModulos}
         SetIpFija={SetIpFija}
@@ -101,7 +100,6 @@ function HFC() {
           </div>
         </div>
       )}
-      
     </div>
   );
 }
