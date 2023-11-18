@@ -1,44 +1,15 @@
-import React, { useState } from "react";
-import ComFibra from "../Components/SoportCos/Fibra/Fibra";
-import CompHfc from "../Components/SoportCos/Hfc/HFC";
+import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/pages/SuportCos.css";
 
 function SuportCos() {
-  const [Fibra, SetFibra] = useState(false);
-  const [Hfc, SetHfc] = useState(false);
+ 
 
   return (
     <div className="Tecnologias">
-      <div className="Opciones">
-        <h2>Selecciona una tecnologia</h2>
-        <div className="Botones">
-          <button
-            onClick={() => {
-              SetFibra(true);
-              SetHfc(false);
-            }}
-            className="Button Green"
-          >
-            FIBRA
-          </button>
-          <button
-            onClick={() => {
-              SetHfc(true);
-              SetFibra(false);
-            }}
-            className="Button Red"
-          >
-            HFC
-          </button>
-        </div>
-      </div>
-
-      <div className="OpcionSelecionada">
-        {Fibra && <ComFibra />}
-
-        {Hfc && <CompHfc />}
-      </div>
+      <img src="/images/Home/daniletto-cotizacion-online-animada.svg" alt="" />
+      <Link className=" Red" to={"https://suportcos.netlify.app/"}>Ir a aplicacion</Link>
     </div>
   );
 }

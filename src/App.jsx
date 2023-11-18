@@ -1,8 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Loading from "./Components/Loading";
-import "./App.css";
-
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -12,14 +10,14 @@ import Portafolio from "./Pages/Portafolio";
 import NotFound from "./Pages/NotFound";
 import SimuladorPrecio from "./Pages/Simulador";
 import Gracias from "./Pages/Gracias";
-
+import SuportCos from "./Pages/SuportCos";
 import ExperienciaUsuario from "./Pages/BlogPages/ExperienciaDeUsuarioUX";
 import ImgConIA from "./Pages/BlogPages/GenerarImagenesIA";
 import GoogleSearchConsole from "./Pages/BlogPages/GoogleSearchConsole";
 import ImportanciaDelDiseñoWeb from "./Pages/BlogPages/ImportanciaDelDiseñoWeb";
 import OptimizacionWeb from "./Pages/BlogPages/OptimizacionWeb";
-import SuportCos from "./Pages/SuportCos";
 import Seo from "./Pages/BlogPages/SEO";
+import "./App.css";
 
 function App() {
   return (
