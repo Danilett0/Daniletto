@@ -108,7 +108,7 @@ function About() {
 
                     <a
                       className="cv"
-                      href="/docs/cv.pdf"
+                      href="/docs/Jeferson_Castro.pdf"
                       download
                       title="Descargar CV Jeferson"
                     >
