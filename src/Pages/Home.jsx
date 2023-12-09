@@ -50,12 +50,10 @@ function Home() {
                 proyectos web de todo tipo, desde páginas personales hasta
                 aplicaciones complejas.
               </p>
+              <p>¿Quieres saber más sobre cómo Daniletto puede ayudarte a crear tu sitio web ideal?</p>
               <div className="BtnOpciones">
                 <Link className="Button Red" to="/Contacto">
-                  Contáctame ahora
-                </Link>
-                <Link className="Button Green" to="/simulador">
-                  Cotización Online
+                ¡Contáctame hoy mismo!
                 </Link>
               </div>
             </div>

@@ -1,8 +1,10 @@
 :root {
   --color-primario: #092239;
-  --rojo-claro: #d94848;
-  --rojo-oscuro: #c34040;
+  --rojo-claro: #ca4343;
+  --rojo-oscuro: #ac3636;
+  --amarillo-oscuro: #ffc400;
   --azul-claro: #257bb9;
+  --azul-celeste: #5AE3EE;
   --gris-claro: #f3f3f3;
   --gris-oscuro: #c7c7c7;
   --verde-claro: rgb(17, 161, 149);
@@ -96,12 +98,12 @@ p {
   background-color: var(--azul-claro);
 }
 
-.Black{
+.Black {
   background-color: black;
   color: white;
 }
 
-.Hidde{
+.Hidde {
   display: none;
 }
 

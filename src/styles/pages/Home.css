@@ -1,5 +1,5 @@
 main .Encabezado {
-  background-image: linear-gradient(rgba(2, 28, 49, 0.466), hsl(0, 0%, 0%)),
+  background-image: linear-gradient(rgba(1, 15, 27, 0.712), hsl(0, 0%, 0%)),
     url("/public/images/Home/daniletto-desarrollador-web.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,7 @@ main .Encabezado h1 {
 }
 
 main .Encabezado h1 span {
-  color: var(--rojo-claro);
+  color: var(--amarillo-oscuro);
 }
 
 main .Encabezado p {
@@ -28,7 +28,7 @@ main .Encabezado p {
   font-size: 20px;
   width: 100%;
   max-width: 850px;
-  margin: 30px 0px;
+  margin: 20px 0px;
   color: white;
 }
 
@@ -45,7 +45,7 @@ main .Encabezado .BtnOpciones {
 }
 
 main .Encabezado .BtnOpciones a {
-  padding: 14px 17px;
+  padding: 17px 20px !important;
   margin: 10px;
 }
 

@@ -57,7 +57,7 @@ function Pruebas() {
 
       <div className="SimuladorPrecios">
         <img
-          src="/images/SimuladorPrecio/daniletto-encuesta-cotizar-pagina-web.svg"
+          src="/images/logo-vertical-daniletto.png"
           alt="cotización online de pagina web"
           title="realiza una cotización con nuestro simulador online"
         />

@@ -42,7 +42,6 @@
 }
 
 .MenuHamburguer .box-menu {
-  position: absolute;
   z-index: 99;
   right: 0;
   top: 0;
@@ -60,10 +59,11 @@
   display: flex;
   width: 350px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .MenuHamburguer .box-menu .Logo img {
-  max-width: 350px;
+  max-width: 200px;
   max-height: 200px;
 }
 

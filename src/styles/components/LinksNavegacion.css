@@ -11,11 +11,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--rojo-claro);
+  color: var(--azul-celeste);
 }
 
 .active {
-  color: var(--rojo-claro);
+  color: var(--azul-celeste);
 }
 
 nav ul li .LinkContacto {
