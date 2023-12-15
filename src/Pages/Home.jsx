@@ -37,29 +37,35 @@ function Home() {
           <main>
             <div className="Encabezado">
               <h1>
-                Crea tu sitio web con <span> Daniletto</span>, diseño y
-                desarrollo web de calidad
+                <span className="Resaltar-Text-Yellow"> Daniletto,</span> diseño y desarrollo web profesional a
+                tu medida
               </h1>
               <p>
-                Daniletto es una marca personal creada por
+                ¿Buscas un programador que combine el diseño y el desarrollo web
+                con creatividad y eficiencia? Entonces, estás en el lugar
+                correcto. 👋 Hola, soy{" "}
                 <Link className="creador" to={"/About"}>
                   Jeferson Danilo Castro
-                </Link>
-                , un desarrollador web apasionado por el diseño y la innovación.
-                Daniletto ofrece soluciones creativas y eficientes para
-                proyectos web de todo tipo, desde páginas personales hasta
-                aplicaciones complejas.
+                </Link>, el
+                creador de Daniletto, una marca personal que ofrece soluciones
+                web a medida para todo tipo de proyectos. Ya sea que necesites
+                una página personal, una tienda online, una aplicación web o
+                cualquier otro tipo de proyecto, yo puedo ayudarte a hacerlo
+                realidad.
               </p>
-              <p>¿Quieres saber más sobre cómo Daniletto puede ayudarte a crear tu sitio web ideal?</p>
+              <p>
+                ¿Quieres saber más sobre cómo Daniletto puede ayudarte a crear
+                tu sitio web ideal?
+              </p>
               <div className="BtnOpciones">
                 <Link className="Button Red" to="/Contacto">
-                ¡Contáctame hoy mismo!
+                  ¡Contáctame!
                 </Link>
               </div>
             </div>
 
             <div className="Beneficios">
-              <h2>¿POR QUÉ ELEGIR A DANILETTO PARA TU PROYECTO WEB?</h2>
+              <h2>¿POR QUÉ ELEGIR A <span className="Resaltar-Text-Yellow">DANILETTO</span> PARA CREAR TU SITIO WEB?</h2>
               <div className="Cards">
                 <div className="Card">
                   <h3>CALIDAD</h3>
@@ -104,8 +110,7 @@ function Home() {
             <VisualEffectTopBlue />
 
             <div className="Cotizacion">
-              <h2>¿Quieres saber cuánto vale tu página web?</h2>
-              <h3>Prueba este simulador online y averígualo!</h3>
+              <h2>Calcula el precio de tu página web con este simulador gratuito y rápido</h2>
               <img
                 src="/images/Home/daniletto-cotizacion-online-animada.svg"
                 alt="cotizacion online de pagina web"
@@ -115,11 +120,10 @@ function Home() {
                 ¿Te gustaría tener tu propia página web, pero no sabes cuánto te
                 costaría? No te preocupes, he creado un simulador online que te
                 permite calcular el precio de tu página web según tus
-                preferencias y necesidades. Solo tienes que responder unas
-                sencillas preguntas y en minutos obtendrás un valor aproximado del costo de tu sitio web.
+                preferencias y necesidades.
               </p>
               <Link className="Button Red" to="/Simulador">
-                Realiza Simulación Online
+              Calcula el precio de tu web ahora
               </Link>
             </div>
 
@@ -128,7 +132,7 @@ function Home() {
             </div>
 
             <div className="Contacto">
-              <h2>CONTÁCTAME PARA OBTENER MÁS INFORMACIÓN</h2>
+              <h2><span className="Resaltar-Text-Yellow">CONTÁCTAME</span> PARA OBTENER MÁS INFORMACIÓN</h2>
               <p>
                 ¿Tienes alguna pregunta sobre mi trabajo? ¿Necesitas soporte
                 técnico o quieres colaborar conmigo en algún proyecto? No dudes

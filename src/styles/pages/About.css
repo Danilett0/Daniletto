@@ -1,3 +1,5 @@
+/* *{border: 1px solid red;} */
+
 .About {
   display: flex;
   justify-content: center;
@@ -6,10 +8,11 @@
 }
 
 .About .Box-Perfil {
-  background-color: white;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 25px;
 }
 
@@ -18,49 +21,68 @@
   max-width: 1400px;
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  justify-content: center;
+  border-radius: 7px 7px 0 0;
+  background: radial-gradient(
+    circle,
+    rgba(2, 42, 80, 0.986) 22%,
+    var(--color-primario) 37%
+  ) !important;
 }
 
-.About .Box-Perfil .Perfil .Descripcion {
-  width: 60%;
+.About .Box-Perfil .Informacion {
+  margin-top: -50px;
+}
+
+.About .Box-Perfil .Informacion h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.About .Box-Perfil .Informacion h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.About .Box-Perfil .Descripcion {
   padding: 0px 25px;
+  margin-top: 30px;
 }
 
-.About .Box-Perfil .Perfil .Descripcion .GitHub {
-  margin-top: 50px;
+.About .Box-Perfil .Descripcion p {
+  color: white;
+  text-align: center;
 }
 
-.About .Box-Perfil .Perfil .Descripcion .GitHub p {
-  font-size: 14px;
-  color: var(--azul-claro);
-  font-weight: bold;
-  margin-bottom: 20px;
+.About .Box-Perfil .Perfil > div {
+  border: 2px solid rgba(255, 255, 255, 0.014);
+  border-radius: 50%;
+  padding: 40px;
+  animation: pulse 5s infinite;
 }
 
-.About .Box-Perfil .Perfil .Descripcion h1 {
-  text-align: left;
-  color: var(--azul-claro);
-  margin-bottom: 30px;
-}
-
-.About .Box-Perfil .Perfil .Descripcion p{
-  color: var(--color-primario);
-  text-align: left;
+.About .Box-Perfil .Perfil > div > div {
+  border: 2px solid rgba(255, 255, 255, 0.048);
+  border-radius: 50%;
+  padding: 30px;
+  animation: pulse 4s infinite;
 }
 
 .About .Box-Perfil .Perfil .Imagen {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.103);
+  border-radius: 50%;
+  padding: 15px;
+  animation: pulse 3s infinite;
 }
+
 .About .Box-Perfil .Perfil .Imagen img {
   width: 100%;
   height: 100%;
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 350px;
+  max-height: 350px;
   border-radius: 50%;
-  animation: pulse 2.5s infinite;
+  border: 4px solid white;
+  filter: saturate(1.2);
 }
 .About .Box-Perfil .Perfil .Imagen p {
   color: var(--color-primario);
@@ -68,23 +90,43 @@
   font-size: 14px;
 }
 
-.About .Box-Perfil .Perfil .Imagen > div {
+.About .Box-Perfil .Informacion .Imagen > div {
   margin: 10px 0px;
 }
 
-.About .Box-Perfil .Perfil .Imagen a.Whatsapp {
-  color: #25d366;
+.About .Box-Perfil .Informacion .Medios-Contacto {
+  display: flex;
+  justify-content: center;
 }
 
-.About .Box-Perfil .Perfil .Imagen a.Email {
-  color: #fc940be5;
+.About .Box-Perfil .Informacion .Medios-Contacto a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  border: 2px solid white;
+  padding: 4px 20px;
+  margin: 0px 5px;
+  border-radius: 4px;
 }
 
-.About .Box-Perfil .Perfil .Imagen a.Linkedin {
-  color: #0077b5;
+.About .Box-Perfil .Informacion .Medios-Contacto a:hover {
+  border: 3px solid var(--verde-claro);
 }
 
-.About .Box-Perfil .Perfil .Imagen .Icon {
+.About .Box-Perfil .Informacion .Medios-Contacto a.cv {
+  color: var(--verde-claro);
+}
+
+.About .Box-Perfil .Informacion .Medios-Contacto a.Email {
+  color: var(--amarillo-oscuro);
+}
+
+.About .Box-Perfil .Informacion .Medios-Contacto a.Linkedin {
+  color: var(--azul-claro);
+}
+
+.About .Box-Perfil .Icon {
   text-align: center;
   font-size: 30px;
   margin: 0px 5px;
@@ -97,55 +139,16 @@
   transition: 0.4s;
 }
 
-.About .Habilidades {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 1100px;
-  padding: 25px;
-  margin: 100px 0px;
-}
-
-.About .Habilidades .Texto {
-  width: 50%;
-}
-
-.About .Habilidades .Texto h2 {
-  text-align: left;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.About .Habilidades .Texto p {
-  color: white;
-  text-align: left;
-  margin: 5px 0px;
-}
-.About .Habilidades .Texto ul .Icon {
-  color: var(--verde-claro);
-  margin-right: 10px;
-}
-
-.About .Habilidades .Texto ul li {
-  display: flex;
-  align-items: center;
-}
-
-.About .Habilidades .Imagen {
-  width: 100%;
-  max-width: 450px;
-  height: 100%;
-  max-height: 450px;
-  animation: pulse 2s infinite;
-}
-
 .About .Conocimientos {
   width: 100%;
+  max-width: 900px;
   padding: 5px;
+  user-select: none;
 }
 
-.About .Conocimientos h3 {
+.About .Conocimientos h2 {
   color: white;
+  margin: 30px 0px;
 }
 
 .About .Conocimientos ul {
@@ -157,33 +160,44 @@
 .About .Conocimientos li {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  border: 2px solid white;
+  padding: 4px 20px;
+  margin: 5px;
   border-radius: 4px;
-  margin: auto 5px;
+  flex: 1;
 }
 
-.About .Conocimientos li .Icon {
-  color: var(--verde-claro);
+.About .Conocimientos li:hover {
+  border: 3px solid var(--verde-claro);
+}
+
+.About .Conocimientos li img {
+  width: 30px;
+  height: 30px;
 }
 
 .About .Conocimientos li p {
   color: white;
   margin-left: 3px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .About .Metodologia {
   width: 100%;
-  background-color: white;
   padding: 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 .About .Metodologia h2 {
-  color: var(--azul-claro);
-  margin: 50px 0px;
+  color: white;
+  margin-bottom: 30px;
 }
 
 .About .Metodologia .Cards {
@@ -197,9 +211,7 @@
   position: relative;
   width: 100%;
   max-width: 320px;
-  border: 1px solid var(--gris-claro);
   border-radius: 3px;
-  box-shadow: 0px 0px 5px var(--gris-oscuro);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,9 +221,20 @@
   border-bottom: 10px solid transparent;
   transition: all 0.5s;
   background-color: white;
+  user-select: none;
 }
 
-.About .Metodologia .Cards .Card::after {
+.About .Metodologia .Cards .Card.Transparent{
+  background-color: rgba(0, 0, 0, 0.288);
+  max-width: 420px;
+}
+
+.About .Metodologia .Cards .Card.Transparent p{
+  color: white;
+  font-weight: normal;
+}
+
+.About .Metodologia .Cards .Card.White::after {
   content: attr(data-content);
   position: absolute;
   width: 45px;
@@ -229,13 +252,13 @@
 }
 
 .About .Metodologia .Cards .Card:hover {
-  border-bottom: 10px solid var(--azul-claro);
-  transform: scale(1.3);
+  border-bottom: 7px solid var(--verde-claro);
+  transform: scale(1.1);
   z-index: 99;
 }
 
 .About .Metodologia .Cards .Card h4 {
-  color: var(--azul-claro);
+  color: var(--verde-claro);
 }
 
 .About .Metodologia .Cards .Card img {
@@ -258,24 +281,27 @@
     padding: 10px;
   }
 
-  .About .Box-Perfil .Perfil {
-    flex-direction: column-reverse;
-    border: 1px solid var(--gris-claro);
-    border-radius: 3px;
-    margin: 0px;
-    padding: 15px;
-    box-shadow: 0px 0px 10px var(--gris-claro);
-  }
-
-  .About .Box-Perfil .Perfil .Descripcion {
+  .About .Box-Perfil .Informacion {
     width: 100%;
     text-align: center;
     padding: 10px;
   }
 
-  .About .Box-Perfil .Perfil .Descripcion h1 {
+  .About .Box-Perfil .Informacion h1 {
     text-align: center;
+    font-size: 20px;
   }
+
+  .About .Box-Perfil .Informacion .Medios-Contacto{
+    flex-wrap: wrap;
+  }
+
+  .About .Box-Perfil .Informacion .Medios-Contacto a{
+    flex: 1;
+    margin: 5px;
+  }
+
+  .About .Box-Perfil .Descripcion{}
 
   .About .Box-Perfil .Perfil .Imagen {
     width: 100%;

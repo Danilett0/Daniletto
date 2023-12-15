@@ -43,7 +43,7 @@ function Portafolio() {
             <div className="Encabezado">
               <div>
                 <div className="Texto">
-                  <h1>BIENVENIDO A MI PORTAFOLIO</h1>
+                  <h1>BIENVENIDO A MI <span className="Resaltar-Text-Yellow">PORTAFOLIO</span></h1>
                   <p>
                     Me apasiona el diseño web y me gusta crear experiencias
                     digitales innovadoras, atractivas e intuitivas para
@@ -69,7 +69,7 @@ function Portafolio() {
             <VisualEffectTopWhite />
 
             <div className="Proyectos">
-              <h2>Te presento algunos de mis proyectos favoritos</h2>
+              <h2>Te presento algunos de mis <span className="Resaltar-Text-Yellow">proyectos</span> favoritos</h2>
 
               <div className="ProyectosIniciales">
                 <div className="Box-Proyectos">

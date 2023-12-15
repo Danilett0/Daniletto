@@ -31,40 +31,23 @@ export const preguntasFrecuentes = [
   },
 ];
 
-export const ListaServicios = [
-  { id: 1, habilidad: "Creación  del Diseño para tu sitio." },
-  { id: 2, habilidad: "Construcción de tu pagina web" },
-  {
-    id: 3,
-    habilidad: "Modificaciones, ajustes o nuevas funcionalidades.",
-  },
-  {
-    id: 4,
-    habilidad: "Creación  de contenido para tu sitio web.",
-  },
-  { id: 5, habilidad: "Diseño de contenido publicitario" },
-  { id: 6, habilidad: "Gestión del hosting y dominio." },
-  { id: 7, habilidad: "Optimización para motores de búsqueda (SEO)." },
-  { id: 8, habilidad: "Creación 100% personalizada para cada pagina web" },
-  { id: 9, habilidad: "Soporte luego de la entrega del proyecto" },
-];
-
-
 export const HabilidadesTecnica = [
-  { id: 1,  talento: "HTML" },
-  { id: 2,  talento: "CSS3" },
-  { id: 3,  talento: "JavaScript" },
-  { id: 4,  talento: "WordPress" },
-  { id: 5,  talento: "Sass" },
-  { id: 6,  talento: "Photoshop" },
-  { id: 7,  talento: "Git" },
-  { id: 8,  talento: "SEO" },
-  { id: 9,  talento: "Illustrator" },
-  { id: 10, talento: "Bootstrap" },
-  { id: 11, talento: "MySql" },
-  { id: 12, talento: "PHP" },
-  { id: 13, talento: "React" },
-  { id: 14, talento: "Marketing" },
-  { id: 15, talento: "UI/UX" },
-  { id: 16, talento: "Diseño Web" }
-]
+  { id: 1, talento: "HTML", img: "/images/about/icons/icon-html.png" },
+  { id: 2, talento: "CSS3", img: "/images/about/icons/icon-css.png" },
+  { id: 3, talento: "JavaScript", img: "/images/about/icons/icon-javascript.png" },
+  { id: 4, talento: "WordPress", img: "/images/about/icons/icon-wordpress.png" },
+  { id: 5, talento: "Sass", img: "/images/about/icons/icon-sass.png" },
+  { id: 6, talento: "Optimizacion", img: "/images/about/icons/icon-optimizacion.png" },
+  { id: 7, talento: "Git", img: "/images/about/icons/icon-git.png" },
+  { id: 8, talento: "SEO", img: "/images/about/icons/icon-seo.png" },
+  { id: 9, talento: "TypeScript", img: "/images/about/icons/icon-typescript.png" },
+  { id: 10, talento: "Tailwind", img: "/images/about/icons/icon-tailwind.png" },
+  { id: 11, talento: "MySql", img: "/images/about/icons/icon-mysql.png" },
+  { id: 12, talento: "PHP", img: "/images/about/icons/icon-php.png" },
+  { id: 13, talento: "React", img: "/images/about/icons/icon-react.png" },
+  { id: 14, talento: "Node Js", img: "/images/about/icons/icon-nodejs.png" },
+  { id: 15, talento: "REST API", img: "/images/about/icons/icon-api.png" },
+  { id: 16, talento: "Marketing", img: "/images/about/icons/icon-marketing.png" },
+  { id: 17, talento: "UI/UX", img: "/images/about/icons/icon-ux.png" },
+  { id: 18, talento: "Diseño Web", img: "/images/about/icons/icon-diseño.png" },
+];

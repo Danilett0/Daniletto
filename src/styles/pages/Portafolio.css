@@ -40,19 +40,13 @@
 }
 
 .Portafolio .Proyectos .VerMas {
-  color: white;
+  color: var(--amarillo-oscuro);
   cursor: pointer;
-  width: 200px;
   font-weight: bold;
   margin: auto;
-  text-decoration: underline;
   animation: pulse 1.5s linear infinite;
   text-align: center;
   background-color: transparent !important;
-}
-
-.Portafolio .Proyectos .VerMas:hover {
-  color: var(--azul-claro);
 }
 
 .Portafolio .Proyectos h2 {

@@ -122,6 +122,10 @@ p {
   background-color: #092239 !important;
 }
 
+.Resaltar-Text-Yellow{
+  color: var(--amarillo-oscuro);
+}
+
 @media screen and (max-width: 777px) {
   h1 {
     font-size: 23px;

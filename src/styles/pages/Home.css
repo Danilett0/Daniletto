@@ -19,10 +19,6 @@ main .Encabezado h1 {
   max-width: 1200px;
 }
 
-main .Encabezado h1 span {
-  color: var(--amarillo-oscuro);
-}
-
 main .Encabezado p {
   text-align: center;
   font-size: 20px;
@@ -33,11 +29,11 @@ main .Encabezado p {
 }
 
 main .Encabezado p .creador {
-  background-color: transparent;
   padding: 2px;
   text-transform: none;
   font-weight: 600;
   font-family: Nunito, sans-serif;
+  color: var(--amarillo-oscuro);
 }
 
 main .Encabezado .BtnOpciones {
@@ -120,6 +116,7 @@ main .Cotizacion {
 
 main .Cotizacion h2 {
   color: var(--azul-claro);
+  max-width: 700px;
   width: 100%;
 }
 

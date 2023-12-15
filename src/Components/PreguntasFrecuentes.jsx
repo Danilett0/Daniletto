@@ -12,7 +12,7 @@ function PreguntasFrecuentes() {
 
   return (
     <div className="Preguntas">
-      <h2>ALGUNAS DE LAS PREGUNTAS MÁS COMUNES QUE ME HACEN AL EMPEZAR</h2>
+      <h2>ALGUNAS DE LAS <span className="Resaltar-Text-Yellow">PREGUNTAS FRECUENTES </span> AL EMPEZAR UN PROYECTO </h2>
       {preguntasFrecuentes.map((preguntaFrecuente) => (
         <div className="Pregunta" key={preguntaFrecuente.id}>
           <h3 onClick={() => handleClick(preguntaFrecuente.id)}>
