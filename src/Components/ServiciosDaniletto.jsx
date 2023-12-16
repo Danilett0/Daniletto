@@ -10,8 +10,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="1">
           <img
             loading="lazy"
-            src="/images/About/requerimientos.webp"
-            alt="requerimientos para empezar tu proyecto web"
+            src="/images/Servicios/icon-diseño.png"
+            alt="icono diseños creativos para desarrollo web"
           />
           <h4>DISEÑOS CREATIVOS</h4>
           <p>
@@ -22,8 +22,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="2">
           <img
             loading="lazy"
-            src="/images/About/diseño.webp"
-            alt="diseño web Daniletto"
+            src="/images/Servicios/icon-marca.png"
+            alt="icono impulso de marca"
           />
           <h4>Marca</h4>
           <p>
@@ -34,8 +34,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="3">
           <img
             loading="lazy"
-            src="/images/About/desarrollo.webp"
-            alt="desarrollo de paginas web"
+            src="/images/Servicios/icon-interface.png"
+            alt="icono interface para disño web"
           />
           <h4>Interface de Usuario</h4>
           <p>
@@ -49,8 +49,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="1">
           <img
             loading="lazy"
-            src="/images/About/requerimientos.webp"
-            alt="requerimientos para empezar tu proyecto web"
+            src="/images/Servicios/icon-ux.png"
+            alt="icono experiencia de usuario"
           />
           <h4>Experiencia de Usuario</h4>
           <p>
@@ -61,8 +61,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="2">
           <img
             loading="lazy"
-            src="/images/About/diseño.webp"
-            alt="diseño web Daniletto"
+            src="/images/Servicios/icon-clean-code.png"
+            alt="icono codigo limpio"
           />
           <h4>Codigo Limpio</h4>
           <p>
@@ -73,8 +73,8 @@ function ServiciosDaniletto() {
         <div className="Card" data-content="3">
           <img
             loading="lazy"
-            src="/images/About/desarrollo.webp"
-            alt="desarrollo de paginas web"
+            src="/images/Servicios/icon-soporte.png"
+            alt="icono soporte oportuno"
           />
           <h4>Soporte Rapido</h4>
           <p>
