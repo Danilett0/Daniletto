@@ -43,7 +43,10 @@ function Portafolio() {
             <div className="Encabezado">
               <div>
                 <div className="Texto">
-                  <h1>BIENVENIDO A MI <span className="Resaltar-Text-Yellow">PORTAFOLIO</span></h1>
+                  <h1>
+                    BIENVENIDO A MI{" "}
+                    <span className="Resaltar-Text-Yellow">PORTAFOLIO</span>
+                  </h1>
                   <p>
                     Me apasiona el diseño web y me gusta crear experiencias
                     digitales innovadoras, atractivas e intuitivas para
@@ -69,17 +72,21 @@ function Portafolio() {
             <VisualEffectTopWhite />
 
             <div className="Proyectos">
-              <h2>Te presento algunos de mis <span className="Resaltar-Text-Yellow">proyectos</span> favoritos</h2>
+              <h2>
+                Te presento algunos de mis{" "}
+                <span className="Resaltar-Text-Yellow">
+                  proyectos favoritos
+                </span>
+              </h2>
 
               <div className="ProyectosIniciales">
                 <div className="Box-Proyectos">
                   <div className="Proyecto">
-                   
                     <img
                       src="/images/Portafolio/sol.webp"
                       alt="Aplicación del clima con react"
                     />
-                     <h4>App del clima</h4>
+                    <h4>App del clima</h4>
                     <p>
                       Conoce el clima con esta app. Temperatura, humedad,
                       viento, presión y pronóstico. Hecha con React y lo último
@@ -95,7 +102,6 @@ function Portafolio() {
                   </div>
 
                   <div className="Proyecto">
-                    
                     <img
                       src="/images/Portafolio/calculadora.webp"
                       alt="Aplicación de calculadora con react"
@@ -116,12 +122,11 @@ function Portafolio() {
                   </div>
 
                   <div className="Proyecto">
-                   
                     <img
                       src="/images/Portafolio/imagenes.webp"
                       alt="Aplicación de random gif con react"
                     />
-                     <h4>Imagen Random</h4>
+                    <h4>Imagen Random</h4>
                     <p>
                       Te gustan las sorpresas? Con esta app podrás generar
                       imágenes increíbles con frases al azar. ¡Nunca sabrás lo
@@ -183,59 +188,57 @@ function Portafolio() {
                 </div>
               </div>
 
-              <div>
-                {!showProyectos && (
-                  <p className="VerMas" onClick={Mostrar}>
-                    ver mas proyectos
-                  </p>
-                )}
-                {showProyectos && (
-                  <div className="Box-Proyectos">
-                    <div className="Proyecto">
-                      <img
-                        src="/images/Portafolio/sonix.webp"
-                        alt="creación de pagina web sonix"
-                      />
-                      <h4>Landing Page SoniX</h4>
-                      <Link
-                        className="Button Red"
-                        target="_blank"
-                        to="https://landing-page-sonix.netlify.app/"
-                      >
-                        VER SITIO WEB
-                      </Link>
-                    </div>
-                    <div className="Proyecto">
-                      <img
-                        src="/images/Portafolio/LifeMiles.webp"
-                        alt="creación de pagina web LifeMiles"
-                      />
-                      <h4>Landing Page LifeMiles</h4>
-                      <Link
-                        className="Button Red"
-                        target="_blank"
-                        to="https://danilett0.github.io/Landing-Page-Lifemiles/"
-                      >
-                        VER SITIO WEB
-                      </Link>
-                    </div>
-                    <div className="Proyecto">
-                      <img
-                        src="/images/Portafolio/Shortly.webp"
-                        alt="creación de pagina web Shortly"
-                      />
-                      <h4>Landing Page Shortly</h4>
-                      <Link
-                        className="Button Red"
-                        target="_blank"
-                        to="https://danilett0.github.io/Landing-Page-Shortli/"
-                      >
-                        VER SITIO WEB
-                      </Link>
-                    </div>
+              {!showProyectos && (
+                <p className="VerMas" onClick={Mostrar}>
+                  ver mas proyectos
+                </p>
+              )}
+              {showProyectos && (
+                <div className="Box-Proyectos">
+                  <div className="Proyecto">
+                    <img
+                      src="/images/Portafolio/sonix.webp"
+                      alt="creación de pagina web sonix"
+                    />
+                    <h4>Landing Page SoniX</h4>
+                    <Link
+                      className="Button Red"
+                      target="_blank"
+                      to="https://landing-page-sonix.netlify.app/"
+                    >
+                      VER SITIO WEB
+                    </Link>
                   </div>
-                )}
-              </div>
+                  <div className="Proyecto">
+                    <img
+                      src="/images/Portafolio/LifeMiles.webp"
+                      alt="creación de pagina web LifeMiles"
+                    />
+                    <h4>Landing Page LifeMiles</h4>
+                    <Link
+                      className="Button Red"
+                      target="_blank"
+                      to="https://danilett0.github.io/Landing-Page-Lifemiles/"
+                    >
+                      VER SITIO WEB
+                    </Link>
+                  </div>
+                  <div className="Proyecto">
+                    <img
+                      src="/images/Portafolio/Shortly.webp"
+                      alt="creación de pagina web Shortly"
+                    />
+                    <h4>Landing Page Shortly</h4>
+                    <Link
+                      className="Button Red"
+                      target="_blank"
+                      to="https://danilett0.github.io/Landing-Page-Shortli/"
+                    >
+                      VER SITIO WEB
+                    </Link>
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="OtrosProyectos">
