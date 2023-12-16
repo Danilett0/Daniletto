@@ -42,7 +42,6 @@ function App() {
           <Route path="/cómo-diseñar-una-página-web-atractiva-que-enamore-a-tus-visitantes" element={<ImportanciaDelDiseñoWeb />}></Route>
           <Route path="/optimización-web:-cómo-hacer-que-tu-página-web-sea-más-rápida-y-eficiente" element={<OptimizacionWeb />}></Route>
           <Route path="/cómo-lograr-el-mejor-posicionamiento-seo-para-tu-página-web-en-5-pasos" element={<Seo />}></Route>
-
         </Routes>
       </Router>
     </Suspense>

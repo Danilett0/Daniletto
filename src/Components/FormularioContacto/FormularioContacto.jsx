@@ -61,7 +61,7 @@ const ContactForm = () => {
           {errors.Nombre && <span>{errors.Nombre.message}</span>}
         </div>
 
-        <div div className="Col-2">
+        <div className="Col-2">
           <input
             placeholder="Apellido"
             {...register("Apellido", {
@@ -91,7 +91,7 @@ const ContactForm = () => {
           {errors.Email && <span>{errors.Email.message}</span>}
         </div>
 
-        <div div className="Col-2">
+        <div className="Col-2">
           <input
             type="number"
             placeholder="Telefono"
