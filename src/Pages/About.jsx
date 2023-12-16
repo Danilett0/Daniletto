@@ -1,5 +1,5 @@
 import React from "react";
-import {FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { Helmet } from "react-helmet";
 import { BsLinkedin } from "react-icons/bs";
@@ -10,7 +10,6 @@ import useLoading from "../Hooks/useLoading";
 import Loading from "../Components/Loading";
 import "../App.css";
 import "../styles/pages/About.css";
-
 
 function About() {
   const loadingPage = useLoading("about", 300);
@@ -108,11 +107,9 @@ function About() {
                   funcionalidad, estética y usabilidad. Mi trabajo refleja mi
                   esencia y mi calidad.
                 </p>
-                
               </div>
             </div>
 
-          
             <div className="Conocimientos">
               <h2>Mis Habilidades</h2>
               <ul>
@@ -127,91 +124,85 @@ function About() {
 
             <div className="Metodologia">
               <h2>¿QUÉ PUEDO HACER POR TI?</h2>
-              
+
               <div className="Cards">
                 <div className="Card Transparent" data-content="1">
-                  <h4>Diseños Creativos</h4>
                   <img
                     loading="lazy"
                     src="/images/About/requerimientos.webp"
                     alt="requerimientos para empezar tu proyecto web"
                   />
+                  <h4>DISEÑOS CREATIVOS</h4>
                   <p>
-                    Analizo el objetivo, el público y las necesidades de tu
-                    sitio web. Te propongo las funcionalidades y características
-                    que mejor se adapten a tu proyecto.
+                    Hago que tu sitio web se destaque con diseños originales,
+                    atractivos y adaptados a tu público objetivo.
                   </p>
                 </div>
                 <div className="Card Transparent" data-content="2">
-                  <h4>Marca</h4>
                   <img
                     loading="lazy"
                     src="/images/About/diseño.webp"
                     alt="diseño web Daniletto"
                   />
+                  <h4>Marca</h4>
+                  <p>
+                    Te ayudo a crear y fortalecer la identidad de tu marca, con
+                    un logo, un eslogan y un estilo visual que te representen.
+                  </p>
+                </div>
+                <div className="Card Transparent" data-content="3">
+                  <img
+                    loading="lazy"
+                    src="/images/About/desarrollo.webp"
+                    alt="desarrollo de paginas web"
+                  />
+                  <h4>Interface de Usuario</h4>
                   <p>
                     Creo la apariencia y la interfaz de tu sitio web, pensando
                     en la usabilidad, la accesibilidad y la experiencia de
                     usuario.
                   </p>
                 </div>
-                <div className="Card Transparent" data-content="3">
-                  <h4>Interface de Usuario</h4>
-                  <img
-                    loading="lazy"
-                    src="/images/About/desarrollo.webp"
-                    alt="desarrollo de paginas web"
-                  />
-                  <p>
-                    Codifico tu sitio web usando los lenguajes de programación
-                    más adecuados. Construyo la estructura, las funcionalidades
-                    necesarias.
-                  </p>
-                </div>
-              
               </div>
 
               <div className="Cards">
                 <div className="Card Transparent" data-content="1">
-                  <h4>Experiencia de Usuario</h4>
                   <img
                     loading="lazy"
                     src="/images/About/requerimientos.webp"
                     alt="requerimientos para empezar tu proyecto web"
                   />
+                  <h4>Experiencia de Usuario</h4>
                   <p>
-                    Analizo el objetivo, el público y las necesidades de tu
-                    sitio web. Te propongo las funcionalidades y características
-                    que mejor se adapten a tu proyecto.
+                    Me aseguro de que tu sitio web sea fácil de navegar,
+                    intuitivo y funcional, para que tus visitantes queden
+                    satisfechos y vuelvan.
                   </p>
                 </div>
-                <div className="Card Transparent"  data-content="2">
-                  <h4>Codigo Limpio</h4>
+                <div className="Card Transparent" data-content="2">
                   <img
                     loading="lazy"
                     src="/images/About/diseño.webp"
                     alt="diseño web Daniletto"
                   />
+                  <h4>Codigo Limpio</h4>
                   <p>
-                    Creo la apariencia y la interfaz de tu sitio web, pensando
-                    en la usabilidad, la accesibilidad y la experiencia de
-                    usuario.
+                    Escribo código limpio, ordenado y eficiente, siguiendo las
+                    mejores prácticas y estándares de la industria.
                   </p>
                 </div>
                 <div className="Card Transparent" data-content="3">
-                  <h4>Soporte Rapido</h4>
                   <img
                     loading="lazy"
                     src="/images/About/desarrollo.webp"
                     alt="desarrollo de paginas web"
                   />
+                  <h4>Soporte Rapido</h4>
                   <p>
-                    Codifico tu sitio web usando los lenguajes de programación
-                    más adecuados. Construyo la estructura, las funcionalidades
-                    necesarias.
+                    Te ofrezco un soporte rápido y personalizado, para resolver
+                    cualquier problema o duda que tengas con tu sitio web.
                   </p>
                 </div>
-           
               </div>
             </div>
 
@@ -219,55 +210,51 @@ function About() {
               <h2>¿CÓMO TRABAJO?</h2>
               <div className="Cards">
                 <div className="Card White" data-content="1">
-                  <h4>REQUERIMIENTOS</h4>
+                  <h4>TOMA DE REQUERIMIENTOS</h4>
                   <img
                     loading="lazy"
                     src="/images/About/requerimientos.webp"
                     alt="requerimientos para empezar tu proyecto web"
                   />
                   <p>
-                    Analizo el objetivo, el público y las necesidades de tu
-                    sitio web. Te propongo las funcionalidades y características
-                    que mejor se adapten a tu proyecto.
+                    Estudio los requisitos y el propósito de tu sitio web. Te
+                    sugiero alternativas más adecuadas para tu proyecto.
                   </p>
                 </div>
                 <div className="Card White" data-content="2">
-                  <h4>DISEÑO</h4>
+                  <h4>CREACION DEL DISEÑO</h4>
                   <img
                     loading="lazy"
                     src="/images/About/diseño.webp"
                     alt="diseño web Daniletto"
                   />
                   <p>
-                    Creo la apariencia y la interfaz de tu sitio web, pensando
-                    en la usabilidad, la accesibilidad y la experiencia de
-                    usuario.
+                    Diseño la apariencia de tu sitio web, con un enfoque en
+                    usabilidad, accesibilidad y satisfacción de tus usuarios.
                   </p>
                 </div>
                 <div className="Card White" data-content="3">
-                  <h4>DESARROLLO</h4>
+                  <h4>DESARROLLO DE APLICION</h4>
                   <img
                     loading="lazy"
                     src="/images/About/desarrollo.webp"
                     alt="desarrollo de paginas web"
                   />
                   <p>
-                    Codifico tu sitio web usando los lenguajes de programación
-                    más adecuados. Construyo la estructura, las funcionalidades
-                    necesarias.
+                    Desarrollo tu sitio web con los lenguajes de programación
+                    más apropiados para tu proyecto.
                   </p>
                 </div>
                 <div className="Card White" data-content="4">
-                  <h4>IMPLEMENTACIÓN</h4>
+                  <h4>PUBLICACION DEL PROYECTO</h4>
                   <img
                     loading="lazy"
                     src="/images/About/implementacion.webp"
                     alt="implementacion de sitios web"
                   />
                   <p>
-                    Subo tu sitio web al servidor para que sea visible desde
-                    cualquier parte del mundo, valido la visualización en
-                    diferentes navegadores web.
+                    Publico tu sitio web en un servidor seguro y confiable, para
+                    que puedas compartirlo con el mundo entero.
                   </p>
                 </div>
               </div>

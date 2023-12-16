@@ -1,5 +1,3 @@
-/* *{border: 1px solid red;} */
-
 .About {
   display: flex;
   justify-content: center;
@@ -45,7 +43,7 @@
 }
 
 .About .Box-Perfil .Descripcion {
-  padding: 0px 25px;
+  padding: 0px 15px;
   margin-top: 30px;
 }
 
@@ -82,16 +80,7 @@
   max-height: 350px;
   border-radius: 50%;
   border: 4px solid white;
-  filter: saturate(1.2);
-}
-.About .Box-Perfil .Perfil .Imagen p {
-  color: var(--color-primario);
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.About .Box-Perfil .Informacion .Imagen > div {
-  margin: 10px 0px;
+  filter: saturate(1.3);
 }
 
 .About .Box-Perfil .Informacion .Medios-Contacto {
@@ -141,7 +130,7 @@
 
 .About .Conocimientos {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 5px;
   user-select: none;
 }
@@ -163,19 +152,20 @@
   justify-content: center;
   flex-direction: row-reverse;
   border: 2px solid white;
-  padding: 4px 20px;
+  padding: 10px 20px;
   margin: 5px;
   border-radius: 4px;
   flex: 1;
 }
 
 .About .Conocimientos li:hover {
-  border: 3px solid var(--verde-claro);
+  border: 2px solid var(--verde-claro);
+  background-color: rgba(6, 83, 134, 0.219);
 }
 
 .About .Conocimientos li img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .About .Conocimientos li p {
@@ -224,12 +214,12 @@
   user-select: none;
 }
 
-.About .Metodologia .Cards .Card.Transparent{
+.About .Metodologia .Cards .Card.Transparent {
   background-color: rgba(0, 0, 0, 0.288);
   max-width: 420px;
 }
 
-.About .Metodologia .Cards .Card.Transparent p{
+.About .Metodologia .Cards .Card.Transparent p {
   color: white;
   font-weight: normal;
 }
@@ -237,8 +227,8 @@
 .About .Metodologia .Cards .Card.White::after {
   content: attr(data-content);
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 37px;
+  height: 37px;
   left: -15px;
   top: -15px;
   border-radius: 50%;
@@ -289,59 +279,45 @@
 
   .About .Box-Perfil .Informacion h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .About .Box-Perfil .Informacion .Medios-Contacto{
+  .About .Box-Perfil .Informacion h2{
+    font-size: 13px;
+  }
+
+  .About .Box-Perfil .Informacion .Medios-Contacto {
     flex-wrap: wrap;
   }
 
-  .About .Box-Perfil .Informacion .Medios-Contacto a{
+  .About .Box-Perfil .Informacion .Medios-Contacto a {
     flex: 1;
     margin: 5px;
   }
 
-  .About .Box-Perfil .Descripcion{}
-
-  .About .Box-Perfil .Perfil .Imagen {
+  .About .Box-Perfil .Imagen {
     width: 100%;
     max-width: 300px;
   }
 
-  .About .Habilidades {
-    flex-direction: column-reverse;
-    margin: 0px;
-    padding: 30px 10px;
+  .About .Conocimientos li{
+    min-width: 250px;
   }
 
-  .About .Habilidades .Texto {
-    width: 90%;
-  }
-
-  .About .Habilidades .Texto p {
-    display: flex;
-  }
-
-  .About .Habilidades .Imagen {
-    display: none;
-  }
-
-  .About .Conocimientos {
-    display: none;
-  }
-
-  .About .Metodologia h2 {
-    margin: 30px 0px;
+  .About .Metodologia{
+    margin-top: 10px;
   }
 
   .About .Metodologia .Cards {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
   }
 
   .About .Metodologia .Cards .Card {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     max-width: 350px;
+    
   }
 
   .About .Metodologia .Cards .Card:hover {

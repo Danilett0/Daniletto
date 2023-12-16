@@ -32,7 +32,7 @@ function Contacto() {
           </Helmet>
 
           <div className="Contacto">
-            <h1>CONTÁCTEME PARA OBTENER MÁS INFORMACIÓN</h1>
+            <h1> <span className="Resaltar-Text-Yellow">CONTÁCTEME</span> PARA OBTENER MÁS INFORMACIÓN</h1>
             <p>
               Soy Jeferson Castro, un apasionado desarrollador web. ¿Necesitas
               una página web increíble? Llena este formulario y te ayudaré a
