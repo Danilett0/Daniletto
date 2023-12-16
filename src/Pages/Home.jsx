@@ -6,6 +6,7 @@ import PreguntasFrecuentes from "../Components/PreguntasFrecuentes";
 import Loading from "../Components/Loading";
 import useLoading from "../Hooks/useLoading";
 import ContactForm from "../Components/FormularioContacto/FormularioContacto";
+import ServiciosDaniletto from "../Components/ServiciosDaniletto";
 import "../App.css";
 import "../styles/pages/Home.css";
 
@@ -64,7 +65,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="Beneficios">
+            {/* <div className="Beneficios">
               <h2>¿POR QUÉ ELEGIR A <span className="Resaltar-Text-Yellow">DANILETTO</span> PARA CREAR TU SITIO WEB?</h2>
               <div className="Cards">
                 <div className="Card">
@@ -105,7 +106,9 @@ function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            <ServiciosDaniletto />
 
             <VisualEffectTopBlue />
 

@@ -1,0 +1,83 @@
+.Servicios-Daniletto {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Servicios-Daniletto h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Servicios-Daniletto .Cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Servicios-Daniletto .Cards .Card {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 0px 10px;
+  border-bottom: 5px solid transparent;
+  transition: all 0.5s;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.288);
+  max-width: 400px;
+}
+
+.Servicios-Daniletto .Cards .Card p {
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.Servicios-Daniletto .Cards .Card:hover {
+  border-bottom: 5px solid var(--verde-claro);
+  transform: scale(1.03);
+  z-index: 99;
+  box-shadow: -1px -1px 10px rgba(255, 255, 255, 0.24);
+}
+
+.Servicios-Daniletto .Cards .Card h4 {
+  color: var(--verde-claro);
+}
+
+.Servicios-Daniletto .Cards .Card img {
+  width: 100%;
+  height: 100%;
+  max-width: 70px;
+  max-height: 70px;
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 777px) {
+  .Servicios-Daniletto {
+    margin-top: 10px;
+  }
+
+  .Servicios-Daniletto .Cards {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .Servicios-Daniletto .Cards .Card {
+    margin-bottom: 10px;
+    max-width: 350px;
+  }
+
+  .Servicios-Daniletto .Cards .Card:hover {
+    transform: scale(1);
+  }
+}

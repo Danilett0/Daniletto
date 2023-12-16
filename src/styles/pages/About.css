@@ -93,14 +93,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.151);
   padding: 4px 20px;
   margin: 0px 5px;
   border-radius: 4px;
 }
 
 .About .Box-Perfil .Informacion .Medios-Contacto a:hover {
-  border: 3px solid var(--verde-claro);
+  border: 2px solid var(--verde-claro);
+  background-color: rgba(6, 83, 134, 0.219);
+  transform: scale(1.03);
 }
 
 .About .Box-Perfil .Informacion .Medios-Contacto a.cv {
@@ -124,7 +126,7 @@
 }
 
 .About .Box-Perfil .Perfil .Imagen .Icon:hover {
-  transform: scale(1.5);
+  transform: scale(1.03);
   transition: 0.4s;
 }
 
@@ -151,7 +153,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.151);
   padding: 10px 20px;
   margin: 5px;
   border-radius: 4px;
@@ -161,6 +163,7 @@
 .About .Conocimientos li:hover {
   border: 2px solid var(--verde-claro);
   background-color: rgba(6, 83, 134, 0.219);
+  transform: scale(1.03);
 }
 
 .About .Conocimientos li img {
@@ -224,7 +227,7 @@
   font-weight: normal;
 }
 
-.About .Metodologia .Cards .Card.White::after {
+.About .Metodologia .Cards .Card::after {
   content: attr(data-content);
   position: absolute;
   width: 37px;
@@ -243,7 +246,7 @@
 
 .About .Metodologia .Cards .Card:hover {
   border-bottom: 7px solid var(--verde-claro);
-  transform: scale(1.1);
+  transform: scale(1.03);
   z-index: 99;
 }
 
@@ -282,7 +285,7 @@
     font-size: 18px;
   }
 
-  .About .Box-Perfil .Informacion h2{
+  .About .Box-Perfil .Informacion h2 {
     font-size: 13px;
   }
 
@@ -300,11 +303,11 @@
     max-width: 300px;
   }
 
-  .About .Conocimientos li{
+  .About .Conocimientos li {
     min-width: 250px;
   }
 
-  .About .Metodologia{
+  .About .Metodologia {
     margin-top: 10px;
   }
 
@@ -317,7 +320,6 @@
   .About .Metodologia .Cards .Card {
     margin-bottom: 10px;
     max-width: 350px;
-    
   }
 
   .About .Metodologia .Cards .Card:hover {

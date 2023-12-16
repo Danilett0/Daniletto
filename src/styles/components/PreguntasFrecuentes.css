@@ -30,7 +30,7 @@
 
 .Preguntas .Pregunta h3:hover {
   background-color: var(--gris-oscuro);
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: 1s;
 }
 

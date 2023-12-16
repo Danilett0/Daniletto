@@ -95,13 +95,14 @@
   padding: 15px;
   width: 100%;
   max-width: 400px;
-  border-bottom: 10px solid transparent;
+  border-bottom: 5px solid transparent;
+  user-select: none;
 }
 
 .Portafolio .Proyectos .ProyectosIniciales .Box-Proyectos .Proyecto:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
   transition: 1s;
-  border-bottom: 10px solid var(--azul-claro);
+  border-bottom: 5px solid var(--verde-claro);
 }
 
 .Portafolio .Proyectos .ProyectosIniciales .Box-Proyectos .Proyecto h4 {

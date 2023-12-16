@@ -43,66 +43,6 @@ main .Encabezado .BtnOpciones a {
   margin: 10px;
 }
 
-main .Beneficios {
-  padding: 80px 25px;
-  margin-top: 30px;
-}
-
-main .Beneficios h2 {
-  color: white;
-  width: 100%;
-  max-width: 700px;
-  margin: 30px auto;
-}
-
-main .Beneficios .Cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-main .Beneficios .Cards .Card {
-  background-color: var(--gris-claro);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 3px;
-  width: 100%;
-  max-width: 350px;
-  margin: 0px 10px;
-  padding: 20px;
-  border-bottom: 10px solid transparent;
-  animation: pulse 4s infinite;
-}
-
-main .Beneficios .Cards .Card:hover {
-  transform: scale(1.15);
-  transition: 1s;
-  border: 1px solid var(--gris-oscuro);
-  border-bottom: 10px solid var(--azul-claro);
-  user-select: none;
-}
-
-main .Beneficios .Cards .Card h3 {
-  color: var(--azul-claro);
-}
-
-main .Beneficios .Cards .Card img {
-  width: 100%;
-  max-width: 90px;
-  height: 100%;
-  max-height: 90px;
-  margin: 15px 0px;
-}
-
-main .Beneficios .Cards .Card p {
-  color: var(--color-primario);
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 main .Cotizacion {
   display: flex;
   flex-direction: column;
@@ -131,7 +71,7 @@ main .Cotizacion img {
 }
 
 main .Cotizacion img:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 main .Cotizacion p {
@@ -217,16 +157,8 @@ main .Contacto .Datos-Form img {
     align-items:center;
   }
 
-  main .Beneficios {
-    padding: 0px 25px;
-  }
-
   main .Cards {
     flex-direction: column;
-  }
-
-  main .Beneficios .Cards .Card {
-    margin-bottom: 20px;
   }
 
   main .Preguntas-Frecuentes {

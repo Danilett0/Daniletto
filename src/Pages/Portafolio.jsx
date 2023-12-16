@@ -74,11 +74,12 @@ function Portafolio() {
               <div className="ProyectosIniciales">
                 <div className="Box-Proyectos">
                   <div className="Proyecto">
-                    <h4>App del clima</h4>
+                   
                     <img
                       src="/images/Portafolio/sol.webp"
                       alt="Aplicación del clima con react"
                     />
+                     <h4>App del clima</h4>
                     <p>
                       Conoce el clima con esta app. Temperatura, humedad,
                       viento, presión y pronóstico. Hecha con React y lo último
@@ -94,11 +95,12 @@ function Portafolio() {
                   </div>
 
                   <div className="Proyecto">
-                    <h4>Calculadora</h4>
+                    
                     <img
                       src="/images/Portafolio/calculadora.webp"
                       alt="Aplicación de calculadora con react"
                     />
+                    <h4>Calculadora</h4>
                     <p>
                       Domina las matemáticas con la app calculadora. Realiza
                       operaciones básicas con una interfaz sencilla y bonita.
@@ -114,11 +116,12 @@ function Portafolio() {
                   </div>
 
                   <div className="Proyecto">
-                    <h4>Imagen Random</h4>
+                   
                     <img
                       src="/images/Portafolio/imagenes.webp"
                       alt="Aplicación de random gif con react"
                     />
+                     <h4>Imagen Random</h4>
                     <p>
                       Te gustan las sorpresas? Con esta app podrás generar
                       imágenes increíbles con frases al azar. ¡Nunca sabrás lo

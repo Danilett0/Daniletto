@@ -62,7 +62,7 @@ main .Articles .Article {
 }
 
 main .Articles .Article:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 main .Articles .Article img {
@@ -137,7 +137,7 @@ main .BodyArticle img {
 }
 
 main .BodyArticle img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 main .BodyArticle .Images {
