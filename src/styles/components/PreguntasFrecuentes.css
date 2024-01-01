@@ -3,35 +3,46 @@
   max-width: 900px;
   margin: 30px 0px;
 }
+
 .Preguntas h2 {
   color: white;
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 700px;
 }
 
+.Preguntas .Pregunta {
+  border-bottom: 1.5px solid var(--gris-claro);
+  padding: 10px 3px;
+}
+
 .Preguntas .Pregunta h3 {
-  color: var(--color-primario);
-  text-align: left;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 3px;
+  color: white;
   cursor: pointer;
   display: flex;
   align-items: center;
   text-transform: none;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   font-size: 16px;
+}
+
+.Preguntas .Pregunta h3.Active {
+  color: var(--amarillo-oscuro);
 }
 
 .Preguntas .Pregunta h3 .icon {
   margin-right: 10px;
-  color: var(--azul-claro);
+  color: white;
   font-size: 19px;
 }
 
+.Preguntas .Pregunta h3 .icon:hover {
+  color: var(--amarillo-oscuro);
+}
+
 .Preguntas .Pregunta h3:hover {
-  background-color: var(--gris-oscuro);
-  transform: scale(1.03);
-  transition: 1s;
+  color: var(--amarillo-oscuro);
+  transition: 0.5s;
 }
 
 .Preguntas .Pregunta .Respuesta > div p {

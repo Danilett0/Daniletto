@@ -3,6 +3,13 @@ import { NavLink } from "react-router-dom";
 import "../styles/components/LinksNavegacion.css";
 
 function LinksNavegacion(props) {
+  const navigation = [
+    { id: 0, title: "Inicio", path: "/" },
+    { id: 1, title: "Portafolio", path: "/Portafolio" },
+    { id: 2, title: "Sobre Mi", path: "/About" },
+    { id: 3, title: "Blog", path: "/Blog" },
+    { id: 4, title: "Contactame", path: "/Contacto" },
+  ];
 
   const cerrarMenu = () => {
     if (props.cerrarMenu) {
@@ -13,44 +20,20 @@ function LinksNavegacion(props) {
   return (
     <nav aria-label="links de navegación">
       <ul>
-        <li>
-          <NavLink to="/" activeclassname="active" onClick={cerrarMenu}>
-            Inicio
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/Portafolio"
-            activeclassname="active"
-            onClick={cerrarMenu}
-          >
-            Portafolio
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/About" activeclassname="active" onClick={cerrarMenu}>
-            ¿Quien soy?
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/Blog"
-            activeclassname="active"
-            onClick={cerrarMenu}
-          >
-            Blog
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className="LinkContacto"
-            to="/Contacto"
-            activeclassname="active"
-            onClick={cerrarMenu}
-          >
-            CONTÁCTAME
-          </NavLink>
-        </li>
+        {navigation.map((item) => {
+          return (
+            <li key={item.id}>
+              <NavLink
+                to={item.path}
+                activeclassname="active"
+                className={item.title === "Contactame" ? "LinkContacto" : null}
+                onClick={cerrarMenu}
+              >
+                {item.title}
+              </NavLink>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

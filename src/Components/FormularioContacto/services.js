@@ -1,19 +1,20 @@
-export const enviarCorreo = async (requestOptions, setCargando, setErrores, Navigate) => {
+export const enviarCorreo = async (requestOptions, setCargando, Navigate) => {
   try {
     const response = await fetch( "https://daniletto-notificacion-contacto.onrender.com/enviar-correo", requestOptions);
     await response.text();
+
+    setTimeout(() => {
+      setCargando(false);
+      Navigate("/Gracias");
+    }, 500);
+
     if (response.status !== 200) {
       throw new Error("Fallo la solicitud HTTP al intentar enviar el correo");
-    } else {
-      setCargando(false);
-      setErrores(false);
-      setTimeout(() => {
-        Navigate("/Gracias");
-      }, 500);
+    }else{
+      console.log("Correo Enviado Exitosamente")
     }
+
   } catch (error) {
-    setCargando(false);
-    setErrores(true);
     console.log(error);
   }
 };

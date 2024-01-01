@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { FaArrowCircleDown } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 import { preguntasFrecuentes } from "../Data/data";
 import "../styles/components/PreguntasFrecuentes.css";
 
 function PreguntasFrecuentes() {
-  const [pregunta, setpregunta] = useState(preguntasFrecuentes[0].id);
+  const [pregunta, setpregunta] = useState(null);
 
   const handleClick = (id) => {
-    setpregunta( (id === pregunta) ? "close" : id);
+    setpregunta( id === pregunta ? "close" : id );
   };
 
   return (
@@ -15,8 +15,8 @@ function PreguntasFrecuentes() {
       <h2>ALGUNAS DE LAS <span className="Resaltar-Text-Yellow">PREGUNTAS FRECUENTES </span> AL EMPEZAR UN PROYECTO </h2>
       {preguntasFrecuentes.map((preguntaFrecuente) => (
         <div className="Pregunta" key={preguntaFrecuente.id}>
-          <h3 onClick={() => handleClick(preguntaFrecuente.id)}>
-            <FaArrowCircleDown className="icon" /> {preguntaFrecuente.pregunta}
+          <h3 onClick={() => handleClick(preguntaFrecuente.id)} className={pregunta === preguntaFrecuente.id ? "Active" : ""}>
+            <FaPlus className="icon" /> {preguntaFrecuente.pregunta}
           </h3>
           <div
             className="Respuesta"

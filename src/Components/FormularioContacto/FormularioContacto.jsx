@@ -12,7 +12,6 @@ import "../../styles/components/FormularioContacto.css";
 const ContactForm = () => {
   const Navigate = useNavigate();
   const [Cargando, setCargando] = useState(false);
-  const [Errores, setErrores] = useState(false);
   const {
     register,
     handleSubmit,
@@ -37,7 +36,7 @@ const ContactForm = () => {
     const requestOptions = getRequestOptions(html);
 
     // realizo el llamado al servicio
-    enviarCorreo(requestOptions, setCargando, setErrores, Navigate);
+    enviarCorreo(requestOptions, setCargando, Navigate);
   };
 
   return (
@@ -131,11 +130,6 @@ const ContactForm = () => {
       <div className="Colx1">
         <input className={!Cargando ? "Button Red" : "Hidde"} type="submit" />
       </div>
-      {Errores && (
-        <span>
-          Ops! Ocurrió un error inesperado al intentar enviar el formulario
-        </span>
-      )}
       {Cargando && <Loading />}
     </form>
   );
