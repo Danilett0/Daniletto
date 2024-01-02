@@ -16,7 +16,10 @@ function useLoading(pageKey = "home", delay = 300) {
     // si no existe la crea en localStorage
     const timer = setTimeout(() => {
       localStorage.setItem(pageKey, 'true');
-      setLoading(false);
+      // mientras carga el contenido de la pagina..
+      setTimeout(() => {
+        setLoading(false);
+      }, 300);
     }, delay);
 
     return () => clearTimeout(timer);
