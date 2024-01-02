@@ -6,6 +6,8 @@ import PlantillaHtml from "./PlantillaHtml";
 import Loading from "../Loading";
 import { enviarCorreo } from "./services";
 import { getRequestOptions } from "./config";
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 import "../../App.css";
 import "../../styles/components/FormularioContacto.css";
 
@@ -35,8 +37,14 @@ const ContactForm = () => {
     //optengo las configuracions para la peticion
     const requestOptions = getRequestOptions(html);
 
-    // realizo el llamado al servicio
-    enviarCorreo(requestOptions, setCargando, Navigate);
+    // realizo el llamado al servicio para enviar correo
+    enviarCorreo(requestOptions, setCargando, Navigate).then((Respuesta) => {
+        if(Respuesta.ok){
+          toast.success("Mensaje enviado!")
+        }
+      }).catch((error) => {
+        console.log(error);
+      });
   };
 
   return (
@@ -131,7 +139,9 @@ const ContactForm = () => {
         <input className={!Cargando ? "Button Red" : "Hidde"} type="submit" />
       </div>
       {Cargando && <Loading />}
+      <ToastContainer />
     </form>
+    
   );
 };
 
